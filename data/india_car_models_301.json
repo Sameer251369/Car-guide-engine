@@ -1,0 +1,1808 @@
+[
+ {
+  "brand": "Aston Martin",
+  "car": "DB12",
+  "body_type": "Coupe",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Aston Martin",
+  "car": "DB12 Volante",
+  "body_type": "Convertible",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Aston Martin",
+  "car": "Vanquish",
+  "body_type": "Coupe",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Aston Martin",
+  "car": "Vanquish Volante",
+  "body_type": "Convertible",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Aston Martin",
+  "car": "Vantage",
+  "body_type": "Coupe",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Aston Martin",
+  "car": "Vantage Roadster",
+  "body_type": "Convertible",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Audi",
+  "car": "A4",
+  "body_type": "Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Audi",
+  "car": "A6",
+  "body_type": "Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Audi",
+  "car": "A6 e-tron",
+  "body_type": "Liftback",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Audi",
+  "car": "A8 L",
+  "body_type": "Luxury Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Audi",
+  "car": "e-tron GT",
+  "body_type": "Sports Sedan",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Audi",
+  "car": "Q3",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Audi",
+  "car": "Q3 Sportback",
+  "body_type": "Coupe SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Audi",
+  "car": "Q5",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Audi",
+  "car": "Q7",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Audi",
+  "car": "Q8",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Audi",
+  "car": "Q8 e-tron",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Audi",
+  "car": "Q8 Sportback e-tron",
+  "body_type": "Coupe SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Audi",
+  "car": "RS Q8 Performance",
+  "body_type": "Performance SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Audi",
+  "car": "SQ8",
+  "body_type": "Performance SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Bentley",
+  "car": "Bentayga",
+  "body_type": "Luxury SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Bentley",
+  "car": "Bentayga EWB",
+  "body_type": "Luxury SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Bentley",
+  "car": "Continental GT",
+  "body_type": "Coupe",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Bentley",
+  "car": "Continental GT Convertible",
+  "body_type": "Convertible",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Bentley",
+  "car": "Flying Spur",
+  "body_type": "Luxury Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "BMW",
+  "car": "2 Series Gran Coupe",
+  "body_type": "Sedan",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "BMW",
+  "car": "3 Series",
+  "body_type": "Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "BMW",
+  "car": "3 Series LWB",
+  "body_type": "Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "BMW",
+  "car": "5 Series",
+  "body_type": "Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "BMW",
+  "car": "5 Series LWB",
+  "body_type": "Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "BMW",
+  "car": "7 Series",
+  "body_type": "Luxury Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "BMW",
+  "car": "i4",
+  "body_type": "Sedan",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "BMW",
+  "car": "i5",
+  "body_type": "Sedan",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "BMW",
+  "car": "i7",
+  "body_type": "Luxury Sedan",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "BMW",
+  "car": "iX",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "BMW",
+  "car": "iX1",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "BMW",
+  "car": "iX1 LWB",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "BMW",
+  "car": "iX3",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "BMW",
+  "car": "M2",
+  "body_type": "Coupe",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "BMW",
+  "car": "M3",
+  "body_type": "Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "BMW",
+  "car": "M4",
+  "body_type": "Coupe",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "BMW",
+  "car": "M5",
+  "body_type": "Sedan",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "BMW",
+  "car": "X1",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "BMW",
+  "car": "X3",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "BMW",
+  "car": "X5",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "BMW",
+  "car": "X7",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "BMW",
+  "car": "XM",
+  "body_type": "Performance SUV",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "BMW",
+  "car": "Z4",
+  "body_type": "Convertible",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "BYD",
+  "car": "Atto 3",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "BYD",
+  "car": "Atto 3 EVO",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "BYD",
+  "car": "eMAX 7",
+  "body_type": "MPV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "BYD",
+  "car": "Seal",
+  "body_type": "Sedan",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "BYD",
+  "car": "Seal U",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "BYD",
+  "car": "Sealion 7",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Citroën",
+  "car": "Basalt",
+  "body_type": "Coupe SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Citroën",
+  "car": "C3",
+  "body_type": "Hatchback",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Citroën",
+  "car": "C3 Aircross",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Citroën",
+  "car": "C3X",
+  "body_type": "Fastback",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Citroën",
+  "car": "C5 Aircross",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Citroën",
+  "car": "ë-C3",
+  "body_type": "Hatchback",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Ferrari",
+  "car": "12Cilindri",
+  "body_type": "Coupe",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Ferrari",
+  "car": "12Cilindri Spider",
+  "body_type": "Convertible",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Ferrari",
+  "car": "296 GTB",
+  "body_type": "Coupe",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Ferrari",
+  "car": "296 GTS",
+  "body_type": "Convertible",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Ferrari",
+  "car": "Amalfi",
+  "body_type": "Coupe",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Ferrari",
+  "car": "Amalfi Spider",
+  "body_type": "Convertible",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Ferrari",
+  "car": "Purosangue",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Ferrari",
+  "car": "SF90 Spider",
+  "body_type": "Convertible",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Ferrari",
+  "car": "SF90 Stradale",
+  "body_type": "Coupe",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Force Motors",
+  "car": "Gurkha",
+  "body_type": "SUV",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "Force Motors",
+  "car": "Gurkha 5-Door",
+  "body_type": "SUV",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "Force Motors",
+  "car": "Gurkha EV",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Force Motors",
+  "car": "Urbania",
+  "body_type": "Van",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "Honda",
+  "car": "Amaze",
+  "body_type": "Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Honda",
+  "car": "City",
+  "body_type": "Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Honda",
+  "car": "City e:HEV",
+  "body_type": "Sedan",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Honda",
+  "car": "Elevate",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Honda",
+  "car": "ZR-V",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Hyundai",
+  "car": "Alcazar",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Hyundai",
+  "car": "Aura",
+  "body_type": "Sedan",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Hyundai",
+  "car": "Creta",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Hyundai",
+  "car": "Creta Electric",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Hyundai",
+  "car": "Exter",
+  "body_type": "SUV",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Hyundai",
+  "car": "Grand i10 Nios",
+  "body_type": "Hatchback",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Hyundai",
+  "car": "i20",
+  "body_type": "Hatchback",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Hyundai",
+  "car": "i20 N Line",
+  "body_type": "Hatchback",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Hyundai",
+  "car": "Ioniq 5",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Hyundai",
+  "car": "Ioniq 6",
+  "body_type": "Sedan",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Hyundai",
+  "car": "Tucson",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Hyundai",
+  "car": "Venue",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Hyundai",
+  "car": "Venue N Line",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Hyundai",
+  "car": "Verna",
+  "body_type": "Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Isuzu",
+  "car": "D-Max",
+  "body_type": "Pickup",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "Isuzu",
+  "car": "Hi-Lander",
+  "body_type": "Pickup",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "Isuzu",
+  "car": "MU-X",
+  "body_type": "SUV",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "Isuzu",
+  "car": "V-Cross",
+  "body_type": "Pickup",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "Jeep",
+  "car": "Compass",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Jeep",
+  "car": "Grand Cherokee",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Jeep",
+  "car": "Meridian",
+  "body_type": "SUV",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "Jeep",
+  "car": "Wrangler",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Kia",
+  "car": "Carens",
+  "body_type": "MPV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Kia",
+  "car": "Carens Clavis",
+  "body_type": "MPV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Kia",
+  "car": "Carens Clavis EV",
+  "body_type": "MPV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Kia",
+  "car": "Carnival",
+  "body_type": "MPV",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "Kia",
+  "car": "EV6",
+  "body_type": "Crossover",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Kia",
+  "car": "EV9",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Kia",
+  "car": "Seltos",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Kia",
+  "car": "Sonet",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Kia",
+  "car": "Syros",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Kia",
+  "car": "Syros EV",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Lamborghini",
+  "car": "Revuelto",
+  "body_type": "Coupe",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Lamborghini",
+  "car": "Temerario",
+  "body_type": "Coupe",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Lamborghini",
+  "car": "Urus",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Lamborghini",
+  "car": "Urus SE",
+  "body_type": "SUV",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Land Rover",
+  "car": "Defender",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Land Rover",
+  "car": "Discovery",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Land Rover",
+  "car": "Discovery Sport",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Land Rover",
+  "car": "Range Rover",
+  "body_type": "Luxury SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Land Rover",
+  "car": "Range Rover Evoque",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Land Rover",
+  "car": "Range Rover Sport",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Land Rover",
+  "car": "Range Rover Velar",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Lexus",
+  "car": "ES",
+  "body_type": "Sedan",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Lexus",
+  "car": "ES 350h",
+  "body_type": "Sedan",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Lexus",
+  "car": "ES 500e",
+  "body_type": "Sedan",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Lexus",
+  "car": "LBX",
+  "body_type": "SUV",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Lexus",
+  "car": "LC 500",
+  "body_type": "Coupe",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Lexus",
+  "car": "LC 500h",
+  "body_type": "Coupe",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Lexus",
+  "car": "LM",
+  "body_type": "MPV",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Lexus",
+  "car": "LS",
+  "body_type": "Luxury Sedan",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Lexus",
+  "car": "LX",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Lexus",
+  "car": "NX",
+  "body_type": "SUV",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Lexus",
+  "car": "RX",
+  "body_type": "SUV",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Lexus",
+  "car": "RZ",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Lotus",
+  "car": "Eletre",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Lotus",
+  "car": "Emeya",
+  "body_type": "Sedan",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Lotus",
+  "car": "Emira",
+  "body_type": "Sports Car",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Mahindra",
+  "car": "BE 6",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Mahindra",
+  "car": "Bolero",
+  "body_type": "SUV",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "Mahindra",
+  "car": "Bolero Camper",
+  "body_type": "Pickup",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "Mahindra",
+  "car": "Bolero Neo",
+  "body_type": "SUV",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "Mahindra",
+  "car": "Marazzo",
+  "body_type": "MPV",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "Mahindra",
+  "car": "Scorpio Classic",
+  "body_type": "SUV",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "Mahindra",
+  "car": "Scorpio-N",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Mahindra",
+  "car": "Thar",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Mahindra",
+  "car": "Thar Roxx",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Mahindra",
+  "car": "XEV 9e",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Mahindra",
+  "car": "XEV 9S",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Mahindra",
+  "car": "XUV 3XO",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Mahindra",
+  "car": "XUV 7XO",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Mahindra",
+  "car": "XUV700",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Maruti Suzuki",
+  "car": "Alto K10",
+  "body_type": "Hatchback",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Maruti Suzuki",
+  "car": "Baleno",
+  "body_type": "Hatchback",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Maruti Suzuki",
+  "car": "Brezza",
+  "body_type": "SUV",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Maruti Suzuki",
+  "car": "Celerio",
+  "body_type": "Hatchback",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Maruti Suzuki",
+  "car": "Dzire",
+  "body_type": "Sedan",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Maruti Suzuki",
+  "car": "e Vitara",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Maruti Suzuki",
+  "car": "Ertiga",
+  "body_type": "MPV",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Maruti Suzuki",
+  "car": "Fronx",
+  "body_type": "Crossover",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Maruti Suzuki",
+  "car": "Grand Vitara",
+  "body_type": "SUV",
+  "fuel": "Petrol Hybrid/CNG"
+ },
+ {
+  "brand": "Maruti Suzuki",
+  "car": "Ignis",
+  "body_type": "Hatchback",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Maruti Suzuki",
+  "car": "Invicto",
+  "body_type": "MPV",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Maruti Suzuki",
+  "car": "Jimny",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Maruti Suzuki",
+  "car": "S-Presso",
+  "body_type": "Hatchback",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Maruti Suzuki",
+  "car": "Swift",
+  "body_type": "Hatchback",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Maruti Suzuki",
+  "car": "Victoris",
+  "body_type": "SUV",
+  "fuel": "Petrol/Hybrid/CNG"
+ },
+ {
+  "brand": "Maruti Suzuki",
+  "car": "Wagon R",
+  "body_type": "Hatchback",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Maruti Suzuki",
+  "car": "XL6",
+  "body_type": "MPV",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Maserati",
+  "car": "GranCabrio",
+  "body_type": "Convertible",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Maserati",
+  "car": "GranTurismo",
+  "body_type": "Coupe",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Maserati",
+  "car": "Grecale",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Maserati",
+  "car": "Levante",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Maserati",
+  "car": "MC20",
+  "body_type": "Coupe",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Maserati",
+  "car": "MC20 Cielo",
+  "body_type": "Convertible",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "McLaren",
+  "car": "750S",
+  "body_type": "Coupe",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "McLaren",
+  "car": "750S Spider",
+  "body_type": "Convertible",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "McLaren",
+  "car": "Artura",
+  "body_type": "Coupe",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "McLaren",
+  "car": "GTS",
+  "body_type": "Coupe",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "A-Class Limousine",
+  "body_type": "Sedan",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "AMG A 45 S",
+  "body_type": "Hatchback",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "AMG C 43",
+  "body_type": "Sedan",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "AMG C 63 S E Performance",
+  "body_type": "Sedan",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "AMG E 53",
+  "body_type": "Sedan",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "AMG GLC 43",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "AMG GLC 63 S",
+  "body_type": "SUV",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "AMG GLE 53",
+  "body_type": "SUV",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "AMG GLE 63 S",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "AMG GLS 53",
+  "body_type": "SUV",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "AMG GT",
+  "body_type": "Coupe",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "C-Class",
+  "body_type": "Sedan",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "CLE Cabriolet",
+  "body_type": "Convertible",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "CLE Coupe",
+  "body_type": "Coupe",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "E-Class",
+  "body_type": "Sedan",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "EQB",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "EQE SUV",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "EQS",
+  "body_type": "Luxury Sedan",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "EQS SUV",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "GLA",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "GLB",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "GLC",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "GLE",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "GLS",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "Maybach GLS",
+  "body_type": "Luxury SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "Maybach S-Class",
+  "body_type": "Luxury Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "S-Class",
+  "body_type": "Luxury Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Mercedes-Benz",
+  "car": "SL",
+  "body_type": "Convertible",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "MG",
+  "car": "Astor",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "MG",
+  "car": "Comet EV",
+  "body_type": "Hatchback",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "MG",
+  "car": "Cyberster",
+  "body_type": "Convertible",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "MG",
+  "car": "Gloster",
+  "body_type": "SUV",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "MG",
+  "car": "Hector",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "MG",
+  "car": "Hector Plus",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "MG",
+  "car": "IM6",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "MG",
+  "car": "M9",
+  "body_type": "MPV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "MG",
+  "car": "Majestor",
+  "body_type": "SUV",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "MG",
+  "car": "Windsor EV",
+  "body_type": "Crossover",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "MG",
+  "car": "ZS EV",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "MINI",
+  "car": "Cooper",
+  "body_type": "Hatchback",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "MINI",
+  "car": "Cooper Convertible",
+  "body_type": "Convertible",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "MINI",
+  "car": "Cooper S",
+  "body_type": "Hatchback",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "MINI",
+  "car": "Countryman",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "MINI",
+  "car": "Countryman Electric",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "MINI",
+  "car": "John Cooper Works",
+  "body_type": "Hatchback",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Nissan",
+  "car": "Magnite",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Nissan",
+  "car": "Tekton",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Porsche",
+  "car": "718 Boxster",
+  "body_type": "Convertible",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Porsche",
+  "car": "718 Cayman",
+  "body_type": "Coupe",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Porsche",
+  "car": "911",
+  "body_type": "Sports Car",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Porsche",
+  "car": "Cayenne",
+  "body_type": "SUV",
+  "fuel": "Petrol/Hybrid"
+ },
+ {
+  "brand": "Porsche",
+  "car": "Macan",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Porsche",
+  "car": "Macan Electric",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Porsche",
+  "car": "Panamera",
+  "body_type": "Sedan",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Porsche",
+  "car": "Taycan",
+  "body_type": "Sedan",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Renault",
+  "car": "Arkana",
+  "body_type": "Coupe SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Renault",
+  "car": "Duster",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Renault",
+  "car": "Kiger",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Renault",
+  "car": "Kwid",
+  "body_type": "Hatchback",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Renault",
+  "car": "Triber",
+  "body_type": "MPV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Rolls-Royce",
+  "car": "Cullinan",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Rolls-Royce",
+  "car": "Ghost",
+  "body_type": "Luxury Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Rolls-Royce",
+  "car": "Ghost Extended",
+  "body_type": "Luxury Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Rolls-Royce",
+  "car": "Phantom",
+  "body_type": "Luxury Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Rolls-Royce",
+  "car": "Phantom Extended",
+  "body_type": "Luxury Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Rolls-Royce",
+  "car": "Spectre",
+  "body_type": "Coupe",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Tata Motors",
+  "car": "Altroz",
+  "body_type": "Hatchback",
+  "fuel": "Petrol/CNG/Diesel"
+ },
+ {
+  "brand": "Tata Motors",
+  "car": "Altroz Racer",
+  "body_type": "Hatchback",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Tata Motors",
+  "car": "Curvv",
+  "body_type": "Coupe SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Tata Motors",
+  "car": "Curvv EV",
+  "body_type": "Coupe SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Tata Motors",
+  "car": "Harrier",
+  "body_type": "SUV",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "Tata Motors",
+  "car": "Harrier EV",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Tata Motors",
+  "car": "Nexon",
+  "body_type": "SUV",
+  "fuel": "Petrol/CNG/Diesel"
+ },
+ {
+  "brand": "Tata Motors",
+  "car": "Nexon EV",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Tata Motors",
+  "car": "Punch",
+  "body_type": "SUV",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Tata Motors",
+  "car": "Punch EV",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Tata Motors",
+  "car": "Safari",
+  "body_type": "SUV",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "Tata Motors",
+  "car": "Sierra",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Tata Motors",
+  "car": "Sierra EV",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Tata Motors",
+  "car": "Tiago",
+  "body_type": "Hatchback",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Tata Motors",
+  "car": "Tiago EV",
+  "body_type": "Hatchback",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Tata Motors",
+  "car": "Tiago NRG",
+  "body_type": "Hatchback",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Tata Motors",
+  "car": "Tigor",
+  "body_type": "Sedan",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Tata Motors",
+  "car": "Tigor EV",
+  "body_type": "Sedan",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Tesla",
+  "car": "Model 3",
+  "body_type": "Sedan",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Tesla",
+  "car": "Model Y",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Toyota",
+  "car": "Camry",
+  "body_type": "Sedan",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Toyota",
+  "car": "Fortuner",
+  "body_type": "SUV",
+  "fuel": "Petrol/Diesel"
+ },
+ {
+  "brand": "Toyota",
+  "car": "Fortuner Legender",
+  "body_type": "SUV",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "Toyota",
+  "car": "Glanza",
+  "body_type": "Hatchback",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Toyota",
+  "car": "Hilux",
+  "body_type": "Pickup",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "Toyota",
+  "car": "Innova Crysta",
+  "body_type": "MPV",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "Toyota",
+  "car": "Innova Hycross",
+  "body_type": "MPV",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Toyota",
+  "car": "Land Cruiser 300",
+  "body_type": "SUV",
+  "fuel": "Diesel"
+ },
+ {
+  "brand": "Toyota",
+  "car": "Land Cruiser Prado",
+  "body_type": "SUV",
+  "fuel": "Diesel/Hybrid"
+ },
+ {
+  "brand": "Toyota",
+  "car": "Rumion",
+  "body_type": "MPV",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Toyota",
+  "car": "Taisor",
+  "body_type": "Crossover",
+  "fuel": "Petrol/CNG"
+ },
+ {
+  "brand": "Toyota",
+  "car": "Urban Cruiser Hyryder",
+  "body_type": "SUV",
+  "fuel": "Petrol/Hybrid/CNG"
+ },
+ {
+  "brand": "Toyota",
+  "car": "Vellfire",
+  "body_type": "MPV",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "VinFast",
+  "car": "VF 6",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "VinFast",
+  "car": "VF 7",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "VinFast",
+  "car": "VF 8",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "VinFast",
+  "car": "VF 9",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Volkswagen",
+  "car": "Golf",
+  "body_type": "Hatchback",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Volkswagen",
+  "car": "Taigun",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Volkswagen",
+  "car": "Tiguan",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Volkswagen",
+  "car": "Virtus",
+  "body_type": "Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Volvo",
+  "car": "C40 Recharge",
+  "body_type": "Coupe SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Volvo",
+  "car": "ES90",
+  "body_type": "Sedan",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Volvo",
+  "car": "EX30",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Volvo",
+  "car": "EX40",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Volvo",
+  "car": "S90",
+  "body_type": "Sedan",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Volvo",
+  "car": "S90 Recharge",
+  "body_type": "Sedan",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Volvo",
+  "car": "XC40",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Volvo",
+  "car": "XC40 Recharge",
+  "body_type": "SUV",
+  "fuel": "Electric"
+ },
+ {
+  "brand": "Volvo",
+  "car": "XC60",
+  "body_type": "SUV",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Volvo",
+  "car": "XC90",
+  "body_type": "SUV",
+  "fuel": "Petrol Hybrid"
+ },
+ {
+  "brand": "Škoda",
+  "car": "Kodiaq",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Škoda",
+  "car": "Kodiaq RS",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Škoda",
+  "car": "Kushaq",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Škoda",
+  "car": "Kylaq",
+  "body_type": "SUV",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Škoda",
+  "car": "Octavia RS",
+  "body_type": "Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Škoda",
+  "car": "Slavia",
+  "body_type": "Sedan",
+  "fuel": "Petrol"
+ },
+ {
+  "brand": "Škoda",
+  "car": "Superb",
+  "body_type": "Sedan",
+  "fuel": "Petrol"
+ }
+]
