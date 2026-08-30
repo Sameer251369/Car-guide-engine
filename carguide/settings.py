@@ -4,12 +4,29 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-car-guide-media-kaarbear-key-2026')
+# Security settings - MUST be set in environment for production
+SECRET_KEY = os.environ.get('SECRET_KEY')
+if not SECRET_KEY and os.environ.get('ENVIRONMENT') == 'production':
+    raise ValueError("SECRET_KEY environment variable must be set for production")
+if not SECRET_KEY:
+    SECRET_KEY = 'django-insecure-car-guide-media-kaarbear-key-2026'  # Development only
 
-DEBUG = os.environ.get('DEBUG', 'True') == 'True'
+DEBUG = os.environ.get('DEBUG', 'False') == 'True'
+IS_PRODUCTION = os.environ.get('ENVIRONMENT', 'development') == 'production'
 
+# ALLOWED_HOSTS configuration
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1,[::1]').split(',')
 
+# Append Render backend domain & Render environment hostname dynamically
+RENDER_HOST = 'car-guide-engine.onrender.com'
+if RENDER_HOST not in ALLOWED_HOSTS:
+    ALLOWED_HOSTS.append(RENDER_HOST)
+
+RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
+if RENDER_EXTERNAL_HOSTNAME and RENDER_EXTERNAL_HOSTNAME not in ALLOWED_HOSTS:
+    ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
+
+# CSRF Trusted Origins
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:3000',
     'http://127.0.0.1:3000',
@@ -17,9 +34,20 @@ CSRF_TRUSTED_ORIGINS = [
     'http://127.0.0.1:5173',
     'http://localhost:8000',
     'http://127.0.0.1:8000',
+    'https://car-guide-engine.onrender.com',
 ]
 
-CORS_ALLOWED_ORIGINS = CSRF_TRUSTED_ORIGINS.copy()
+# Add production origins from environment if provided
+if IS_PRODUCTION and os.environ.get('CORS_ORIGINS'):
+    CSRF_TRUSTED_ORIGINS.extend(os.environ.get('CORS_ORIGINS', '').split(','))
+
+# CORS Configuration
+if IS_PRODUCTION and os.environ.get('CORS_ORIGINS'):
+    CORS_ALLOWED_ORIGINS = os.environ.get('CORS_ORIGINS', '').split(',')
+else:
+    CORS_ALLOWED_ORIGINS = CSRF_TRUSTED_ORIGINS.copy()
+
+CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOW_CREDENTIALS = True
 
 # Application definition
@@ -47,6 +75,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',  # Serve static files in production
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -56,7 +85,6 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'carguide.urls'
-
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -105,9 +133,6 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-# CORS
-CORS_ALLOW_ALL_ORIGINS = True
 
 # REST Framework Settings
 REST_FRAMEWORK = {
