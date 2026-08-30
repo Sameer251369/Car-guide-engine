@@ -1,5 +1,7 @@
 from django.contrib.auth import authenticate, login, logout
+from django.middleware.csrf import get_token
 from django.urls import path
+from django.views.decorators.csrf import ensure_csrf_cookie
 from rest_framework import status
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import AllowAny
@@ -39,6 +41,14 @@ def admin_logout(request):
 
 
 @api_view(['GET'])
+@permission_classes([AllowAny])
+@ensure_csrf_cookie
+def csrf_token(request):
+    # Return the token in JSON so a Vercel (cross-origin) client can send X-CSRFToken.
+    return Response({'csrfToken': get_token(request)})
+
+
+@api_view(['GET'])
 def admin_me(request):
     if not request.user.is_authenticated or not request.user.is_staff:
         return Response({'detail': 'Authentication required.'}, status=status.HTTP_401_UNAUTHORIZED)
@@ -54,6 +64,7 @@ def admin_me(request):
 
 
 urlpatterns = [
+    path('csrf/', csrf_token, name='csrf-token'),
     path('login/', admin_login, name='admin-login'),
     path('logout/', admin_logout, name='admin-logout'),
     path('me/', admin_me, name='admin-me'),

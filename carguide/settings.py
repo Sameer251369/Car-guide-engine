@@ -11,8 +11,8 @@ if not SECRET_KEY and os.environ.get('ENVIRONMENT') == 'production':
 if not SECRET_KEY:
     SECRET_KEY = 'django-insecure-car-guide-media-kaarbear-key-2026'  # Development only
 
-DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 IS_PRODUCTION = os.environ.get('ENVIRONMENT', 'development') == 'production'
+DEBUG = os.environ.get('DEBUG', 'False' if IS_PRODUCTION else 'True') == 'True'
 
 # ALLOWED_HOSTS configuration
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1,[::1]').split(',')
@@ -26,29 +26,49 @@ RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 if RENDER_EXTERNAL_HOSTNAME and RENDER_EXTERNAL_HOSTNAME not in ALLOWED_HOSTS:
     ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
 
-# CSRF Trusted Origins
-CSRF_TRUSTED_ORIGINS = [
+def _split_origins(value):
+    return [origin.strip().rstrip('/') for origin in value.split(',') if origin.strip()]
+
+
+def _unique(items):
+    return list(dict.fromkeys(items))
+
+
+# Local Vite, Vercel production, Render, plus extra origins from CORS_ORIGINS.
+# Always merged — CORS_ORIGINS never replaces this list.
+FRONTEND_ORIGINS = _unique([
     'http://localhost:3000',
     'http://127.0.0.1:3000',
     'http://localhost:5173',
     'http://127.0.0.1:5173',
     'http://localhost:8000',
     'http://127.0.0.1:8000',
+    'https://car-guide-ext.vercel.app',
     'https://car-guide-engine.onrender.com',
+    *_split_origins(os.environ.get('CORS_ORIGINS', '')),
+])
+
+CSRF_TRUSTED_ORIGINS = _unique([
+    *FRONTEND_ORIGINS,
+    'https://*.vercel.app',
+])
+
+CORS_ALLOWED_ORIGINS = [origin for origin in FRONTEND_ORIGINS if '*' not in origin]
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r'^https://[a-z0-9-]+\.vercel\.app$',
 ]
-
-# Add production origins from environment if provided
-if IS_PRODUCTION and os.environ.get('CORS_ORIGINS'):
-    CSRF_TRUSTED_ORIGINS.extend(os.environ.get('CORS_ORIGINS', '').split(','))
-
-# CORS Configuration
-if IS_PRODUCTION and os.environ.get('CORS_ORIGINS'):
-    CORS_ALLOWED_ORIGINS = os.environ.get('CORS_ORIGINS', '').split(',')
-else:
-    CORS_ALLOWED_ORIGINS = CSRF_TRUSTED_ORIGINS.copy()
-
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOW_CREDENTIALS = True
+
+# Cross-site cookies: Vercel (or local Vite) browser → Render API
+IS_RENDER = bool(os.environ.get('RENDER') or os.environ.get('RENDER_EXTERNAL_HOSTNAME'))
+if IS_PRODUCTION or IS_RENDER:
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+    CSRF_COOKIE_SECURE = True
+    SESSION_COOKIE_SECURE = True
+    CSRF_COOKIE_SAMESITE = 'None'
+    SESSION_COOKIE_SAMESITE = 'None'
+    CSRF_COOKIE_HTTPONLY = False
 
 # Application definition
 
