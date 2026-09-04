@@ -1,4 +1,5 @@
 from decimal import Decimal
+from django.core.management import call_command
 from django.test import TestCase
 from django.urls import reverse
 from rest_framework.test import APIClient
@@ -162,3 +163,19 @@ class CalculatorAPITestCase(TestCase):
         self.assertTrue(result['data_available'])
         self.assertIsNotNone(result['total_on_road_price'])
         self.assertGreater(result['total_on_road_price'], 5000000)
+
+    def test_calculator_data_command_repairs_state_dependencies(self):
+        andaman = State.objects.create(
+            name="Andaman and Nicobar Islands", code="AN", is_active=True
+        )
+        InsuranceEstimate.objects.all().delete()
+        DealerCharge.objects.all().delete()
+
+        call_command('seed_calculator_data', verbosity=0)
+
+        self.assertTrue(RoadTaxSlab.objects.filter(state=andaman).exists())
+        self.assertTrue(InsuranceEstimate.objects.filter(state__isnull=True).exists())
+        self.assertTrue(DealerCharge.objects.filter(is_default_included=True).exists())
+        result = calculate_on_road_price(self.vehicle, andaman, fuel_type='petrol')
+        self.assertTrue(result['data_available'])
+        self.assertIsNotNone(result['final_on_road_price'])
