@@ -122,6 +122,7 @@ SLAB_DATA = {
         ('petrol', 1000000, None, '0.1000', '0.0100', 0, 'UP Petrol Above 10L'),
         ('cng', 0, 1000000, '0.0800', '0.0100', 0, 'UP CNG Sub-10L'),
         ('cng', 1000000, None, '0.1000', '0.0100', 0, 'UP CNG Above 10L'),
+        ('hybrid', 0, None, '0.0000', '0.0000', 0, 'UP Strong Hybrid 100% Tax Waiver Policy'),
         ('diesel', 0, 1000000, '0.1000', '0.0100', 0, 'UP Diesel Sub-10L'),
         ('diesel', 1000000, None, '0.1200', '0.0100', 0, 'UP Diesel Above 10L'),
     ],
@@ -132,6 +133,10 @@ SLAB_DATA = {
         ('petrol', 2000000, None, '0.1200', '0.0000', 0, 'Haryana Petrol Above 20L'),
         ('cng', 0, 600000, '0.0800', '0.0000', 0, 'Haryana CNG Sub-6L'),
         ('cng', 600000, 2000000, '0.1000', '0.0000', 0, 'Haryana CNG 6L-20L'),
+        ('cng', 2000000, None, '0.1200', '0.0000', 0, 'Haryana CNG Above 20L'),
+        ('hybrid', 0, 600000, '0.0800', '0.0000', 0, 'Haryana Hybrid Sub-6L'),
+        ('hybrid', 600000, 2000000, '0.1000', '0.0000', 0, 'Haryana Hybrid 6L-20L'),
+        ('hybrid', 2000000, None, '0.1200', '0.0000', 0, 'Haryana Hybrid Above 20L'),
         ('diesel', 0, 600000, '0.1000', '0.0000', 0, 'Haryana Diesel Sub-6L'),
         ('diesel', 600000, 2000000, '0.1200', '0.0000', 0, 'Haryana Diesel 6L-20L'),
         ('diesel', 2000000, None, '0.1400', '0.0000', 0, 'Haryana Diesel Above 20L'),
@@ -214,6 +219,12 @@ SLAB_DATA = {
         ('petrol', 0, 800000, '0.0800', '0.0000', 0, 'Bihar Petrol Sub-8L'),
         ('petrol', 800000, 1500000, '0.0900', '0.0000', 0, 'Bihar Petrol 8L-15L'),
         ('petrol', 1500000, None, '0.1000', '0.0000', 0, 'Bihar Petrol Above 15L'),
+        ('cng', 0, 800000, '0.0800', '0.0000', 0, 'Bihar CNG Sub-8L'),
+        ('cng', 800000, 1500000, '0.0900', '0.0000', 0, 'Bihar CNG 8L-15L'),
+        ('cng', 1500000, None, '0.1000', '0.0000', 0, 'Bihar CNG Above 15L'),
+        ('hybrid', 0, 800000, '0.0800', '0.0000', 0, 'Bihar Hybrid Sub-8L'),
+        ('hybrid', 800000, 1500000, '0.0900', '0.0000', 0, 'Bihar Hybrid 8L-15L'),
+        ('hybrid', 1500000, None, '0.1000', '0.0000', 0, 'Bihar Hybrid Above 15L'),
         ('diesel', 0, 800000, '0.1000', '0.0000', 0, 'Bihar Diesel Sub-8L'),
         ('diesel', 800000, 1500000, '0.1100', '0.0000', 0, 'Bihar Diesel 8L-15L'),
         ('diesel', 1500000, None, '0.1200', '0.0000', 0, 'Bihar Diesel Above 15L'),
@@ -283,6 +294,19 @@ for ne in NE_STATES:
         ('diesel', 1000000, None, '0.1200', '0.0000', 0, f'{ne} Diesel Above 10L'),
     ]
 
+# Ensure every state in SLAB_DATA has explicit CNG and Hybrid slabs
+for code, slabs in list(SLAB_DATA.items()):
+    fuels_in_state = {s[0] for s in slabs}
+    petrol_slabs = [s for s in slabs if s[0] == 'petrol']
+
+    if 'cng' not in fuels_in_state and petrol_slabs:
+        for p in petrol_slabs:
+            slabs.append(('cng', p[1], p[2], p[3], p[4], p[5], p[6].replace('Petrol', 'CNG')))
+
+    if 'hybrid' not in fuels_in_state and petrol_slabs:
+        for p in petrol_slabs:
+            slabs.append(('hybrid', p[1], p[2], p[3], p[4], p[5], p[6].replace('Petrol', 'Hybrid')))
+
 class Command(BaseCommand):
     help = "Idempotently seed verified RTO tax slabs and cess for all 36 States and Union Territories."
 
@@ -306,22 +330,28 @@ class Command(BaseCommand):
                     cess_dec = Decimal(cess_str)
                     flat_dec = Decimal(str(flat_c))
 
-                    slab_obj, created = RoadTaxSlab.objects.get_or_create(
+                    existing = RoadTaxSlab.objects.filter(
                         state=state_obj,
                         fuel_type=fuel,
                         min_price=min_dec,
-                        max_price=max_dec,
-                        defaults={
-                            'rate': rate_dec,
-                            'cess_rate': cess_dec,
-                            'flat_cess': flat_dec,
-                            'notes': note,
-                        }
-                    )
+                        max_price=max_dec
+                    ).first()
 
-                    if created:
+                    if not existing:
+                        slab_obj = RoadTaxSlab.objects.create(
+                            state=state_obj,
+                            fuel_type=fuel,
+                            ownership_type='all',
+                            min_price=min_dec,
+                            max_price=max_dec,
+                            rate=rate_dec,
+                            cess_rate=cess_dec,
+                            flat_cess=flat_dec,
+                            notes=note,
+                        )
                         total_created += 1
                     else:
+                        slab_obj = existing
                         updated = False
                         if (slab_obj.rate != rate_dec or slab_obj.cess_rate != cess_dec or 
                             slab_obj.flat_cess != flat_dec or slab_obj.notes != note):

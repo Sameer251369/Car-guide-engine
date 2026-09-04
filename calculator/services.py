@@ -102,36 +102,67 @@ def _fixed_state_fees(state, is_financed=False):
 
 
 def _get_matching_slab(state, fuel_type, ownership_type, tax_basis_price):
-    """Strict rule engine slab lookup from database matching fuel and individual vs company ownership."""
+    """
+    Robust rule engine slab lookup from database matching fuel and individual vs company ownership.
+    Provides candidate fuel priority fallbacks (e.g. Hybrid -> Petrol, CNG -> Petrol) and
+    price-bracket clamping so on-road price calculation succeeds across all 36 States/UTs.
+    """
     fuel_clean = (fuel_type or '').lower()
-    if 'electric' in fuel_clean or fuel_clean == 'ev':
-        target_fuel = 'electric'
-    elif 'diesel' in fuel_clean:
-        target_fuel = 'diesel'
-    elif 'cng' in fuel_clean:
-        target_fuel = 'cng'
+
+    # Resolve candidate fuels in order of legal and statutory priority
+    if 'electric' in fuel_clean or 'ev' in fuel_clean:
+        candidate_fuels = ['electric', 'all']
     elif 'hybrid' in fuel_clean:
-        target_fuel = 'hybrid'
+        # Strong & mild hybrids: check hybrid-specific concession slab first, then fall back to base fuel
+        if 'diesel' in fuel_clean:
+            candidate_fuels = ['hybrid', 'diesel', 'petrol', 'all']
+        else:
+            candidate_fuels = ['hybrid', 'petrol', 'all']
+    elif 'cng' in fuel_clean:
+        # Bi-fuel CNG: check dedicated CNG slab first, then fall back to petrol slab
+        candidate_fuels = ['cng', 'petrol', 'all']
+    elif 'diesel' in fuel_clean:
+        candidate_fuels = ['diesel', 'petrol', 'all']
     else:
-        target_fuel = 'petrol'
+        candidate_fuels = ['petrol', 'all']
 
     own_clean = (ownership_type or 'individual').lower()
     target_ownership = 'company' if own_clean == 'company' else 'individual'
 
-    # Try exact match (fuel_type & ownership_type)
-    slabs = RoadTaxSlab.objects.filter(state=state, fuel_type=target_fuel, ownership_type=target_ownership)
-    if not slabs.exists():
-        # Fallback to ownership='all'
-        slabs = RoadTaxSlab.objects.filter(state=state, fuel_type=target_fuel, ownership_type='all')
-    if not slabs.exists():
-        # Fallback to fuel='all'
-        slabs = RoadTaxSlab.objects.filter(state=state, fuel_type='all')
+    for cand_fuel in candidate_fuels:
+        # 1. Try target ownership
+        slabs = RoadTaxSlab.objects.filter(state=state, fuel_type=cand_fuel, ownership_type=target_ownership)
+        if not slabs.exists():
+            # 2. Fallback to ownership='all'
+            slabs = RoadTaxSlab.objects.filter(state=state, fuel_type=cand_fuel, ownership_type='all')
+        if not slabs.exists() and target_ownership == 'company':
+            # 3. Fallback to ownership='individual'
+            slabs = RoadTaxSlab.objects.filter(state=state, fuel_type=cand_fuel, ownership_type='individual')
 
-    for slab in slabs:
-        min_ok = tax_basis_price >= slab.min_price
-        max_ok = (slab.max_price is None) or (tax_basis_price <= slab.max_price)
-        if min_ok and max_ok:
-            return slab
+        if slabs.exists():
+            # Exact range match
+            for slab in slabs:
+                min_ok = tax_basis_price >= slab.min_price
+                max_ok = (slab.max_price is None) or (tax_basis_price <= slab.max_price)
+                if min_ok and max_ok:
+                    return slab
+
+            # If price exceeds all slabs or is below all slabs, pick the boundary bracket
+            sorted_slabs = sorted(slabs, key=lambda s: s.min_price)
+            if tax_basis_price < sorted_slabs[0].min_price:
+                return sorted_slabs[0]
+            return sorted_slabs[-1]
+
+    # Ultimate defensive fallback: Any slab for this state
+    fallback_slabs = RoadTaxSlab.objects.filter(state=state)
+    if fallback_slabs.exists():
+        sorted_slabs = sorted(fallback_slabs, key=lambda s: s.min_price)
+        for slab in sorted_slabs:
+            min_ok = tax_basis_price >= slab.min_price
+            max_ok = (slab.max_price is None) or (tax_basis_price <= slab.max_price)
+            if min_ok and max_ok:
+                return slab
+        return sorted_slabs[-1]
 
     return None
 
@@ -156,7 +187,14 @@ def calculate_on_road_price(
 
     # 1. Handle Unlaunched / Price TBA Vehicles
     row = StateOnRoadPrice.objects.filter(car=vehicle, state=state).first()
-    if vehicle.is_tba or (row and row.start_ex_showroom is None):
+    has_valid_base = bool(
+        (vehicle.starting_price and vehicle.starting_price > 0) or
+        (vehicle.ex_showroom_price and vehicle.ex_showroom_price > 0) or
+        (variant and hasattr(variant, 'ex_showroom_price') and variant.ex_showroom_price and variant.ex_showroom_price > 0) or
+        (row and row.start_ex_showroom and row.start_ex_showroom > 0) or
+        (custom_ex_showroom is not None and float(custom_ex_showroom) > 0)
+    )
+    if vehicle.is_tba or not has_valid_base:
         return {
             'data_available': True,
             'is_tba': True,
@@ -193,8 +231,10 @@ def calculate_on_road_price(
         if row and row.start_ex_showroom:
             if variant_tier == 'top' and row.top_ex_showroom:
                 base_price = Decimal(str(row.top_ex_showroom))
-            else:
+            elif row.start_ex_showroom:
                 base_price = Decimal(str(row.start_ex_showroom))
+        if base_price <= 0:
+            base_price = _get_base_ex_showroom(vehicle, variant=variant, variant_tier=variant_tier)
 
     # 3. Determine Tax Basis Price (Ex-Showroom vs Pre-GST basis)
     if state.price_basis == 'pre_gst':

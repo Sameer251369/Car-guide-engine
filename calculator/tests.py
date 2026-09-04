@@ -129,3 +129,36 @@ class CalculatorAPITestCase(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertIn('breakdown', response.data)
         self.assertEqual(response.data['breakdown']['ownership_type'], 'company')
+
+    def test_bihar_on_road_price_all_fuels(self):
+        bihar = State.objects.create(name="Bihar", code="BR", price_basis="ex_showroom", is_active=True)
+        # Seed Bihar slabs
+        RoadTaxSlab.objects.create(state=bihar, fuel_type="petrol", min_price=Decimal("0"), max_price=Decimal("800000"), rate=Decimal("0.08"))
+        RoadTaxSlab.objects.create(state=bihar, fuel_type="petrol", min_price=Decimal("800000"), max_price=Decimal("1500000"), rate=Decimal("0.09"))
+        RoadTaxSlab.objects.create(state=bihar, fuel_type="petrol", min_price=Decimal("1500000"), max_price=None, rate=Decimal("0.10"))
+        RoadTaxSlab.objects.create(state=bihar, fuel_type="diesel", min_price=Decimal("0"), max_price=Decimal("800000"), rate=Decimal("0.10"))
+        RoadTaxSlab.objects.create(state=bihar, fuel_type="diesel", min_price=Decimal("800000"), max_price=None, rate=Decimal("0.11"))
+        RoadTaxSlab.objects.create(state=bihar, fuel_type="electric", min_price=Decimal("0"), max_price=None, rate=Decimal("0.00"))
+
+        # Test Petrol, Hybrid, CNG, Diesel, EV in Bihar
+        for fuel in ["Petrol", "Petrol Hybrid", "Petrol/CNG", "Diesel", "Electric"]:
+            result = calculate_on_road_price(self.vehicle, bihar, fuel_type=fuel, ownership_type="individual")
+            self.assertTrue(result['data_available'], f"Failed for {fuel} in Bihar")
+            self.assertIsNotNone(result['total_on_road_price'], f"Null on-road price for {fuel} in Bihar")
+            self.assertGreater(result['total_on_road_price'], float(self.vehicle.ex_showroom_price))
+
+    def test_candidate_fuel_fallbacks_and_clamping(self):
+        # State with only bounded petrol slabs up to 10L
+        test_state = State.objects.create(name="Test State", code="TS", price_basis="ex_showroom", is_active=True)
+        RoadTaxSlab.objects.create(state=test_state, fuel_type="petrol", min_price=Decimal("0"), max_price=Decimal("1000000"), rate=Decimal("0.08"))
+
+        # Luxury car priced at 50L (exceeds all slabs) with Hybrid fuel
+        luxury_car = Vehicle.objects.create(
+            brand=self.brand, name="Luxury Hybrid", slug="luxury-hybrid",
+            body_type="sedan", fuel_type="Petrol Hybrid", ex_showroom_price=Decimal("5000000.00")
+        )
+
+        result = calculate_on_road_price(luxury_car, test_state, fuel_type="Petrol Hybrid")
+        self.assertTrue(result['data_available'])
+        self.assertIsNotNone(result['total_on_road_price'])
+        self.assertGreater(result['total_on_road_price'], 5000000)

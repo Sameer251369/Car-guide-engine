@@ -337,6 +337,12 @@ def seed_states():
             "diesel": [(None, Decimal("0.11"))],
             "electric": [(None, Decimal("0.00"))],
         })
+
+        # Ensure cng and hybrid are included
+        if "cng" not in rates and "petrol" in rates:
+            rates["cng"] = rates["petrol"]
+        if "hybrid" not in rates and "petrol" in rates:
+            rates["hybrid"] = rates["petrol"]
         
         for fuel_type, slabs in rates.items():
             min_price = Decimal("0")
