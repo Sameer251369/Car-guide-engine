@@ -1,28 +1,39 @@
 import os
+import dj_database_url
+
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Security settings - MUST be set in environment for production
+
 SECRET_KEY = os.environ.get('SECRET_KEY')
+
 if not SECRET_KEY and os.environ.get('ENVIRONMENT') == 'production':
     raise ValueError("SECRET_KEY environment variable must be set for production")
+
 if not SECRET_KEY:
     SECRET_KEY = 'django-insecure-car-guide-media-kaarbear-key-2026'  # Development only
 
 IS_PRODUCTION = os.environ.get('ENVIRONMENT', 'development') == 'production'
+
 DEBUG = os.environ.get('DEBUG', 'False' if IS_PRODUCTION else 'True') == 'True'
 
 # ALLOWED_HOSTS configuration
+
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1,[::1]').split(',')
 
 # Append Render backend domain & Render environment hostname dynamically
+
 RENDER_HOST = 'car-guide-engine.onrender.com'
+
 if RENDER_HOST not in ALLOWED_HOSTS:
     ALLOWED_HOSTS.append(RENDER_HOST)
 
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
+
 if RENDER_EXTERNAL_HOSTNAME and RENDER_EXTERNAL_HOSTNAME not in ALLOWED_HOSTS:
     ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
 
@@ -36,6 +47,7 @@ def _unique(items):
 
 # Local Vite, Vercel production, Render, plus extra origins from CORS_ORIGINS.
 # Always merged — CORS_ORIGINS never replaces this list.
+
 FRONTEND_ORIGINS = _unique([
     'http://localhost:3000',
     'http://127.0.0.1:3000',
@@ -54,14 +66,19 @@ CSRF_TRUSTED_ORIGINS = _unique([
 ])
 
 CORS_ALLOWED_ORIGINS = [origin for origin in FRONTEND_ORIGINS if '*' not in origin]
+
 CORS_ALLOWED_ORIGIN_REGEXES = [
-    r'^https://[a-z0-9-]+\.vercel\.app$',
+    r'^https\://[a-z0-9-]+\.vercel\.app$',
 ]
+
 CORS_ALLOW_ALL_ORIGINS = False
+
 CORS_ALLOW_CREDENTIALS = True
 
 # Cross-site cookies: Vercel (or local Vite) browser → Render API
+
 IS_RENDER = bool(os.environ.get('RENDER') or os.environ.get('RENDER_EXTERNAL_HOSTNAME'))
+
 if IS_PRODUCTION or IS_RENDER:
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
     CSRF_COOKIE_SECURE = True
@@ -81,11 +98,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # Third party packages
+
     'rest_framework',
     'corsheaders',
     'django_filters',
 
     # Local apps
+
     'portfolio',
     'blog',
     'calculator',
@@ -105,6 +124,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'carguide.urls'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -124,14 +144,20 @@ TEMPLATES = [
 WSGI_APPLICATION = 'carguide.wsgi.application'
 
 # Database
+# Uses DATABASE_URL from environment.
+# On Render: use the Internal Database URL.
+# Locally: use the External Database URL.
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    'default': dj_database_url.config(
+        default=os.environ.get('DATABASE_URL'),
+        conn_max_age=600,
+        conn_health_checks=True,
+    )
 }
 
 # Password validation
+
 AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator'},
     {'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator'},
@@ -140,21 +166,29 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 # Internationalization
+
 LANGUAGE_CODE = 'en-us'
+
 TIME_ZONE = 'Asia/Kolkata'
+
 USE_I18N = True
+
 USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
+
 STATIC_URL = '/static/'
+
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 MEDIA_URL = '/media/'
+
 MEDIA_ROOT = BASE_DIR / 'media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # REST Framework Settings
+
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 10,
