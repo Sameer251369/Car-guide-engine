@@ -3,6 +3,7 @@ from rest_framework import status
 from rest_framework.decorators import api_view, throttle_classes
 from rest_framework.response import Response
 from rest_framework.throttling import AnonRateThrottle
+from django.views.decorators.csrf import csrf_exempt
 from portfolio.models import Vehicle, VehicleVariant
 from leads.models import Lead
 from .models import State
@@ -42,6 +43,7 @@ def get_active_states(request):
 
 @api_view(['POST'])
 @throttle_classes([EstimateRateThrottle])
+@csrf_exempt
 def calculate_estimate(request):
     serializer = EstimateRequestSerializer(data=request.data)
     if not serializer.is_valid():
@@ -81,6 +83,7 @@ def calculate_estimate(request):
 
 @api_view(['POST'])
 @throttle_classes([LeadRateThrottle])
+@csrf_exempt
 def capture_lead_and_estimate(request):
     serializer = LeadCaptureRequestSerializer(data=request.data)
     if not serializer.is_valid():
