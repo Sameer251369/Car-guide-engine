@@ -90,6 +90,10 @@ class VehicleAdminWorklistSerializer(serializers.ModelSerializer):
 class VehicleAdminCreateSerializer(serializers.ModelSerializer):
     brand_name = serializers.CharField(max_length=100, write_only=True)
     primary_image = serializers.ImageField(write_only=True, required=False, allow_null=True)
+    front_image = serializers.ImageField(write_only=True, required=False, allow_null=True)
+    exterior_image = serializers.ImageField(write_only=True, required=False, allow_null=True)
+    interior_image = serializers.ImageField(write_only=True, required=False, allow_null=True)
+    rear_image = serializers.ImageField(write_only=True, required=False, allow_null=True)
     published_vehicle = VehicleListSerializer(source='*', read_only=True)
 
     class Meta:
@@ -99,7 +103,8 @@ class VehicleAdminCreateSerializer(serializers.ModelSerializer):
             'ev_hybrid_cng_flag', 'starting_price', 'top_variant_price',
             'ex_showroom_price', 'seats', 'transmission', 'key_specs',
             'description', 'is_featured', 'is_tba', 'is_active', 'meta_title',
-            'meta_description', 'primary_image', 'published_vehicle',
+            'meta_description', 'primary_image', 'front_image', 'exterior_image',
+            'interior_image', 'rear_image', 'published_vehicle',
         ]
         read_only_fields = ['id']
 
@@ -117,6 +122,12 @@ class VehicleAdminCreateSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         brand_name = validated_data.pop('brand_name').strip()
         primary_image = validated_data.pop('primary_image', None)
+        uploaded_images = {
+            'front': validated_data.pop('front_image', None),
+            'exterior': validated_data.pop('exterior_image', None),
+            'interior': validated_data.pop('interior_image', None),
+            'rear': validated_data.pop('rear_image', None),
+        }
         brand, _ = Brand.objects.get_or_create(name=brand_name)
 
         vehicle = Vehicle.objects.create(
@@ -132,7 +143,18 @@ class VehicleAdminCreateSerializer(serializers.ModelSerializer):
                 vehicle=vehicle,
                 image_url=primary_image,
                 alt_text=f"{brand.name} {vehicle.name}",
+                image_type='front',
                 is_primary=True,
             )
+
+        for image_type, image in uploaded_images.items():
+            if image and not (image_type == 'front' and primary_image):
+                VehicleImage.objects.create(
+                    vehicle=vehicle,
+                    image_url=image,
+                    image_type=image_type,
+                    alt_text=f"{brand.name} {vehicle.name} {image_type} view",
+                    is_primary=not primary_image and image_type == 'front',
+                )
 
         return vehicle
