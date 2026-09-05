@@ -144,16 +144,38 @@ TEMPLATES = [
 WSGI_APPLICATION = 'carguide.wsgi.application'
 
 # Database
-# Uses DATABASE_URL from environment.
-# On Render: use the Internal Database URL.
-# Locally: use the External Database URL.
+# Uses DATABASE_URL from environment when valid. If it is empty or malformed,
+# fall back to the project SQLite database so the app can recover and reload data.
+
+def get_database_config():
+    raw_url = os.environ.get('DATABASE_URL')
+    if raw_url is None:
+        return {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+
+    if isinstance(raw_url, bytes):
+        raw_url = raw_url.decode('utf-8')
+
+    raw_url = (raw_url or '').strip()
+    if not raw_url:
+        return {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+
+    try:
+        return dj_database_url.parse(raw_url)
+    except Exception:
+        return {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+
 
 DATABASES = {
-    'default': dj_database_url.config(
-        default=os.environ.get('DATABASE_URL'),
-        conn_max_age=600,
-        conn_health_checks=True,
-    )
+    'default': get_database_config()
 }
 
 # Password validation

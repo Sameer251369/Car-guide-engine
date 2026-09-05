@@ -1,5 +1,21 @@
 # Production deployment
 
+If Render's Root Directory is `backend`, use this start command:
+
+```bash
+bash start.sh
+```
+
+If Render's Root Directory is blank (the repository root), use:
+
+```bash
+bash backend/start.sh
+```
+
+The startup script applies migrations and repairs the calculator dataset before
+starting Gunicorn. This is safe to run on every deploy because the repair
+command is idempotent.
+
 Run these commands from the `backend` directory after installing `requirements.txt`:
 
 ```bash

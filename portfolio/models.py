@@ -111,7 +111,12 @@ class VehicleVariant(models.Model):
 
 class VehicleImage(models.Model):
     vehicle = models.ForeignKey(Vehicle, on_delete=models.CASCADE, related_name='images')
-    image_url = models.ImageField(upload_to='vehicle_images/', blank=True, null=True)
+    image_url = models.ImageField(
+    upload_to='vehicle_images/',
+    max_length=1000,
+    blank=True,
+    null=True
+)
     alt_text = models.CharField(max_length=255, blank=True)
     is_primary = models.BooleanField(default=False)
     display_order = models.PositiveIntegerField(default=0)
