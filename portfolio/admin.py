@@ -7,7 +7,8 @@ class VehicleVariantInline(admin.TabularInline):
 
 class VehicleImageInline(admin.TabularInline):
     model = VehicleImage
-    extra = 1
+    extra = 4
+    fields = ('image_type', 'image_url', 'alt_text', 'is_primary', 'display_order')
 
 @admin.register(Brand)
 class BrandAdmin(admin.ModelAdmin):

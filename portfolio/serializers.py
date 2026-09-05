@@ -20,7 +20,7 @@ class VehicleImageSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = VehicleImage
-        fields = ['id', 'image_url', 'alt_text', 'is_primary', 'display_order']
+        fields = ['id', 'image_type', 'image_url', 'alt_text', 'is_primary', 'display_order']
 
     def get_image_url(self, obj):
         if not obj.image_url:
@@ -44,7 +44,7 @@ class VehicleListSerializer(serializers.ModelSerializer):
             'id', 'name', 'slug', 'brand', 'brand_name', 'brand_slug', 'brand_logo',
             'body_type', 'fuel_type', 'ev_hybrid_cng_flag', 'starting_price',
             'top_variant_price', 'ex_showroom_price', 'seats', 'transmission',
-            'key_specs', 'is_featured', 'is_tba', 'is_active', 'primary_image',
+            'key_specs', 'description', 'is_featured', 'is_tba', 'is_active', 'primary_image',
         ]
 
     def get_primary_image(self, obj):
@@ -69,7 +69,7 @@ class VehicleDetailSerializer(serializers.ModelSerializer):
             'id', 'name', 'slug', 'brand', 'body_type', 'fuel_type',
             'ev_hybrid_cng_flag', 'starting_price', 'top_variant_price',
             'ex_showroom_price', 'seats', 'transmission', 'key_specs',
-            'is_featured', 'is_tba', 'is_active', 'meta_title', 'meta_description',
+            'description', 'is_featured', 'is_tba', 'is_active', 'meta_title', 'meta_description',
             'variants', 'images', 'created_at',
         ]
 
@@ -98,7 +98,7 @@ class VehicleAdminCreateSerializer(serializers.ModelSerializer):
             'id', 'brand_name', 'name', 'body_type', 'fuel_type',
             'ev_hybrid_cng_flag', 'starting_price', 'top_variant_price',
             'ex_showroom_price', 'seats', 'transmission', 'key_specs',
-            'is_featured', 'is_tba', 'is_active', 'meta_title',
+            'description', 'is_featured', 'is_tba', 'is_active', 'meta_title',
             'meta_description', 'primary_image', 'published_vehicle',
         ]
         read_only_fields = ['id']

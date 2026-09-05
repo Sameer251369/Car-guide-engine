@@ -110,7 +110,20 @@ class VehicleVariant(models.Model):
 
 
 class VehicleImage(models.Model):
+    IMAGE_TYPE_CHOICES = [
+        ('front', 'Front side'),
+        ('exterior', 'Exterior / side'),
+        ('interior', 'Interior'),
+        ('rear', 'Backside / rear'),
+    ]
+
     vehicle = models.ForeignKey(Vehicle, on_delete=models.CASCADE, related_name='images')
+    image_type = models.CharField(
+        max_length=20,
+        choices=IMAGE_TYPE_CHOICES,
+        default='front',
+        help_text='View shown for this vehicle image.',
+    )
     image_url = models.ImageField(
     upload_to='vehicle_images/',
     max_length=1000,
