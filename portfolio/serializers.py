@@ -48,7 +48,11 @@ class VehicleListSerializer(serializers.ModelSerializer):
         ]
 
     def get_primary_image(self, obj):
-        first_img = obj.images.filter(is_primary=True).first() or obj.images.first()
+        first_img = (
+            obj.images.filter(image_type='front').first()
+            or obj.images.filter(is_primary=True).first()
+            or obj.images.first()
+        )
         if not first_img or not first_img.image_url:
             return None
         image_url = first_img.image_url.url if hasattr(first_img.image_url, 'url') else first_img.image_url
