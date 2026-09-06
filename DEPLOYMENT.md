@@ -12,6 +12,20 @@ If Render's Root Directory is blank (the repository root), use:
 bash backend/start.sh
 ```
 
+## Cloudinary media storage
+
+Set these environment variables in Render and in `backend/.env` for local
+development. Uploaded vehicle images from Django Admin and the frontend admin
+are stored in Cloudinary and remain available across deploys:
+
+```text
+CLOUDINARY_CLOUD_NAME=your-cloud-name
+CLOUDINARY_API_KEY=your-api-key
+CLOUDINARY_API_SECRET=your-api-secret
+```
+
+Do not commit `backend/.env` or expose the API secret in frontend code.
+
 The startup script applies migrations and repairs the calculator dataset before
 starting Gunicorn. This is safe to run on every deploy because the repair
 command is idempotent.
