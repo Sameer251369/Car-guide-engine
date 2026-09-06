@@ -106,6 +106,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'django_filters',
     'cloudinary_storage',
+    'cloudinary',
 
     # Local apps
 
