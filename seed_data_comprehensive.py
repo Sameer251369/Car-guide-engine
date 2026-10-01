@@ -89,7 +89,7 @@ def seed_states():
                 (None, Decimal("0.11")),
             ],
             "diesel": [(None, Decimal("0.13"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Maharashtra (11-14% on ex-showroom)
         "MH": {
@@ -105,13 +105,13 @@ def seed_states():
         "GJ": {
             "petrol": [(None, Decimal("0.06"))],
             "diesel": [(None, Decimal("0.06"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Chandigarh (8% on pre-GST basis)
         "CH": {
             "petrol": [(None, Decimal("0.08"))],
             "diesel": [(None, Decimal("0.08"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Karnataka (13-18% on ex-showroom)
         "KA": {
@@ -120,19 +120,19 @@ def seed_states():
                 (None, Decimal("0.18")),
             ],
             "diesel": [(None, Decimal("0.18"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Jharkhand (6% on pre-GST basis)
         "JH": {
             "petrol": [(None, Decimal("0.06"))],
             "diesel": [(None, Decimal("0.06"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Rajasthan (8% on ex-showroom)
         "RJ": {
             "petrol": [(None, Decimal("0.08"))],
             "diesel": [(None, Decimal("0.11"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Uttar Pradesh (9-11% on ex-showroom)
         "UP": {
@@ -141,7 +141,7 @@ def seed_states():
                 (None, Decimal("0.11")),
             ],
             "diesel": [(None, Decimal("0.13"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Tamil Nadu (10% on ex-showroom)
         "TN": {
@@ -153,7 +153,7 @@ def seed_states():
         "TG": {
             "petrol": [(None, Decimal("0.10"))],
             "diesel": [(None, Decimal("0.12"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Punjab (9-10% on ex-showroom)
         "PB": {
@@ -162,7 +162,7 @@ def seed_states():
                 (None, Decimal("0.10")),
             ],
             "diesel": [(None, Decimal("0.11"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Haryana (9-11% on ex-showroom)
         "HR": {
@@ -171,13 +171,13 @@ def seed_states():
                 (None, Decimal("0.11")),
             ],
             "diesel": [(None, Decimal("0.13"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Madhya Pradesh (9% on ex-showroom)
         "MP": {
             "petrol": [(None, Decimal("0.09"))],
             "diesel": [(None, Decimal("0.11"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # West Bengal (9-10% on ex-showroom)
         "WB": {
@@ -186,13 +186,13 @@ def seed_states():
                 (None, Decimal("0.10")),
             ],
             "diesel": [(None, Decimal("0.11"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Odisha (9% on ex-showroom)
         "OD": {
             "petrol": [(None, Decimal("0.09"))],
             "diesel": [(None, Decimal("0.11"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Andhra Pradesh (10% on ex-showroom)
         "AP": {
@@ -204,7 +204,7 @@ def seed_states():
         "AS": {
             "petrol": [(None, Decimal("0.08"))],
             "diesel": [(None, Decimal("0.10"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Kerala (11% on ex-showroom)
         "KL": {
@@ -216,7 +216,7 @@ def seed_states():
         "GA": {
             "petrol": [(None, Decimal("0.09"))],
             "diesel": [(None, Decimal("0.11"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Uttarakhand (8-9% on ex-showroom)
         "UK": {
@@ -225,7 +225,7 @@ def seed_states():
                 (None, Decimal("0.09")),
             ],
             "diesel": [(None, Decimal("0.10"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Himachal Pradesh (7-8% on ex-showroom)
         "HP": {
@@ -234,79 +234,79 @@ def seed_states():
                 (None, Decimal("0.08")),
             ],
             "diesel": [(None, Decimal("0.09"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Jammu and Kashmir (8% on ex-showroom)
         "JK": {
             "petrol": [(None, Decimal("0.08"))],
             "diesel": [(None, Decimal("0.10"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Ladakh (8% on ex-showroom)
         "LA": {
             "petrol": [(None, Decimal("0.08"))],
             "diesel": [(None, Decimal("0.10"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Puducherry (9% on ex-showroom)
         "PY": {
             "petrol": [(None, Decimal("0.09"))],
             "diesel": [(None, Decimal("0.11"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Andaman and Nicobar Islands (8% on ex-showroom)
         "AN": {
             "petrol": [(None, Decimal("0.08"))],
             "diesel": [(None, Decimal("0.10"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Lakshadweep (8% on ex-showroom)
         "LD": {
             "petrol": [(None, Decimal("0.08"))],
             "diesel": [(None, Decimal("0.10"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Dadra and Nagar Haveli and Daman and Diu (6% on ex-showroom)
         "DN": {
             "petrol": [(None, Decimal("0.06"))],
             "diesel": [(None, Decimal("0.06"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         # Minor states (standardized at 8-9% for petrol)
         "AR": {  # Arunachal Pradesh
             "petrol": [(None, Decimal("0.08"))],
             "diesel": [(None, Decimal("0.10"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         "MN": {  # Manipur
             "petrol": [(None, Decimal("0.08"))],
             "diesel": [(None, Decimal("0.10"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         "ML": {  # Meghalaya
             "petrol": [(None, Decimal("0.08"))],
             "diesel": [(None, Decimal("0.10"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         "MZ": {  # Mizoram
             "petrol": [(None, Decimal("0.08"))],
             "diesel": [(None, Decimal("0.10"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         "NL": {  # Nagaland
             "petrol": [(None, Decimal("0.08"))],
             "diesel": [(None, Decimal("0.10"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         "SK": {  # Sikkim
             "petrol": [(None, Decimal("0.08"))],
             "diesel": [(None, Decimal("0.10"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
         "TR": {  # Tripura
             "petrol": [(None, Decimal("0.08"))],
             "diesel": [(None, Decimal("0.10"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         },
     }
     
@@ -335,7 +335,7 @@ def seed_states():
         rates = road_tax_rates.get(code, {
             "petrol": [(None, Decimal("0.09"))],
             "diesel": [(None, Decimal("0.11"))],
-            "electric": [(None, Decimal("0.00"))],
+            "electric": [(None, Decimal("0.08"))],
         })
 
         # Ensure cng and hybrid are included

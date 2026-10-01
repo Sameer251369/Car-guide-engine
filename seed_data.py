@@ -181,7 +181,7 @@ def seed_database():
     RoadTaxSlab.objects.get_or_create(state=dl, fuel_type="petrol", min_price=Decimal("600000.01"), max_price=Decimal("1000000.00"), defaults={"rate": Decimal("0.09")})
     RoadTaxSlab.objects.get_or_create(state=dl, fuel_type="petrol", min_price=Decimal("1000000.01"), max_price=None, defaults={"rate": Decimal("0.11")})
     RoadTaxSlab.objects.get_or_create(state=dl, fuel_type="diesel", min_price=Decimal("0"), max_price=None, defaults={"rate": Decimal("0.13")})
-    RoadTaxSlab.objects.get_or_create(state=dl, fuel_type="electric", min_price=Decimal("0"), max_price=None, defaults={"rate": Decimal("0.00")})
+    RoadTaxSlab.objects.get_or_create(state=dl, fuel_type="electric", min_price=Decimal("0"), max_price=None, defaults={"rate": Decimal("0.08")})
 
     # Maharashtra (MH) - Ex-showroom basis
     mh, _ = State.objects.get_or_create(
@@ -219,7 +219,7 @@ def seed_database():
         }
     )
     RoadTaxSlab.objects.get_or_create(state=gj, fuel_type="all", min_price=Decimal("0"), max_price=None, defaults={"rate": Decimal("0.06")})
-    RoadTaxSlab.objects.get_or_create(state=gj, fuel_type="electric", min_price=Decimal("0"), max_price=None, defaults={"rate": Decimal("0.00")})
+    RoadTaxSlab.objects.get_or_create(state=gj, fuel_type="electric", min_price=Decimal("0"), max_price=None, defaults={"rate": Decimal("0.08")})
 
     # Chandigarh (CH) - Pre-GST Basis
     ch, _ = State.objects.get_or_create(
