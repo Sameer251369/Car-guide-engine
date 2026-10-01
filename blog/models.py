@@ -40,7 +40,7 @@ class Article(models.Model):
     slug = models.SlugField(max_length=280, unique=True, blank=True)
     category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True, related_name='articles')
     tags = models.ManyToManyField(Tag, blank=True, related_name='articles')
-    featured_image_url = models.URLField(max_length=500, blank=True)
+    featured_image_url = models.ImageField("Featured Image", upload_to='articles/', max_length=500, blank=True, null=True)
     excerpt = models.TextField(blank=True, help_text="Short summary for card previews")
     body = models.TextField(help_text="Full article content (supports HTML/Markdown)")
     author_name = models.CharField(max_length=100, default='Car Guide Media Editorial')
