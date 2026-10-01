@@ -18,3 +18,17 @@ urlpatterns = [
 urlpatterns += [
     re_path(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
 ]
+
+from django.http import HttpResponse
+from django.core.management import call_command
+
+def trigger_fix_taxes(request):
+    try:
+        call_command('fix_zero_taxes')
+        return HttpResponse("Successfully updated zero taxes in the database! You can now test the calculator.")
+    except Exception as e:
+        return HttpResponse(f"Error: {e}")
+
+urlpatterns += [
+    path('api/fix-taxes/', trigger_fix_taxes),
+]
