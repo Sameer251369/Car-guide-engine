@@ -6,38 +6,36 @@ class Command(BaseCommand):
     help = 'Fixes tax slabs that have a 0.00 rate by copying the petrol rate or setting a default 8% rate.'
 
     def handle(self, *args, **options):
-        # We target all electric (and CNG/Hybrid if needed) slabs since they might have been overwritten with constant values
-        slabs_to_update = RoadTaxSlab.objects.filter(fuel_type__in=['electric', 'cng', 'hybrid'])
+        # Target electric (and CNG/Hybrid if needed) slabs
+        slabs_to_update = list(RoadTaxSlab.objects.filter(fuel_type__in=['electric', 'cng', 'hybrid']))
+        
+        # Pre-fetch all petrol slabs for the states involved
+        petrol_slabs = list(RoadTaxSlab.objects.filter(fuel_type='petrol'))
+        
         count = 0
+        slabs_to_save = []
 
         for slab in slabs_to_update:
-            # Find the petrol slab for the exact same price bracket
-            petrol_slab = RoadTaxSlab.objects.filter(
-                state=slab.state, 
-                fuel_type='petrol',
-                min_price=slab.min_price,
-                max_price=slab.max_price
-            ).first()
+            # Find exact petrol slab match
+            exact_match = next((p for p in petrol_slabs if p.state_id == slab.state_id and p.min_price == slab.min_price and p.max_price == slab.max_price), None)
             
-            if petrol_slab and petrol_slab.rate > 0:
-                # Use a slightly discounted rate for EVs compared to petrol (e.g. petrol - 2%)
-                # Or just use the petrol rate directly if requested. Let's use petrol rate directly to make it accurate and variable.
-                # Actually, let's make it petrol_slab.rate * 0.75 for EV to show some variance, or just petrol_slab.rate. 
-                # Let's just use petrol_slab.rate so it matches exactly the tiered structure of petrol.
-                slab.rate = petrol_slab.rate
+            if exact_match and exact_match.rate > 0:
+                slab.rate = exact_match.rate
             else:
-                # Fallback if exact slab match fails: look for any petrol slab that covers this min_price
-                fallback_slab = RoadTaxSlab.objects.filter(
-                    state=slab.state, 
-                    fuel_type='petrol',
-                    min_price__lte=slab.min_price
-                ).order_by('-min_price').first()
-                
-                if fallback_slab and fallback_slab.rate > 0:
-                    slab.rate = fallback_slab.rate
+                # Find fallback
+                fallbacks = [p for p in petrol_slabs if p.state_id == slab.state_id and p.min_price <= slab.min_price]
+                if fallbacks:
+                    best_fallback = max(fallbacks, key=lambda p: p.min_price)
+                    if best_fallback.rate > 0:
+                        slab.rate = best_fallback.rate
+                    else:
+                        slab.rate = Decimal("0.08")
                 else:
                     slab.rate = Decimal("0.08")
-            slab.save()
+            
+            slabs_to_save.append(slab)
             count += 1
 
-        self.stdout.write(self.style.SUCCESS(f"Successfully updated {count} tax slabs with 0.00 rate."))
+        RoadTaxSlab.objects.bulk_update(slabs_to_save, ['rate'])
+
+        self.stdout.write(self.style.SUCCESS(f"Successfully updated {count} tax slabs in bulk."))
