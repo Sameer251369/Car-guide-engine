@@ -1,4 +1,6 @@
 import os
+from django.core.exceptions import ImproperlyConfigured
+
 try:
     import dj_database_url
 except ImportError:
@@ -169,6 +171,10 @@ WSGI_APPLICATION = 'carguide.wsgi.application'
 def get_database_config():
     raw_url = os.environ.get('DATABASE_URL')
     if not raw_url or dj_database_url is None:
+        if IS_PRODUCTION:
+            raise ImproperlyConfigured(
+                'Production requires DATABASE_URL and dj-database-url; refusing to use ephemeral SQLite.'
+            )
         return {
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': BASE_DIR / 'db.sqlite3',
@@ -185,8 +191,15 @@ def get_database_config():
         }
 
     try:
-        return dj_database_url.parse(raw_url)
-    except Exception:
+        database_config = dj_database_url.parse(raw_url)
+        if IS_PRODUCTION and database_config.get('ENGINE') != 'django.db.backends.postgresql':
+            raise ImproperlyConfigured('Production DATABASE_URL must point to PostgreSQL.')
+        return database_config
+    except ImproperlyConfigured:
+        raise
+    except Exception as exc:
+        if IS_PRODUCTION:
+            raise ImproperlyConfigured('Production DATABASE_URL is invalid.') from exc
         return {
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': BASE_DIR / 'db.sqlite3',

@@ -7,7 +7,12 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         # Target electric (and CNG/Hybrid if needed) slabs
-        slabs_to_update = list(RoadTaxSlab.objects.filter(fuel_type__in=['electric', 'cng', 'hybrid']))
+        slabs_to_update = list(
+            RoadTaxSlab.objects.filter(
+                fuel_type__in=['electric', 'cng', 'hybrid'],
+                rate=Decimal('0.0000'),
+            )
+        )
         
         # Pre-fetch all petrol slabs for the states involved
         petrol_slabs = list(RoadTaxSlab.objects.filter(fuel_type='petrol'))

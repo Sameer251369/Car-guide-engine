@@ -13,6 +13,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         with transaction.atomic():
             call_command("seed_tax_slabs_36", verbosity=0)
+            call_command("fix_zero_taxes", verbosity=0)
             InsuranceEstimate.objects.get_or_create(
                 state=None,
                 defaults={"rate_percent": Decimal("3.50")},

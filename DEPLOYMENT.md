@@ -30,6 +30,12 @@ The startup script applies migrations and repairs the calculator dataset before
 starting Gunicorn. This is safe to run on every deploy because the repair
 command is idempotent.
 
+Production must set `DATABASE_URL` to the persistent Render PostgreSQL database.
+The backend now refuses to start in production if that value is missing, invalid,
+or points to SQLite. The start script does not reload `data.json`; calculator
+seeding adds missing tax slabs without overwriting rates already saved in the
+database, and zero-rate electric/CNG/hybrid slabs are repaired during startup.
+
 Run these commands from the `backend` directory after installing `requirements.txt`:
 
 ```bash

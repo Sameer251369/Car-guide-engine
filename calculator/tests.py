@@ -167,6 +167,26 @@ class CalculatorAPITestCase(TestCase):
 
         self.assertEqual(ev_slab.rate, Decimal('0.0600'))
 
+    def test_calculator_seed_preserves_rates_and_repairs_zero_rates(self):
+        call_command('seed_calculator_data', verbosity=0)
+
+        ev_slab = RoadTaxSlab.objects.get(
+            state=self.state,
+            fuel_type='electric',
+            ownership_type='all',
+        )
+        ev_slab.rate = Decimal('0.0750')
+        ev_slab.save(update_fields=['rate'])
+        call_command('seed_calculator_data', verbosity=0)
+        ev_slab.refresh_from_db()
+        self.assertEqual(ev_slab.rate, Decimal('0.0750'))
+
+        ev_slab.rate = Decimal('0.0000')
+        ev_slab.save(update_fields=['rate'])
+        call_command('seed_calculator_data', verbosity=0)
+        ev_slab.refresh_from_db()
+        self.assertEqual(ev_slab.rate, Decimal('0.1100'))
+
     def test_bihar_on_road_price_all_fuels(self):
         bihar = State.objects.create(name="Bihar", code="BR", price_basis="ex_showroom", is_active=True)
         # Seed Bihar slabs

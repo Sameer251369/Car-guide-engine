@@ -315,8 +315,6 @@ class Command(BaseCommand):
         self.stdout.write(self.style.NOTICE("Seeding Tax Slabs for 36 States and UTs..."))
 
         total_created = 0
-        total_updated = 0
-
         with transaction.atomic():
             for code, slabs in SLAB_DATA.items():
                 state_obj = State.objects.filter(code=code).first()
@@ -340,7 +338,7 @@ class Command(BaseCommand):
                     ).first()
 
                     if not existing:
-                        slab_obj = RoadTaxSlab.objects.create(
+                        RoadTaxSlab.objects.create(
                             state=state_obj,
                             fuel_type=fuel,
                             ownership_type='all',
@@ -352,18 +350,7 @@ class Command(BaseCommand):
                             notes=note,
                         )
                         total_created += 1
-                    else:
-                        slab_obj = existing
-                        updated = False
-                        if (slab_obj.rate != rate_dec or slab_obj.cess_rate != cess_dec or 
-                            slab_obj.flat_cess != flat_dec or slab_obj.notes != note):
-                            slab_obj.rate = rate_dec
-                            slab_obj.cess_rate = cess_dec
-                            slab_obj.flat_cess = flat_dec
-                            slab_obj.notes = note
-                            slab_obj.save()
-                            total_updated += 1
 
         self.stdout.write(self.style.SUCCESS(
-            f"Tax Slabs Seed Complete! Total Slabs Created: {total_created}, Updated: {total_updated} across 36 States/UTs."
+            f"Tax Slabs Seed Complete! Total Slabs Created: {total_created} across 36 States/UTs. Existing rates were preserved."
         ))
