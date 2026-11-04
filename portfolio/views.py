@@ -66,6 +66,18 @@ class VehicleViewSet(viewsets.ReadOnlyModelViewSet):
                 queryset = queryset.filter(fuel_type__icontains=fuel)
             else:
                 queryset = queryset.none()
+        min_price = self.request.query_params.get('min_price')
+        max_price = self.request.query_params.get('max_price')
+        if min_price:
+            try:
+                queryset = queryset.filter(starting_price__gte=min_price)
+            except (TypeError, ValueError):
+                queryset = queryset.none()
+        if max_price:
+            try:
+                queryset = queryset.filter(starting_price__lte=max_price)
+            except (TypeError, ValueError):
+                queryset = queryset.none()
         return queryset
 
     def get_serializer_class(self):

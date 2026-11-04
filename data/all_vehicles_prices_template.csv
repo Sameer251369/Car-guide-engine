@@ -1,0 +1,1196 @@
+brand,name,starting_price,top_variant_price,ex_showroom_price,variant_name,variant_price,variant_fuel,variant_transmission
+Aston Martin,DB12,42500000.00,42500000.00,42500000.00,Standard Edition AT,42500000.00,Petrol,Automatic
+Aston Martin,DB12,42500000.00,42500000.00,42500000.00,Dynamic Sport AT,44620000.00,Petrol,Automatic
+Aston Martin,DB12,42500000.00,42500000.00,42500000.00,First Edition Performance AT,46750000.00,Petrol,Automatic
+Aston Martin,DB12 Volante,46000000.00,46000000.00,46000000.00,Standard Edition AT,46000000.00,Petrol,Automatic
+Aston Martin,DB12 Volante,46000000.00,46000000.00,46000000.00,Dynamic Sport AT,48300000.00,Petrol,Automatic
+Aston Martin,DB12 Volante,46000000.00,46000000.00,46000000.00,First Edition Performance AT,50600000.00,Petrol,Automatic
+Aston Martin,Vanquish,55000000.00,55000000.00,55000000.00,Standard Edition AT,55000000.00,Petrol,Automatic
+Aston Martin,Vanquish,55000000.00,55000000.00,55000000.00,Dynamic Sport AT,57750000.00,Petrol,Automatic
+Aston Martin,Vanquish,55000000.00,55000000.00,55000000.00,First Edition Performance AT,60500000.00,Petrol,Automatic
+Aston Martin,Vanquish Volante,60000000.00,60000000.00,60000000.00,Standard Edition AT,60000000.00,Petrol,Automatic
+Aston Martin,Vanquish Volante,60000000.00,60000000.00,60000000.00,Dynamic Sport AT,63000000.00,Petrol,Automatic
+Aston Martin,Vanquish Volante,60000000.00,60000000.00,60000000.00,First Edition Performance AT,66000000.00,Petrol,Automatic
+Aston Martin,Vantage,39900000.00,39900000.00,39900000.00,Standard Edition AT,39900000.00,Petrol,Automatic
+Aston Martin,Vantage,39900000.00,39900000.00,39900000.00,Dynamic Sport AT,41900000.00,Petrol,Automatic
+Aston Martin,Vantage,39900000.00,39900000.00,39900000.00,First Edition Performance AT,43890000.00,Petrol,Automatic
+Aston Martin,Vantage Roadster,42000000.00,42000000.00,42000000.00,Standard Edition AT,42000000.00,Petrol,Automatic
+Aston Martin,Vantage Roadster,42000000.00,42000000.00,42000000.00,Dynamic Sport AT,44100000.00,Petrol,Automatic
+Aston Martin,Vantage Roadster,42000000.00,42000000.00,42000000.00,First Edition Performance AT,46200000.00,Petrol,Automatic
+Audi,A4,4699000.00,5500000.00,4699000.00,Standard Edition AT,4700000.00,Petrol,Automatic
+Audi,A4,4699000.00,5500000.00,4699000.00,Dynamic Sport AT,5100000.00,Petrol,Automatic
+Audi,A4,4699000.00,5500000.00,4699000.00,First Edition Performance AT,5500000.00,Petrol,Automatic
+Audi,A6,6400000.00,7500000.00,6400000.00,Standard Edition AT,6400000.00,Petrol,Automatic
+Audi,A6,6400000.00,7500000.00,6400000.00,Dynamic Sport AT,6950000.00,Petrol,Automatic
+Audi,A6,6400000.00,7500000.00,6400000.00,First Edition Performance AT,7500000.00,Petrol,Automatic
+Audi,A6 e-tron,7000000.00,9000000.00,7000000.00,Standard Edition AT,7000000.00,Electric,Automatic
+Audi,A6 e-tron,7000000.00,9000000.00,7000000.00,Dynamic Sport AT,8000000.00,Electric,Automatic
+Audi,A6 e-tron,7000000.00,9000000.00,7000000.00,First Edition Performance AT,9000000.00,Electric,Automatic
+Audi,A8 L,13400000.00,13400000.00,13400000.00,Standard Edition AT,13400000.00,Petrol,Automatic
+Audi,A8 L,13400000.00,13400000.00,13400000.00,Dynamic Sport AT,14070000.00,Petrol,Automatic
+Audi,A8 L,13400000.00,13400000.00,13400000.00,First Edition Performance AT,14740000.00,Petrol,Automatic
+Audi,Q3,4600000.00,5500000.00,4600000.00,Standard Edition AT,4600000.00,Petrol,Automatic
+Audi,Q3,4600000.00,5500000.00,4600000.00,Dynamic Sport AT,5050000.00,Petrol,Automatic
+Audi,Q3,4600000.00,5500000.00,4600000.00,First Edition Performance AT,5500000.00,Petrol,Automatic
+Audi,Q3 Sportback,5500000.00,6000000.00,5500000.00,Standard Edition AT,5500000.00,Petrol,Automatic
+Audi,Q3 Sportback,5500000.00,6000000.00,5500000.00,Dynamic Sport AT,5750000.00,Petrol,Automatic
+Audi,Q3 Sportback,5500000.00,6000000.00,5500000.00,First Edition Performance AT,6000000.00,Petrol,Automatic
+Audi,Q5,6500000.00,7500000.00,6500000.00,Standard Edition AT,6500000.00,Petrol,Automatic
+Audi,Q5,6500000.00,7500000.00,6500000.00,Dynamic Sport AT,7000000.00,Petrol,Automatic
+Audi,Q5,6500000.00,7500000.00,6500000.00,First Edition Performance AT,7500000.00,Petrol,Automatic
+Audi,Q7,8800000.00,10200000.00,8800000.00,Standard Edition AT,8800000.00,Petrol,Automatic
+Audi,Q7,8800000.00,10200000.00,8800000.00,Dynamic Sport AT,9500000.00,Petrol,Automatic
+Audi,Q7,8800000.00,10200000.00,8800000.00,First Edition Performance AT,10200000.00,Petrol,Automatic
+Audi,Q8,11700000.00,11700000.00,11700000.00,Standard Edition AT,11700000.00,Petrol,Automatic
+Audi,Q8,11700000.00,11700000.00,11700000.00,Dynamic Sport AT,12280000.00,Petrol,Automatic
+Audi,Q8,11700000.00,11700000.00,11700000.00,First Edition Performance AT,12870000.00,Petrol,Automatic
+Audi,Q8 Sportback e-tron,12000000.00,13500000.00,12000000.00,Standard Edition AT,12000000.00,Electric,Automatic
+Audi,Q8 Sportback e-tron,12000000.00,13500000.00,12000000.00,Dynamic Sport AT,12750000.00,Electric,Automatic
+Audi,Q8 Sportback e-tron,12000000.00,13500000.00,12000000.00,First Edition Performance AT,13500000.00,Electric,Automatic
+Audi,Q8 e-tron,11500000.00,13000000.00,11500000.00,Standard Edition AT,11500000.00,Electric,Automatic
+Audi,Q8 e-tron,11500000.00,13000000.00,11500000.00,Dynamic Sport AT,12250000.00,Electric,Automatic
+Audi,Q8 e-tron,11500000.00,13000000.00,11500000.00,First Edition Performance AT,13000000.00,Electric,Automatic
+Audi,RS Q8 Performance,23000000.00,23000000.00,23000000.00,Standard Edition AT,23000000.00,Petrol,Automatic
+Audi,RS Q8 Performance,23000000.00,23000000.00,23000000.00,Dynamic Sport AT,24150000.00,Petrol,Automatic
+Audi,RS Q8 Performance,23000000.00,23000000.00,23000000.00,First Edition Performance AT,25300000.00,Petrol,Automatic
+Audi,SQ8,17000000.00,17000000.00,17000000.00,Standard Edition AT,17000000.00,Petrol,Automatic
+Audi,SQ8,17000000.00,17000000.00,17000000.00,Dynamic Sport AT,17850000.00,Petrol,Automatic
+Audi,SQ8,17000000.00,17000000.00,17000000.00,First Edition Performance AT,18700000.00,Petrol,Automatic
+Audi,e-tron GT,17000000.00,20000000.00,17000000.00,Standard Edition AT,17000000.00,Electric,Automatic
+Audi,e-tron GT,17000000.00,20000000.00,17000000.00,Dynamic Sport AT,18500000.00,Electric,Automatic
+Audi,e-tron GT,17000000.00,20000000.00,17000000.00,First Edition Performance AT,20000000.00,Electric,Automatic
+BMW,2 Series Gran Coupe,4690000.00,4850000.00,4690000.00,Standard Edition AT,4690000.00,Petrol/Diesel,Automatic
+BMW,2 Series Gran Coupe,4690000.00,4850000.00,4690000.00,Dynamic Sport AT,4770000.00,Petrol/Diesel,Automatic
+BMW,2 Series Gran Coupe,4690000.00,4850000.00,4690000.00,First Edition Performance AT,4850000.00,Petrol/Diesel,Automatic
+BMW,3 Series,6000000.00,6500000.00,6000000.00,Standard Edition AT,6000000.00,Petrol,Automatic
+BMW,3 Series,6000000.00,6500000.00,6000000.00,Dynamic Sport AT,6250000.00,Petrol,Automatic
+BMW,3 Series,6000000.00,6500000.00,6000000.00,First Edition Performance AT,6500000.00,Petrol,Automatic
+BMW,3 Series LWB,6200000.00,6500000.00,6200000.00,Standard Edition AT,6200000.00,Petrol,Automatic
+BMW,3 Series LWB,6200000.00,6500000.00,6200000.00,Dynamic Sport AT,6350000.00,Petrol,Automatic
+BMW,3 Series LWB,6200000.00,6500000.00,6200000.00,First Edition Performance AT,6500000.00,Petrol,Automatic
+BMW,5 Series,7500000.00,8500000.00,7500000.00,Standard Edition AT,7500000.00,Petrol,Automatic
+BMW,5 Series,7500000.00,8500000.00,7500000.00,Dynamic Sport AT,8000000.00,Petrol,Automatic
+BMW,5 Series,7500000.00,8500000.00,7500000.00,First Edition Performance AT,8500000.00,Petrol,Automatic
+BMW,5 Series LWB,7900000.00,8500000.00,7900000.00,Standard Edition AT,7900000.00,Petrol,Automatic
+BMW,5 Series LWB,7900000.00,8500000.00,7900000.00,Dynamic Sport AT,8200000.00,Petrol,Automatic
+BMW,5 Series LWB,7900000.00,8500000.00,7900000.00,First Edition Performance AT,8500000.00,Petrol,Automatic
+BMW,7 Series,14500000.00,18500000.00,14500000.00,Standard Edition AT,14500000.00,Petrol,Automatic
+BMW,7 Series,14500000.00,18500000.00,14500000.00,Dynamic Sport AT,16500000.00,Petrol,Automatic
+BMW,7 Series,14500000.00,18500000.00,14500000.00,First Edition Performance AT,18500000.00,Petrol,Automatic
+BMW,M2,10500000.00,10500000.00,10500000.00,Standard Edition AT,10500000.00,Petrol,Automatic
+BMW,M2,10500000.00,10500000.00,10500000.00,Dynamic Sport AT,11020000.00,Petrol,Automatic
+BMW,M2,10500000.00,10500000.00,10500000.00,First Edition Performance AT,11550000.00,Petrol,Automatic
+BMW,M3,15000000.00,15000000.00,15000000.00,Standard Edition AT,15000000.00,Petrol,Automatic
+BMW,M3,15000000.00,15000000.00,15000000.00,Dynamic Sport AT,15750000.00,Petrol,Automatic
+BMW,M3,15000000.00,15000000.00,15000000.00,First Edition Performance AT,16500000.00,Petrol,Automatic
+BMW,M4,15500000.00,15500000.00,15500000.00,Standard Edition AT,15500000.00,Petrol,Automatic
+BMW,M4,15500000.00,15500000.00,15500000.00,Dynamic Sport AT,16280000.00,Petrol,Automatic
+BMW,M4,15500000.00,15500000.00,15500000.00,First Edition Performance AT,17050000.00,Petrol,Automatic
+BMW,M5,19900000.00,19900000.00,19900000.00,Standard Edition AT,19900000.00,Petrol Hybrid,Automatic
+BMW,M5,19900000.00,19900000.00,19900000.00,Dynamic Sport AT,20900000.00,Hybrid,Automatic
+BMW,M5,19900000.00,19900000.00,19900000.00,First Edition Performance AT,21890000.00,Petrol Hybrid,Automatic
+BMW,X1,5000000.00,5800000.00,5000000.00,Standard Edition AT,5000000.00,Petrol/Diesel,Automatic
+BMW,X1,5000000.00,5800000.00,5000000.00,Dynamic Sport AT,5400000.00,Petrol/Diesel,Automatic
+BMW,X1,5000000.00,5800000.00,5000000.00,First Edition Performance AT,5800000.00,Petrol/Diesel,Automatic
+BMW,X3,7000000.00,8000000.00,7000000.00,Standard Edition AT,7000000.00,Petrol/Diesel,Automatic
+BMW,X3,7000000.00,8000000.00,7000000.00,Dynamic Sport AT,7500000.00,Petrol/Diesel,Automatic
+BMW,X3,7000000.00,8000000.00,7000000.00,First Edition Performance AT,8000000.00,Petrol/Diesel,Automatic
+BMW,X5,9800000.00,11500000.00,9800000.00,Standard Edition AT,9800000.00,Petrol/Diesel,Automatic
+BMW,X5,9800000.00,11500000.00,9800000.00,Dynamic Sport AT,10650000.00,Petrol/Diesel,Automatic
+BMW,X5,9800000.00,11500000.00,9800000.00,First Edition Performance AT,11500000.00,Petrol/Diesel,Automatic
+BMW,X7,12800000.00,13500000.00,12800000.00,Standard Edition AT,12800000.00,Petrol/Diesel,Automatic
+BMW,X7,12800000.00,13500000.00,12800000.00,Dynamic Sport AT,13150000.00,Petrol/Diesel,Automatic
+BMW,X7,12800000.00,13500000.00,12800000.00,First Edition Performance AT,13500000.00,Petrol/Diesel,Automatic
+BMW,XM,26000000.00,26000000.00,26000000.00,Standard Edition AT,26000000.00,Petrol Hybrid,Automatic
+BMW,XM,26000000.00,26000000.00,26000000.00,Dynamic Sport AT,27300000.00,Hybrid,Automatic
+BMW,XM,26000000.00,26000000.00,26000000.00,First Edition Performance AT,28600000.00,Petrol Hybrid,Automatic
+BMW,Z4,9000000.00,9500000.00,9000000.00,Standard Edition AT,9000000.00,Petrol,Automatic
+BMW,Z4,9000000.00,9500000.00,9000000.00,Dynamic Sport AT,9250000.00,Petrol,Automatic
+BMW,Z4,9000000.00,9500000.00,9000000.00,First Edition Performance AT,9500000.00,Petrol,Automatic
+BMW,i4,7250000.00,7700000.00,7250000.00,Standard Edition AT,7250000.00,Electric,Automatic
+BMW,i4,7250000.00,7700000.00,7250000.00,Dynamic Sport AT,7480000.00,Electric,Automatic
+BMW,i4,7250000.00,7700000.00,7250000.00,First Edition Performance AT,7700000.00,Electric,Automatic
+BMW,i5,12000000.00,13500000.00,12000000.00,Standard Edition AT,12000000.00,Electric,Automatic
+BMW,i5,12000000.00,13500000.00,12000000.00,Dynamic Sport AT,12750000.00,Electric,Automatic
+BMW,i5,12000000.00,13500000.00,12000000.00,First Edition Performance AT,13500000.00,Electric,Automatic
+BMW,i7,20500000.00,25500000.00,20500000.00,Standard Edition AT,20500000.00,Electric,Automatic
+BMW,i7,20500000.00,25500000.00,20500000.00,Dynamic Sport AT,23000000.00,Electric,Automatic
+BMW,i7,20500000.00,25500000.00,20500000.00,First Edition Performance AT,25500000.00,Electric,Automatic
+BMW,iX,14000000.00,15500000.00,14000000.00,Standard Edition AT,14000000.00,Electric,Automatic
+BMW,iX,14000000.00,15500000.00,14000000.00,Dynamic Sport AT,14750000.00,Electric,Automatic
+BMW,iX,14000000.00,15500000.00,14000000.00,First Edition Performance AT,15500000.00,Electric,Automatic
+BMW,iX1,4900000.00,5500000.00,4900000.00,Standard Edition AT,4900000.00,Electric,Automatic
+BMW,iX1,4900000.00,5500000.00,4900000.00,Dynamic Sport AT,5200000.00,Electric,Automatic
+BMW,iX1,4900000.00,5500000.00,4900000.00,First Edition Performance AT,5500000.00,Electric,Automatic
+BMW,iX1 LWB,5000000.00,5500000.00,5000000.00,Standard Edition AT,5000000.00,Electric,Automatic
+BMW,iX1 LWB,5000000.00,5500000.00,5000000.00,Dynamic Sport AT,5250000.00,Electric,Automatic
+BMW,iX1 LWB,5000000.00,5500000.00,5000000.00,First Edition Performance AT,5500000.00,Electric,Automatic
+BMW,iX3,10000000.00,11000000.00,10000000.00,Standard Edition AT,10000000.00,Electric,Automatic
+BMW,iX3,10000000.00,11000000.00,10000000.00,Dynamic Sport AT,10500000.00,Electric,Automatic
+BMW,iX3,10000000.00,11000000.00,10000000.00,First Edition Performance AT,11000000.00,Electric,Automatic
+BYD,Atto 3,2499000.00,3399000.00,2499000.00,Base Edition MT,2500000.00,Electric,Manual
+BYD,Atto 3,2499000.00,3399000.00,2499000.00,Plus Executive MT,2810000.00,Electric,Manual
+BYD,Atto 3,2499000.00,3399000.00,2499000.00,Highline Tech AT,3130000.00,Electric,Automatic
+BYD,Atto 3,2499000.00,3399000.00,2499000.00,Top Luxury AT,3400000.00,Electric,Automatic
+BYD,Atto 3 EVO,3000000.00,3500000.00,3000000.00,Standard Edition AT,3000000.00,Electric,Automatic
+BYD,Atto 3 EVO,3000000.00,3500000.00,3000000.00,Dynamic Sport AT,3250000.00,Electric,Automatic
+BYD,Atto 3 EVO,3000000.00,3500000.00,3000000.00,First Edition Performance AT,3500000.00,Electric,Automatic
+BYD,Seal,4100000.00,5300000.00,4100000.00,Standard Edition AT,4100000.00,Electric,Automatic
+BYD,Seal,4100000.00,5300000.00,4100000.00,Dynamic Sport AT,4700000.00,Electric,Automatic
+BYD,Seal,4100000.00,5300000.00,4100000.00,First Edition Performance AT,5300000.00,Electric,Automatic
+BYD,Seal U,4500000.00,5000000.00,4500000.00,Standard Edition AT,4500000.00,Electric,Automatic
+BYD,Seal U,4500000.00,5000000.00,4500000.00,Dynamic Sport AT,4750000.00,Electric,Automatic
+BYD,Seal U,4500000.00,5000000.00,4500000.00,First Edition Performance AT,5000000.00,Electric,Automatic
+BYD,Sealion 7,4900000.00,7000000.00,4900000.00,Standard Edition AT,4900000.00,Electric,Automatic
+BYD,Sealion 7,4900000.00,7000000.00,4900000.00,Dynamic Sport AT,5950000.00,Electric,Automatic
+BYD,Sealion 7,4900000.00,7000000.00,4900000.00,First Edition Performance AT,7000000.00,Electric,Automatic
+BYD,eMAX 7,2690000.00,2990000.00,2690000.00,Base Edition MT,2690000.00,Electric,Manual
+BYD,eMAX 7,2690000.00,2990000.00,2690000.00,Plus Executive MT,2800000.00,Electric,Manual
+BYD,eMAX 7,2690000.00,2990000.00,2690000.00,Highline Tech AT,2900000.00,Electric,Automatic
+BYD,eMAX 7,2690000.00,2990000.00,2690000.00,Top Luxury AT,2990000.00,Electric,Automatic
+Bentley,Bentayga,50000000.00,60000000.00,50000000.00,Standard Edition AT,50000000.00,Petrol,Automatic
+Bentley,Bentayga,50000000.00,60000000.00,50000000.00,Dynamic Sport AT,55000000.00,Petrol,Automatic
+Bentley,Bentayga,50000000.00,60000000.00,50000000.00,First Edition Performance AT,60000000.00,Petrol,Automatic
+Bentley,Bentayga EWB,60000000.00,70000000.00,60000000.00,Standard Edition AT,60000000.00,Petrol,Automatic
+Bentley,Bentayga EWB,60000000.00,70000000.00,60000000.00,Dynamic Sport AT,65000000.00,Petrol,Automatic
+Bentley,Bentayga EWB,60000000.00,70000000.00,60000000.00,First Edition Performance AT,70000000.00,Petrol,Automatic
+Bentley,Continental GT,52300000.00,60000000.00,52300000.00,Standard Edition AT,52300000.00,Petrol,Automatic
+Bentley,Continental GT,52300000.00,60000000.00,52300000.00,Dynamic Sport AT,56150000.00,Petrol,Automatic
+Bentley,Continental GT,52300000.00,60000000.00,52300000.00,First Edition Performance AT,60000000.00,Petrol,Automatic
+Bentley,Continental GT Convertible,55000000.00,63000000.00,55000000.00,Standard Edition AT,55000000.00,Petrol,Automatic
+Bentley,Continental GT Convertible,55000000.00,63000000.00,55000000.00,Dynamic Sport AT,59000000.00,Petrol,Automatic
+Bentley,Continental GT Convertible,55000000.00,63000000.00,55000000.00,First Edition Performance AT,63000000.00,Petrol,Automatic
+Bentley,Flying Spur,55000000.00,65000000.00,55000000.00,Standard Edition AT,55000000.00,Petrol,Automatic
+Bentley,Flying Spur,55000000.00,65000000.00,55000000.00,Dynamic Sport AT,60000000.00,Petrol,Automatic
+Bentley,Flying Spur,55000000.00,65000000.00,55000000.00,First Edition Performance AT,65000000.00,Petrol,Automatic
+Citroën,Basalt,800000.00,1400000.00,800000.00,Base Edition MT,800000.00,Petrol,Manual
+Citroën,Basalt,800000.00,1400000.00,800000.00,Plus Executive MT,1010000.00,Petrol,Manual
+Citroën,Basalt,800000.00,1400000.00,800000.00,Highline Tech AT,1220000.00,Petrol,Automatic
+Citroën,Basalt,800000.00,1400000.00,800000.00,Top Luxury AT,1400000.00,Petrol,Automatic
+Citroën,C3,599000.00,900000.00,599000.00,Base Edition MT,600000.00,Petrol,Manual
+Citroën,C3,599000.00,900000.00,599000.00,Plus Executive MT,700000.00,Petrol,Manual
+Citroën,C3,599000.00,900000.00,599000.00,Highline Tech AT,810000.00,Petrol,Automatic
+Citroën,C3,599000.00,900000.00,599000.00,Top Luxury AT,900000.00,Petrol,Automatic
+Citroën,C3 Aircross,1100000.00,1700000.00,1100000.00,Base Edition MT,1100000.00,Petrol,Manual
+Citroën,C3 Aircross,1100000.00,1700000.00,1100000.00,Plus Executive MT,1310000.00,Petrol,Manual
+Citroën,C3 Aircross,1100000.00,1700000.00,1100000.00,Highline Tech AT,1520000.00,Petrol,Automatic
+Citroën,C3 Aircross,1100000.00,1700000.00,1100000.00,Top Luxury AT,1700000.00,Petrol,Automatic
+Citroën,C3X,800000.00,1300000.00,800000.00,Base Edition MT,800000.00,Petrol,Manual
+Citroën,C3X,800000.00,1300000.00,800000.00,Plus Executive MT,980000.00,Petrol,Manual
+Citroën,C3X,800000.00,1300000.00,800000.00,Highline Tech AT,1150000.00,Petrol,Automatic
+Citroën,C3X,800000.00,1300000.00,800000.00,Top Luxury AT,1300000.00,Petrol,Automatic
+Citroën,C5 Aircross,3500000.00,4000000.00,3500000.00,Standard Edition AT,3500000.00,Petrol,Automatic
+Citroën,C5 Aircross,3500000.00,4000000.00,3500000.00,Dynamic Sport AT,3750000.00,Petrol,Automatic
+Citroën,C5 Aircross,3500000.00,4000000.00,3500000.00,First Edition Performance AT,4000000.00,Petrol,Automatic
+Citroën,ë-C3,1200000.00,1400000.00,1200000.00,Base Edition MT,1200000.00,Electric,Manual
+Citroën,ë-C3,1200000.00,1400000.00,1200000.00,Plus Executive MT,1270000.00,Electric,Manual
+Citroën,ë-C3,1200000.00,1400000.00,1200000.00,Highline Tech AT,1340000.00,Electric,Automatic
+Citroën,ë-C3,1200000.00,1400000.00,1200000.00,Top Luxury AT,1400000.00,Electric,Automatic
+Ferrari,12Cilindri,70000000.00,70000000.00,70000000.00,Standard Edition AT,70000000.00,Petrol,Automatic
+Ferrari,12Cilindri,70000000.00,70000000.00,70000000.00,Dynamic Sport AT,73500000.00,Petrol,Automatic
+Ferrari,12Cilindri,70000000.00,70000000.00,70000000.00,First Edition Performance AT,77000000.00,Petrol,Automatic
+Ferrari,12Cilindri Spider,78000000.00,78000000.00,78000000.00,Standard Edition AT,78000000.00,Petrol,Automatic
+Ferrari,12Cilindri Spider,78000000.00,78000000.00,78000000.00,Dynamic Sport AT,81900000.00,Petrol,Automatic
+Ferrari,12Cilindri Spider,78000000.00,78000000.00,78000000.00,First Edition Performance AT,85800000.00,Petrol,Automatic
+Ferrari,296 GTB,54000000.00,54000000.00,54000000.00,Standard Edition AT,54000000.00,Petrol Hybrid,Automatic
+Ferrari,296 GTB,54000000.00,54000000.00,54000000.00,Dynamic Sport AT,56700000.00,Hybrid,Automatic
+Ferrari,296 GTB,54000000.00,54000000.00,54000000.00,First Edition Performance AT,59400000.00,Petrol Hybrid,Automatic
+Ferrari,296 GTS,62000000.00,62000000.00,62000000.00,Standard Edition AT,62000000.00,Petrol Hybrid,Automatic
+Ferrari,296 GTS,62000000.00,62000000.00,62000000.00,Dynamic Sport AT,65100000.00,Hybrid,Automatic
+Ferrari,296 GTS,62000000.00,62000000.00,62000000.00,First Edition Performance AT,68200000.00,Petrol Hybrid,Automatic
+Ferrari,Amalfi,50000000.00,50000000.00,50000000.00,Standard Edition AT,50000000.00,Petrol,Automatic
+Ferrari,Amalfi,50000000.00,50000000.00,50000000.00,Dynamic Sport AT,52500000.00,Petrol,Automatic
+Ferrari,Amalfi,50000000.00,50000000.00,50000000.00,First Edition Performance AT,55000000.00,Petrol,Automatic
+Ferrari,Amalfi Spider,55000000.00,55000000.00,55000000.00,Standard Edition AT,55000000.00,Petrol,Automatic
+Ferrari,Amalfi Spider,55000000.00,55000000.00,55000000.00,Dynamic Sport AT,57750000.00,Petrol,Automatic
+Ferrari,Amalfi Spider,55000000.00,55000000.00,55000000.00,First Edition Performance AT,60500000.00,Petrol,Automatic
+Ferrari,Purosangue,105000000.00,105000000.00,105000000.00,Standard Edition AT,105000000.00,Petrol,Automatic
+Ferrari,Purosangue,105000000.00,105000000.00,105000000.00,Dynamic Sport AT,110250000.00,Petrol,Automatic
+Ferrari,Purosangue,105000000.00,105000000.00,105000000.00,First Edition Performance AT,115500000.00,Petrol,Automatic
+Ferrari,SF90 Spider,80000000.00,80000000.00,80000000.00,Standard Edition AT,80000000.00,Petrol Hybrid,Automatic
+Ferrari,SF90 Spider,80000000.00,80000000.00,80000000.00,Dynamic Sport AT,84000000.00,Hybrid,Automatic
+Ferrari,SF90 Spider,80000000.00,80000000.00,80000000.00,First Edition Performance AT,88000000.00,Petrol Hybrid,Automatic
+Ferrari,SF90 Stradale,75000000.00,75000000.00,75000000.00,Standard Edition AT,75000000.00,Petrol Hybrid,Automatic
+Ferrari,SF90 Stradale,75000000.00,75000000.00,75000000.00,Dynamic Sport AT,78750000.00,Hybrid,Automatic
+Ferrari,SF90 Stradale,75000000.00,75000000.00,75000000.00,First Edition Performance AT,82500000.00,Petrol Hybrid,Automatic
+Force Motors,Gurkha,1600000.00,1800000.00,1600000.00,Base Edition MT,1600000.00,Diesel,Manual
+Force Motors,Gurkha,1600000.00,1800000.00,1600000.00,Plus Executive MT,1670000.00,Diesel,Manual
+Force Motors,Gurkha,1600000.00,1800000.00,1600000.00,Highline Tech AT,1740000.00,Diesel,Automatic
+Force Motors,Gurkha,1600000.00,1800000.00,1600000.00,Top Luxury AT,1800000.00,Diesel,Automatic
+Force Motors,Gurkha 5-Door,1800000.00,2000000.00,1800000.00,Base Edition MT,1800000.00,Diesel,Manual
+Force Motors,Gurkha 5-Door,1800000.00,2000000.00,1800000.00,Plus Executive MT,1870000.00,Diesel,Manual
+Force Motors,Gurkha 5-Door,1800000.00,2000000.00,1800000.00,Highline Tech AT,1940000.00,Diesel,Automatic
+Force Motors,Gurkha 5-Door,1800000.00,2000000.00,1800000.00,Top Luxury AT,2000000.00,Diesel,Automatic
+Force Motors,Gurkha EV,,,,Base Edition MT,800000.00,Electric,Manual
+Force Motors,Gurkha EV,,,,Plus Executive MT,1010000.00,Electric,Manual
+Force Motors,Gurkha EV,,,,Highline Tech AT,1220000.00,Electric,Automatic
+Force Motors,Gurkha EV,,,,Top Luxury AT,1400000.00,Electric,Automatic
+Force Motors,Urbania,2400000.00,3200000.00,2400000.00,Base Edition MT,2400000.00,Diesel,Manual
+Force Motors,Urbania,2400000.00,3200000.00,2400000.00,Plus Executive MT,2680000.00,Diesel,Manual
+Force Motors,Urbania,2400000.00,3200000.00,2400000.00,Highline Tech AT,2960000.00,Diesel,Automatic
+Force Motors,Urbania,2400000.00,3200000.00,2400000.00,Top Luxury AT,3200000.00,Diesel,Automatic
+Honda,Amaze,800000.00,1100000.00,800000.00,SV MT,800000.00,Petrol,Manual
+Honda,Amaze,800000.00,1100000.00,800000.00,V CVT,900000.00,Petrol,Automatic
+Honda,Amaze,800000.00,1100000.00,800000.00,VX CVT,1010000.00,Petrol,Automatic
+Honda,Amaze,800000.00,1100000.00,800000.00,ZX e:HEV Hybrid,1100000.00,Petrol,5MT/CVT
+Honda,City,1200000.00,1700000.00,1200000.00,SV MT,1200000.00,Petrol,Manual
+Honda,City,1200000.00,1700000.00,1200000.00,V CVT,1380000.00,Petrol,Automatic
+Honda,City,1200000.00,1700000.00,1200000.00,VX CVT,1550000.00,Petrol,Automatic
+Honda,City,1200000.00,1700000.00,1200000.00,ZX e:HEV Hybrid,1700000.00,Petrol,6MT/CVT
+Honda,City e:HEV,2000000.00,2000000.00,2000000.00,SV MT,2000000.00,Petrol Hybrid,Manual
+Honda,City e:HEV,2000000.00,2000000.00,2000000.00,V CVT,2100000.00,Hybrid,Automatic
+Honda,City e:HEV,2000000.00,2000000.00,2000000.00,VX CVT,2200000.00,Petrol Hybrid,Automatic
+Honda,City e:HEV,2000000.00,2000000.00,2000000.00,ZX e:HEV Hybrid,2300000.00,Hybrid,e-CVT
+Honda,Elevate,1100000.00,1650000.00,1100000.00,SV MT,1100000.00,Petrol,Manual
+Honda,Elevate,1100000.00,1650000.00,1100000.00,V CVT,1290000.00,Electric,Automatic
+Honda,Elevate,1100000.00,1650000.00,1100000.00,VX CVT,1480000.00,Petrol,Automatic
+Honda,Elevate,1100000.00,1650000.00,1100000.00,ZX e:HEV Hybrid,1650000.00,Electric,6MT/CVT
+Honda,ZR-V,3000000.00,4000000.00,3000000.00,SV MT,3000000.00,Petrol,Manual
+Honda,ZR-V,3000000.00,4000000.00,3000000.00,V CVT,3350000.00,Petrol,Automatic
+Honda,ZR-V,3000000.00,4000000.00,3000000.00,VX CVT,3700000.00,Petrol,Automatic
+Honda,ZR-V,3000000.00,4000000.00,3000000.00,ZX e:HEV Hybrid,4000000.00,Petrol,CVT
+Hyundai,Alcazar,1451000.00,2100000.00,1451000.00,E 1.5 MT,1450000.00,Petrol/Diesel,Manual
+Hyundai,Alcazar,1451000.00,2100000.00,1451000.00,EX 1.5 MT,1580000.00,Petrol/Diesel,Manual
+Hyundai,Alcazar,1451000.00,2100000.00,1451000.00,S 1.5 MT,1710000.00,Petrol/Diesel,Manual
+Hyundai,Alcazar,1451000.00,2100000.00,1451000.00,SX Tech IVT,1940000.00,Petrol/Diesel,Automatic
+Hyundai,Alcazar,1451000.00,2100000.00,1451000.00,SX (O) ADAS DCT,2100000.00,Petrol/Diesel,Automatic
+Hyundai,Aura,600000.00,900000.00,600000.00,E 1.5 MT,600000.00,Petrol/CNG,Manual
+Hyundai,Aura,600000.00,900000.00,600000.00,EX 1.5 MT,660000.00,CNG,Manual
+Hyundai,Aura,600000.00,900000.00,600000.00,S 1.5 MT,720000.00,Petrol/CNG,Manual
+Hyundai,Aura,600000.00,900000.00,600000.00,SX Tech IVT,820000.00,CNG,Automatic
+Hyundai,Aura,600000.00,900000.00,600000.00,SX (O) ADAS DCT,900000.00,Petrol/CNG,Automatic
+Hyundai,Creta,1091000.00,2000000.00,1091000.00,E 1.5 MT,1090000.00,Petrol/Diesel,Manual
+Hyundai,Creta,1091000.00,2000000.00,1091000.00,EX 1.5 MT,1270000.00,Petrol/Diesel,Manual
+Hyundai,Creta,1091000.00,2000000.00,1091000.00,S 1.5 MT,1450000.00,Petrol/Diesel,Manual
+Hyundai,Creta,1091000.00,2000000.00,1091000.00,SX Tech IVT,1770000.00,Petrol/Diesel,Automatic
+Hyundai,Creta,1091000.00,2000000.00,1091000.00,SX (O) ADAS DCT,2000000.00,Petrol/Diesel,Automatic
+Hyundai,Creta 2026,,,,E 1.5 MT,800000.00,petrol,Manual
+Hyundai,Creta 2026,,,,EX 1.5 MT,920000.00,petrol,Manual
+Hyundai,Creta 2026,,,,S 1.5 MT,1040000.00,petrol,Manual
+Hyundai,Creta 2026,,,,SX Tech IVT,1250000.00,petrol,Automatic
+Hyundai,Creta 2026,,,,SX (O) ADAS DCT,1400000.00,petrol,Automatic
+Hyundai,Creta Electric,1800000.00,2450000.00,1800000.00,E 1.5 MT,1800000.00,Electric,Manual
+Hyundai,Creta Electric,1800000.00,2450000.00,1800000.00,EX 1.5 MT,1930000.00,Electric,Manual
+Hyundai,Creta Electric,1800000.00,2450000.00,1800000.00,S 1.5 MT,2060000.00,Electric,Manual
+Hyundai,Creta Electric,1800000.00,2450000.00,1800000.00,SX Tech IVT,2290000.00,Electric,Automatic
+Hyundai,Creta Electric,1800000.00,2450000.00,1800000.00,SX (O) ADAS DCT,2450000.00,Electric,Automatic
+Hyundai,Exter,581000.00,980000.00,581000.00,E 1.5 MT,580000.00,Petrol/CNG,Manual
+Hyundai,Exter,581000.00,980000.00,581000.00,EX 1.5 MT,660000.00,CNG,Manual
+Hyundai,Exter,581000.00,980000.00,581000.00,S 1.5 MT,740000.00,Petrol/CNG,Manual
+Hyundai,Exter,581000.00,980000.00,581000.00,SX Tech IVT,880000.00,CNG,Automatic
+Hyundai,Exter,581000.00,980000.00,581000.00,SX (O) ADAS DCT,980000.00,Petrol/CNG,Automatic
+Hyundai,Grand i10 Nios,550000.00,800000.00,550000.00,E 1.5 MT,550000.00,Petrol/CNG,Manual
+Hyundai,Grand i10 Nios,550000.00,800000.00,550000.00,EX 1.5 MT,600000.00,CNG,Manual
+Hyundai,Grand i10 Nios,550000.00,800000.00,550000.00,S 1.5 MT,650000.00,Petrol/CNG,Manual
+Hyundai,Grand i10 Nios,550000.00,800000.00,550000.00,Nios Corporate AMT,712210.00,Electric,Manual
+Hyundai,Grand i10 Nios,550000.00,800000.00,550000.00,SX Tech IVT,740000.00,CNG,Automatic
+Hyundai,Grand i10 Nios,550000.00,800000.00,550000.00,SX (O) ADAS DCT,800000.00,Petrol/CNG,Automatic
+Hyundai,Ioniq 5,4600000.00,5000000.00,4600000.00,E 1.5 MT,4600000.00,Electric,Manual
+Hyundai,Ioniq 5,4600000.00,5000000.00,4600000.00,EX 1.5 MT,4680000.00,Electric,Manual
+Hyundai,Ioniq 5,4600000.00,5000000.00,4600000.00,S 1.5 MT,4760000.00,Electric,Manual
+Hyundai,Ioniq 5,4600000.00,5000000.00,4600000.00,SX Tech IVT,4900000.00,Electric,Automatic
+Hyundai,Ioniq 5,4600000.00,5000000.00,4600000.00,SX (O) ADAS DCT,5000000.00,Electric,Automatic
+Hyundai,Ioniq 6,6500000.00,7500000.00,6500000.00,E 1.5 MT,6500000.00,Electric,Manual
+Hyundai,Ioniq 6,6500000.00,7500000.00,6500000.00,EX 1.5 MT,6700000.00,Electric,Manual
+Hyundai,Ioniq 6,6500000.00,7500000.00,6500000.00,S 1.5 MT,6900000.00,Electric,Manual
+Hyundai,Ioniq 6,6500000.00,7500000.00,6500000.00,SX Tech IVT,7250000.00,Electric,Automatic
+Hyundai,Ioniq 6,6500000.00,7500000.00,6500000.00,SX (O) ADAS DCT,7500000.00,Electric,Automatic
+Hyundai,Tucson,2900000.00,3600000.00,2900000.00,E 1.5 MT,2900000.00,Petrol/Diesel,Manual
+Hyundai,Tucson,2900000.00,3600000.00,2900000.00,EX 1.5 MT,3040000.00,Petrol/Diesel,Manual
+Hyundai,Tucson,2900000.00,3600000.00,2900000.00,S 1.5 MT,3180000.00,Petrol/Diesel,Manual
+Hyundai,Tucson,2900000.00,3600000.00,2900000.00,SX Tech IVT,3420000.00,Petrol/Diesel,Automatic
+Hyundai,Tucson,2900000.00,3600000.00,2900000.00,SX (O) ADAS DCT,3600000.00,Petrol/Diesel,Automatic
+Hyundai,Venue,799000.00,1550000.00,799000.00,E 1.5 MT,800000.00,Petrol/Diesel,Manual
+Hyundai,Venue,799000.00,1550000.00,799000.00,EX 1.5 MT,950000.00,Petrol/Diesel,Manual
+Hyundai,Venue,799000.00,1550000.00,799000.00,S 1.5 MT,1100000.00,Petrol/Diesel,Manual
+Hyundai,Venue,799000.00,1550000.00,799000.00,SX Tech IVT,1360000.00,Petrol/Diesel,Automatic
+Hyundai,Venue,799000.00,1550000.00,799000.00,SX (O) ADAS DCT,1550000.00,Petrol/Diesel,Automatic
+Hyundai,Venue N Line,1066000.00,1450000.00,1066000.00,E 1.5 MT,1070000.00,Petrol,Manual
+Hyundai,Venue N Line,1066000.00,1450000.00,1066000.00,EX 1.5 MT,1140000.00,Petrol,Manual
+Hyundai,Venue N Line,1066000.00,1450000.00,1066000.00,S 1.5 MT,1220000.00,Petrol,Manual
+Hyundai,Venue N Line,1066000.00,1450000.00,1066000.00,SX Tech IVT,1350000.00,Petrol,Automatic
+Hyundai,Venue N Line,1066000.00,1450000.00,1066000.00,SX (O) ADAS DCT,1450000.00,Petrol,Automatic
+Hyundai,Verna,1100000.00,1800000.00,1100000.00,E 1.5 MT,1100000.00,Petrol,Manual
+Hyundai,Verna,1100000.00,1800000.00,1100000.00,EX 1.5 MT,1240000.00,Petrol,Manual
+Hyundai,Verna,1100000.00,1800000.00,1100000.00,S 1.5 MT,1380000.00,Petrol,Manual
+Hyundai,Verna,1100000.00,1800000.00,1100000.00,SX Tech IVT,1620000.00,Petrol,Automatic
+Hyundai,Verna,1100000.00,1800000.00,1100000.00,SX (O) ADAS DCT,1800000.00,Petrol,Automatic
+Hyundai,i20,599000.00,1050000.00,599000.00,E 1.5 MT,600000.00,Petrol,Manual
+Hyundai,i20,599000.00,1050000.00,599000.00,EX 1.5 MT,690000.00,Petrol,Manual
+Hyundai,i20,599000.00,1050000.00,599000.00,S 1.5 MT,780000.00,Petrol,Manual
+Hyundai,i20,599000.00,1050000.00,599000.00,SX Tech IVT,940000.00,Petrol,Automatic
+Hyundai,i20,599000.00,1050000.00,599000.00,SX (O) ADAS DCT,1050000.00,Petrol,Automatic
+Hyundai,i20 N Line,1050000.00,1250000.00,1050000.00,E 1.5 MT,1050000.00,Petrol,Manual
+Hyundai,i20 N Line,1050000.00,1250000.00,1050000.00,EX 1.5 MT,1090000.00,Petrol,Manual
+Hyundai,i20 N Line,1050000.00,1250000.00,1050000.00,S 1.5 MT,1130000.00,Petrol,Manual
+Hyundai,i20 N Line,1050000.00,1250000.00,1050000.00,SX Tech IVT,1200000.00,Petrol,Automatic
+Hyundai,i20 N Line,1050000.00,1250000.00,1050000.00,SX (O) ADAS DCT,1250000.00,Petrol,Automatic
+Isuzu,D-Max,1100000.00,1300000.00,1100000.00,Base Edition MT,1100000.00,Diesel,Manual
+Isuzu,D-Max,1100000.00,1300000.00,1100000.00,Plus Executive MT,1170000.00,Diesel,Manual
+Isuzu,D-Max,1100000.00,1300000.00,1100000.00,Highline Tech AT,1240000.00,Diesel,Automatic
+Isuzu,D-Max,1100000.00,1300000.00,1100000.00,Top Luxury AT,1300000.00,Diesel,Automatic
+Isuzu,Hi-Lander,2000000.00,2000000.00,2000000.00,Base Edition MT,2000000.00,Diesel,Manual
+Isuzu,Hi-Lander,2000000.00,2000000.00,2000000.00,Plus Executive MT,2100000.00,Diesel,Manual
+Isuzu,Hi-Lander,2000000.00,2000000.00,2000000.00,Highline Tech AT,2200000.00,Diesel,Automatic
+Isuzu,Hi-Lander,2000000.00,2000000.00,2000000.00,Top Luxury AT,2300000.00,Diesel,Automatic
+Isuzu,MU-X,3600000.00,4000000.00,3600000.00,Standard Edition AT,3600000.00,Diesel,Automatic
+Isuzu,MU-X,3600000.00,4000000.00,3600000.00,Dynamic Sport AT,3800000.00,Diesel,Automatic
+Isuzu,MU-X,3600000.00,4000000.00,3600000.00,First Edition Performance AT,4000000.00,Diesel,Automatic
+Isuzu,V-Cross,2300000.00,3000000.00,2300000.00,Base Edition MT,2300000.00,Diesel,Manual
+Isuzu,V-Cross,2300000.00,3000000.00,2300000.00,Plus Executive MT,2540000.00,Diesel,Manual
+Isuzu,V-Cross,2300000.00,3000000.00,2300000.00,Highline Tech AT,2790000.00,Diesel,Automatic
+Isuzu,V-Cross,2300000.00,3000000.00,2300000.00,Top Luxury AT,3000000.00,Diesel,Automatic
+Jeep,Compass,2300000.00,3400000.00,2300000.00,Base Edition MT,2300000.00,Petrol/Diesel,Manual
+Jeep,Compass,2300000.00,3400000.00,2300000.00,Plus Executive MT,2680000.00,Petrol/Diesel,Manual
+Jeep,Compass,2300000.00,3400000.00,2300000.00,Highline Tech AT,3070000.00,Petrol/Diesel,Automatic
+Jeep,Compass,2300000.00,3400000.00,2300000.00,Top Luxury AT,3400000.00,Petrol/Diesel,Automatic
+Jeep,Grand Cherokee,8000000.00,9000000.00,8000000.00,Standard Edition AT,8000000.00,Petrol,Automatic
+Jeep,Grand Cherokee,8000000.00,9000000.00,8000000.00,Dynamic Sport AT,8500000.00,Petrol,Automatic
+Jeep,Grand Cherokee,8000000.00,9000000.00,8000000.00,First Edition Performance AT,9000000.00,Petrol,Automatic
+Jeep,Meridian,3100000.00,3900000.00,3100000.00,Standard Edition AT,3100000.00,Diesel,Automatic
+Jeep,Meridian,3100000.00,3900000.00,3100000.00,Dynamic Sport AT,3500000.00,Diesel,Automatic
+Jeep,Meridian,3100000.00,3900000.00,3100000.00,First Edition Performance AT,3900000.00,Diesel,Automatic
+Jeep,Wrangler,6800000.00,7400000.00,6800000.00,Standard Edition AT,6800000.00,Petrol,Automatic
+Jeep,Wrangler,6800000.00,7400000.00,6800000.00,Dynamic Sport AT,7100000.00,Petrol,Automatic
+Jeep,Wrangler,6800000.00,7400000.00,6800000.00,First Edition Performance AT,7400000.00,Petrol,Automatic
+Kia,Carens,1100000.00,2000000.00,1100000.00,HTE MT,1100000.00,Petrol/Diesel,Manual
+Kia,Carens,1100000.00,2000000.00,1100000.00,HTK+ MT,1370000.00,Petrol/Diesel,Manual
+Kia,Carens,1100000.00,2000000.00,1100000.00,HTX AT,1640000.00,Petrol/Diesel,Automatic
+Kia,Carens,1100000.00,2000000.00,1100000.00,GTX+ Turbo DCT,1860000.00,Petrol/Diesel,Automatic
+Kia,Carens,1100000.00,2000000.00,1100000.00,X-Line AT,2000000.00,Petrol/Diesel,Automatic
+Kia,Carens Clavis,1100000.00,2000000.00,1100000.00,HTE MT,1100000.00,Petrol/Diesel,Manual
+Kia,Carens Clavis,1100000.00,2000000.00,1100000.00,HTK+ MT,1370000.00,Petrol/Diesel,Manual
+Kia,Carens Clavis,1100000.00,2000000.00,1100000.00,HTX AT,1640000.00,Petrol/Diesel,Automatic
+Kia,Carens Clavis,1100000.00,2000000.00,1100000.00,GTX+ Turbo DCT,1860000.00,Petrol/Diesel,Automatic
+Kia,Carens Clavis,1100000.00,2000000.00,1100000.00,X-Line AT,2000000.00,Petrol/Diesel,Automatic
+Kia,Carens Clavis EV,1799000.00,2400000.00,1799000.00,HTE MT,1800000.00,Electric,Manual
+Kia,Carens Clavis EV,1799000.00,2400000.00,1799000.00,HTK+ MT,1980000.00,Electric,Manual
+Kia,Carens Clavis EV,1799000.00,2400000.00,1799000.00,HTX AT,2160000.00,Electric,Automatic
+Kia,Carens Clavis EV,1799000.00,2400000.00,1799000.00,GTX+ Turbo DCT,2310000.00,Electric,Automatic
+Kia,Carens Clavis EV,1799000.00,2400000.00,1799000.00,X-Line AT,2400000.00,Electric,Automatic
+Kia,Carnival,6390000.00,6390000.00,6390000.00,HTE MT,6390000.00,Diesel,Manual
+Kia,Carnival,6390000.00,6390000.00,6390000.00,HTK+ MT,6710000.00,Diesel,Manual
+Kia,Carnival,6390000.00,6390000.00,6390000.00,HTX AT,7030000.00,Diesel,Automatic
+Kia,Carnival,6390000.00,6390000.00,6390000.00,GTX+ Turbo DCT,7350000.00,Diesel,Automatic
+Kia,Carnival,6390000.00,6390000.00,6390000.00,X-Line AT,7670000.00,Diesel,Automatic
+Kia,EV6,6000000.00,6500000.00,6000000.00,HTE MT,6000000.00,Electric,Manual
+Kia,EV6,6000000.00,6500000.00,6000000.00,HTK+ MT,6150000.00,Electric,Manual
+Kia,EV6,6000000.00,6500000.00,6000000.00,HTX AT,6300000.00,Electric,Automatic
+Kia,EV6,6000000.00,6500000.00,6000000.00,GTX+ Turbo DCT,6420000.00,Electric,Automatic
+Kia,EV6,6000000.00,6500000.00,6000000.00,X-Line AT,6500000.00,Electric,Automatic
+Kia,EV9,13000000.00,14000000.00,13000000.00,HTE MT,13000000.00,Electric,Manual
+Kia,EV9,13000000.00,14000000.00,13000000.00,HTK+ MT,13300000.00,Electric,Manual
+Kia,EV9,13000000.00,14000000.00,13000000.00,HTX AT,13600000.00,Electric,Automatic
+Kia,EV9,13000000.00,14000000.00,13000000.00,GTX+ Turbo DCT,13850000.00,Electric,Automatic
+Kia,EV9,13000000.00,14000000.00,13000000.00,X-Line AT,14000000.00,Electric,Automatic
+Kia,Seltos,1100000.00,2100000.00,1100000.00,HTE MT,1100000.00,Petrol/Diesel,Manual
+Kia,Seltos,1100000.00,2100000.00,1100000.00,HTK+ MT,1400000.00,Petrol/Diesel,Manual
+Kia,Seltos,1100000.00,2100000.00,1100000.00,HTX AT,1700000.00,Petrol/Diesel,Automatic
+Kia,Seltos,1100000.00,2100000.00,1100000.00,GTX+ Turbo DCT,1950000.00,Petrol/Diesel,Automatic
+Kia,Seltos,1100000.00,2100000.00,1100000.00,X-Line AT,2100000.00,Petrol/Diesel,Automatic
+Kia,Sonet,741000.00,1380000.00,741000.00,HTE MT,740000.00,Petrol/Diesel,Manual
+Kia,Sonet,741000.00,1380000.00,741000.00,HTK+ MT,930000.00,Petrol/Diesel,Manual
+Kia,Sonet,741000.00,1380000.00,741000.00,HTX AT,1120000.00,Petrol/Diesel,Automatic
+Kia,Sonet,741000.00,1380000.00,741000.00,GTX+ Turbo DCT,1280000.00,Petrol/Diesel,Automatic
+Kia,Sonet,741000.00,1380000.00,741000.00,X-Line AT,1380000.00,Petrol/Diesel,Automatic
+Kia,Syros,900000.00,1800000.00,900000.00,HTE MT,900000.00,Petrol/Diesel,Manual
+Kia,Syros,900000.00,1800000.00,900000.00,HTK+ MT,1170000.00,Petrol/Diesel,Manual
+Kia,Syros,900000.00,1800000.00,900000.00,HTX AT,1440000.00,Petrol/Diesel,Automatic
+Kia,Syros,900000.00,1800000.00,900000.00,GTX+ Turbo DCT,1660000.00,Petrol/Diesel,Automatic
+Kia,Syros,900000.00,1800000.00,900000.00,X-Line AT,1800000.00,Petrol/Diesel,Automatic
+Kia,Syros EV,1600000.00,2200000.00,1600000.00,HTE MT,1600000.00,Electric,Manual
+Kia,Syros EV,1600000.00,2200000.00,1600000.00,HTK+ MT,1780000.00,Electric,Manual
+Kia,Syros EV,1600000.00,2200000.00,1600000.00,HTX AT,1960000.00,Electric,Automatic
+Kia,Syros EV,1600000.00,2200000.00,1600000.00,GTX+ Turbo DCT,2110000.00,Electric,Automatic
+Kia,Syros EV,1600000.00,2200000.00,1600000.00,X-Line AT,2200000.00,Electric,Automatic
+Lamborghini,Revuelto,88900000.00,88900000.00,88900000.00,Standard Edition AT,88900000.00,Petrol Hybrid,Automatic
+Lamborghini,Revuelto,88900000.00,88900000.00,88900000.00,Dynamic Sport AT,93340000.00,Hybrid,Automatic
+Lamborghini,Revuelto,88900000.00,88900000.00,88900000.00,First Edition Performance AT,97790000.00,Petrol Hybrid,Automatic
+Lamborghini,Temerario,60000000.00,60000000.00,60000000.00,Standard Edition AT,60000000.00,Petrol Hybrid,Automatic
+Lamborghini,Temerario,60000000.00,60000000.00,60000000.00,Dynamic Sport AT,63000000.00,Hybrid,Automatic
+Lamborghini,Temerario,60000000.00,60000000.00,60000000.00,First Edition Performance AT,66000000.00,Petrol Hybrid,Automatic
+Lamborghini,Urus,42200000.00,42200000.00,42200000.00,Standard Edition AT,42200000.00,Petrol,Automatic
+Lamborghini,Urus,42200000.00,42200000.00,42200000.00,Dynamic Sport AT,44310000.00,Petrol,Automatic
+Lamborghini,Urus,42200000.00,42200000.00,42200000.00,First Edition Performance AT,46420000.00,Petrol,Automatic
+Lamborghini,Urus SE,45000000.00,45000000.00,45000000.00,Standard Edition AT,45000000.00,Petrol Hybrid,Automatic
+Lamborghini,Urus SE,45000000.00,45000000.00,45000000.00,Dynamic Sport AT,47250000.00,Hybrid,Automatic
+Lamborghini,Urus SE,45000000.00,45000000.00,45000000.00,First Edition Performance AT,49500000.00,Petrol Hybrid,Automatic
+Land Rover,Defender,10500000.00,26000000.00,10500000.00,Standard Edition AT,10500000.00,Petrol/Diesel,Automatic
+Land Rover,Defender,10500000.00,26000000.00,10500000.00,Dynamic Sport AT,18250000.00,Petrol/Diesel,Automatic
+Land Rover,Defender,10500000.00,26000000.00,10500000.00,First Edition Performance AT,26000000.00,Petrol/Diesel,Automatic
+Land Rover,Discovery,13900000.00,16000000.00,13900000.00,Standard Edition AT,13900000.00,Petrol/Diesel,Automatic
+Land Rover,Discovery,13900000.00,16000000.00,13900000.00,Dynamic Sport AT,14950000.00,Petrol/Diesel,Automatic
+Land Rover,Discovery,13900000.00,16000000.00,13900000.00,First Edition Performance AT,16000000.00,Petrol/Diesel,Automatic
+Land Rover,Discovery Sport,6800000.00,7500000.00,6800000.00,Standard Edition AT,6800000.00,Petrol/Diesel,Automatic
+Land Rover,Discovery Sport,6800000.00,7500000.00,6800000.00,Dynamic Sport AT,7150000.00,Petrol/Diesel,Automatic
+Land Rover,Discovery Sport,6800000.00,7500000.00,6800000.00,First Edition Performance AT,7500000.00,Petrol/Diesel,Automatic
+Land Rover,Range Rover,26000000.00,40000000.00,26000000.00,Standard Edition AT,26000000.00,Petrol/Diesel,Automatic
+Land Rover,Range Rover,26000000.00,40000000.00,26000000.00,Dynamic Sport AT,33000000.00,Petrol/Diesel,Automatic
+Land Rover,Range Rover,26000000.00,40000000.00,26000000.00,First Edition Performance AT,40000000.00,Petrol/Diesel,Automatic
+Land Rover,Range Rover Evoque,6790000.00,7500000.00,6790000.00,Standard Edition AT,6790000.00,Petrol/Diesel,Automatic
+Land Rover,Range Rover Evoque,6790000.00,7500000.00,6790000.00,Dynamic Sport AT,7140000.00,Electric,Automatic
+Land Rover,Range Rover Evoque,6790000.00,7500000.00,6790000.00,First Edition Performance AT,7500000.00,Petrol/Diesel,Automatic
+Land Rover,Range Rover Sport,16400000.00,28000000.00,16400000.00,Standard Edition AT,16400000.00,Petrol/Diesel,Automatic
+Land Rover,Range Rover Sport,16400000.00,28000000.00,16400000.00,Dynamic Sport AT,22200000.00,Petrol/Diesel,Automatic
+Land Rover,Range Rover Sport,16400000.00,28000000.00,16400000.00,First Edition Performance AT,28000000.00,Petrol/Diesel,Automatic
+Land Rover,Range Rover Velar,8790000.00,10000000.00,8790000.00,Standard Edition AT,8790000.00,Petrol/Diesel,Automatic
+Land Rover,Range Rover Velar,8790000.00,10000000.00,8790000.00,Dynamic Sport AT,9400000.00,Petrol/Diesel,Automatic
+Land Rover,Range Rover Velar,8790000.00,10000000.00,8790000.00,First Edition Performance AT,10000000.00,Petrol/Diesel,Automatic
+Lexus,ES,6000000.00,7500000.00,6000000.00,Standard Edition AT,6000000.00,Petrol Hybrid,Automatic
+Lexus,ES,6000000.00,7500000.00,6000000.00,Dynamic Sport AT,6750000.00,Hybrid,Automatic
+Lexus,ES,6000000.00,7500000.00,6000000.00,First Edition Performance AT,7500000.00,Petrol Hybrid,Automatic
+Lexus,ES 350h,6500000.00,7500000.00,6500000.00,Standard Edition AT,6500000.00,Petrol Hybrid,Automatic
+Lexus,ES 350h,6500000.00,7500000.00,6500000.00,Dynamic Sport AT,7000000.00,Hybrid,Automatic
+Lexus,ES 350h,6500000.00,7500000.00,6500000.00,First Edition Performance AT,7500000.00,Petrol Hybrid,Automatic
+Lexus,ES 500e,8000000.00,9000000.00,8000000.00,Standard Edition AT,8000000.00,Electric,Automatic
+Lexus,ES 500e,8000000.00,9000000.00,8000000.00,Dynamic Sport AT,8500000.00,Electric,Automatic
+Lexus,ES 500e,8000000.00,9000000.00,8000000.00,First Edition Performance AT,9000000.00,Electric,Automatic
+Lexus,LBX,4000000.00,4500000.00,4000000.00,Standard Edition AT,4000000.00,Petrol Hybrid,Automatic
+Lexus,LBX,4000000.00,4500000.00,4000000.00,Dynamic Sport AT,4250000.00,Hybrid,Automatic
+Lexus,LBX,4000000.00,4500000.00,4000000.00,First Edition Performance AT,4500000.00,Petrol Hybrid,Automatic
+Lexus,LC 500,24000000.00,24000000.00,24000000.00,Standard Edition AT,24000000.00,Petrol,Automatic
+Lexus,LC 500,24000000.00,24000000.00,24000000.00,Dynamic Sport AT,25200000.00,Petrol,Automatic
+Lexus,LC 500,24000000.00,24000000.00,24000000.00,First Edition Performance AT,26400000.00,Petrol,Automatic
+Lexus,LC 500h,24000000.00,24000000.00,24000000.00,Standard Edition AT,24000000.00,Petrol Hybrid,Automatic
+Lexus,LC 500h,24000000.00,24000000.00,24000000.00,Dynamic Sport AT,25200000.00,Hybrid,Automatic
+Lexus,LC 500h,24000000.00,24000000.00,24000000.00,First Edition Performance AT,26400000.00,Petrol Hybrid,Automatic
+Lexus,LM,12000000.00,13000000.00,12000000.00,Standard Edition AT,12000000.00,Petrol Hybrid,Automatic
+Lexus,LM,12000000.00,13000000.00,12000000.00,Dynamic Sport AT,12500000.00,Hybrid,Automatic
+Lexus,LM,12000000.00,13000000.00,12000000.00,First Edition Performance AT,13000000.00,Petrol Hybrid,Automatic
+Lexus,LS,19500000.00,19500000.00,19500000.00,Standard Edition AT,19500000.00,Petrol Hybrid,Automatic
+Lexus,LS,19500000.00,19500000.00,19500000.00,Dynamic Sport AT,20480000.00,Hybrid,Automatic
+Lexus,LS,19500000.00,19500000.00,19500000.00,First Edition Performance AT,21450000.00,Petrol Hybrid,Automatic
+Lexus,LX,29000000.00,29000000.00,29000000.00,Standard Edition AT,29000000.00,Petrol,Automatic
+Lexus,LX,29000000.00,29000000.00,29000000.00,Dynamic Sport AT,30450000.00,Petrol,Automatic
+Lexus,LX,29000000.00,29000000.00,29000000.00,First Edition Performance AT,31900000.00,Petrol,Automatic
+Lexus,NX,6700000.00,7500000.00,6700000.00,Standard Edition AT,6700000.00,Petrol Hybrid,Automatic
+Lexus,NX,6700000.00,7500000.00,6700000.00,Dynamic Sport AT,7100000.00,Hybrid,Automatic
+Lexus,NX,6700000.00,7500000.00,6700000.00,First Edition Performance AT,7500000.00,Petrol Hybrid,Automatic
+Lexus,RX,9500000.00,12000000.00,9500000.00,Standard Edition AT,9500000.00,Petrol Hybrid,Automatic
+Lexus,RX,9500000.00,12000000.00,9500000.00,Dynamic Sport AT,10750000.00,Hybrid,Automatic
+Lexus,RX,9500000.00,12000000.00,9500000.00,First Edition Performance AT,12000000.00,Petrol Hybrid,Automatic
+Lexus,RZ,8000000.00,9000000.00,8000000.00,Standard Edition AT,8000000.00,Electric,Automatic
+Lexus,RZ,8000000.00,9000000.00,8000000.00,Dynamic Sport AT,8500000.00,Electric,Automatic
+Lexus,RZ,8000000.00,9000000.00,8000000.00,First Edition Performance AT,9000000.00,Electric,Automatic
+Lotus,Eletre,25500000.00,29900000.00,25500000.00,Standard Edition AT,25500000.00,Electric,Automatic
+Lotus,Eletre,25500000.00,29900000.00,25500000.00,Dynamic Sport AT,27700000.00,Electric,Automatic
+Lotus,Eletre,25500000.00,29900000.00,25500000.00,First Edition Performance AT,29900000.00,Electric,Automatic
+Lotus,Emeya,23500000.00,29900000.00,23500000.00,Standard Edition AT,23500000.00,Electric,Automatic
+Lotus,Emeya,23500000.00,29900000.00,23500000.00,Dynamic Sport AT,26700000.00,Electric,Automatic
+Lotus,Emeya,23500000.00,29900000.00,23500000.00,First Edition Performance AT,29900000.00,Electric,Automatic
+Lotus,Emira,21000000.00,21000000.00,21000000.00,Standard Edition AT,21000000.00,Petrol,Automatic
+Lotus,Emira,21000000.00,21000000.00,21000000.00,Dynamic Sport AT,22050000.00,Petrol,Automatic
+Lotus,Emira,21000000.00,21000000.00,21000000.00,First Edition Performance AT,23100000.00,Petrol,Automatic
+MG,Astor,1000000.00,1800000.00,1000000.00,Base Edition MT,1000000.00,Petrol,Manual
+MG,Astor,1000000.00,1800000.00,1000000.00,Plus Executive MT,1280000.00,Petrol,Manual
+MG,Astor,1000000.00,1800000.00,1000000.00,Highline Tech AT,1560000.00,Petrol,Automatic
+MG,Astor,1000000.00,1800000.00,1000000.00,Top Luxury AT,1800000.00,Petrol,Automatic
+MG,Comet EV,700000.00,1000000.00,700000.00,Base Edition MT,700000.00,Electric,Manual
+MG,Comet EV,700000.00,1000000.00,700000.00,Plus Executive MT,800000.00,Electric,Manual
+MG,Comet EV,700000.00,1000000.00,700000.00,Highline Tech AT,910000.00,Electric,Automatic
+MG,Comet EV,700000.00,1000000.00,700000.00,Top Luxury AT,1000000.00,Electric,Automatic
+MG,Cyberster,7200000.00,8000000.00,7200000.00,Standard Edition AT,7200000.00,Electric,Automatic
+MG,Cyberster,7200000.00,8000000.00,7200000.00,Dynamic Sport AT,7600000.00,Electric,Automatic
+MG,Cyberster,7200000.00,8000000.00,7200000.00,First Edition Performance AT,8000000.00,Electric,Automatic
+MG,Gloster,4100000.00,4800000.00,4100000.00,Standard Edition AT,4100000.00,Diesel,Automatic
+MG,Gloster,4100000.00,4800000.00,4100000.00,Dynamic Sport AT,4450000.00,Diesel,Automatic
+MG,Gloster,4100000.00,4800000.00,4100000.00,First Edition Performance AT,4800000.00,Diesel,Automatic
+MG,Hector,1100000.00,2200000.00,1100000.00,Base Edition MT,1100000.00,Petrol,Manual
+MG,Hector,1100000.00,2200000.00,1100000.00,Plus Executive MT,1480000.00,Petrol,Manual
+MG,Hector,1100000.00,2200000.00,1100000.00,Highline Tech AT,1870000.00,Petrol,Automatic
+MG,Hector,1100000.00,2200000.00,1100000.00,Top Luxury AT,2200000.00,Petrol,Automatic
+MG,Hector Plus,1800000.00,2300000.00,1800000.00,Base Edition MT,1800000.00,Petrol,Manual
+MG,Hector Plus,1800000.00,2300000.00,1800000.00,Plus Executive MT,1980000.00,Petrol,Manual
+MG,Hector Plus,1800000.00,2300000.00,1800000.00,Highline Tech AT,2150000.00,Petrol,Automatic
+MG,Hector Plus,1800000.00,2300000.00,1800000.00,Top Luxury AT,2300000.00,Petrol,Automatic
+MG,IM6,6000000.00,7000000.00,6000000.00,Standard Edition AT,6000000.00,Electric,Automatic
+MG,IM6,6000000.00,7000000.00,6000000.00,Dynamic Sport AT,6500000.00,Electric,Automatic
+MG,IM6,6000000.00,7000000.00,6000000.00,First Edition Performance AT,7000000.00,Electric,Automatic
+MG,M9,7000000.00,8000000.00,7000000.00,Standard Edition AT,7000000.00,Electric,Automatic
+MG,M9,7000000.00,8000000.00,7000000.00,Dynamic Sport AT,7500000.00,Electric,Automatic
+MG,M9,7000000.00,8000000.00,7000000.00,First Edition Performance AT,8000000.00,Electric,Automatic
+MG,Majestor,5000000.00,5500000.00,5000000.00,Standard Edition AT,5000000.00,Diesel,Automatic
+MG,Majestor,5000000.00,5500000.00,5000000.00,Dynamic Sport AT,5250000.00,Diesel,Automatic
+MG,Majestor,5000000.00,5500000.00,5000000.00,First Edition Performance AT,5500000.00,Diesel,Automatic
+MG,Windsor EV,1400000.00,2000000.00,1400000.00,Base Edition MT,1400000.00,Electric,Manual
+MG,Windsor EV,1400000.00,2000000.00,1400000.00,Plus Executive MT,1610000.00,Electric,Manual
+MG,Windsor EV,1400000.00,2000000.00,1400000.00,Highline Tech AT,1820000.00,Electric,Automatic
+MG,Windsor EV,1400000.00,2000000.00,1400000.00,Top Luxury AT,2000000.00,Electric,Automatic
+MG,ZS EV,1800000.00,2500000.00,1800000.00,Base Edition MT,1800000.00,Electric,Manual
+MG,ZS EV,1800000.00,2500000.00,1800000.00,Plus Executive MT,2040000.00,Electric,Manual
+MG,ZS EV,1800000.00,2500000.00,1800000.00,Highline Tech AT,2290000.00,Electric,Automatic
+MG,ZS EV,1800000.00,2500000.00,1800000.00,Top Luxury AT,2500000.00,Electric,Automatic
+MINI,Cooper,4490000.00,5000000.00,4490000.00,Standard Edition AT,4490000.00,Petrol,Automatic
+MINI,Cooper,4490000.00,5000000.00,4490000.00,Dynamic Sport AT,4740000.00,Petrol,Automatic
+MINI,Cooper,4490000.00,5000000.00,4490000.00,First Edition Performance AT,5000000.00,Petrol,Automatic
+MINI,Cooper Convertible,5800000.00,6000000.00,5800000.00,Standard Edition AT,5800000.00,Petrol,Automatic
+MINI,Cooper Convertible,5800000.00,6000000.00,5800000.00,Dynamic Sport AT,5900000.00,Petrol,Automatic
+MINI,Cooper Convertible,5800000.00,6000000.00,5800000.00,First Edition Performance AT,6000000.00,Petrol,Automatic
+MINI,Cooper S,4490000.00,4800000.00,4490000.00,Standard Edition AT,4490000.00,Petrol,Automatic
+MINI,Cooper S,4490000.00,4800000.00,4490000.00,Dynamic Sport AT,4640000.00,Petrol,Automatic
+MINI,Cooper S,4490000.00,4800000.00,4490000.00,First Edition Performance AT,4800000.00,Petrol,Automatic
+MINI,Countryman,4900000.00,5500000.00,4900000.00,Standard Edition AT,4900000.00,Petrol,Automatic
+MINI,Countryman,4900000.00,5500000.00,4900000.00,Dynamic Sport AT,5200000.00,Petrol,Automatic
+MINI,Countryman,4900000.00,5500000.00,4900000.00,First Edition Performance AT,5500000.00,Petrol,Automatic
+MINI,Countryman Electric,5500000.00,6000000.00,5500000.00,Standard Edition AT,5500000.00,Electric,Automatic
+MINI,Countryman Electric,5500000.00,6000000.00,5500000.00,Dynamic Sport AT,5750000.00,Electric,Automatic
+MINI,Countryman Electric,5500000.00,6000000.00,5500000.00,First Edition Performance AT,6000000.00,Electric,Automatic
+MINI,John Cooper Works,5500000.00,5500000.00,5500000.00,Standard Edition AT,5500000.00,Petrol,Automatic
+MINI,John Cooper Works,5500000.00,5500000.00,5500000.00,Dynamic Sport AT,5780000.00,Petrol,Automatic
+MINI,John Cooper Works,5500000.00,5500000.00,5500000.00,First Edition Performance AT,6050000.00,Petrol,Automatic
+Mahindra,BE 6,1890000.00,2700000.00,1890000.00,MX1 MT,1890000.00,Electric,Manual
+Mahindra,BE 6,1890000.00,2700000.00,1890000.00,MX3 MT,2090000.00,Electric,Manual
+Mahindra,BE 6,1890000.00,2700000.00,1890000.00,AX5 AT,2340000.00,Electric,Automatic
+Mahindra,BE 6,1890000.00,2700000.00,1890000.00,AX7 MT,2540000.00,Electric,Manual
+Mahindra,BE 6,1890000.00,2700000.00,1890000.00,AX7L 4x4 AT,2700000.00,Electric,Automatic
+Mahindra,Bolero,1000000.00,1150000.00,1000000.00,MX1 MT,1000000.00,Diesel,Manual
+Mahindra,Bolero,1000000.00,1150000.00,1000000.00,MX3 MT,1040000.00,Diesel,Manual
+Mahindra,Bolero,1000000.00,1150000.00,1000000.00,AX5 AT,1080000.00,Diesel,Automatic
+Mahindra,Bolero,1000000.00,1150000.00,1000000.00,AX7 MT,1120000.00,Diesel,Manual
+Mahindra,Bolero,1000000.00,1150000.00,1000000.00,AX7L 4x4 AT,1150000.00,Diesel,Automatic
+Mahindra,Bolero Camper,1000000.00,1100000.00,1000000.00,MX1 MT,1000000.00,Diesel,Manual
+Mahindra,Bolero Camper,1000000.00,1100000.00,1000000.00,MX3 MT,1020000.00,Diesel,Manual
+Mahindra,Bolero Camper,1000000.00,1100000.00,1000000.00,AX5 AT,1060000.00,Diesel,Automatic
+Mahindra,Bolero Camper,1000000.00,1100000.00,1000000.00,AX7 MT,1080000.00,Diesel,Manual
+Mahindra,Bolero Camper,1000000.00,1100000.00,1000000.00,AX7L 4x4 AT,1100000.00,Diesel,Automatic
+Mahindra,Bolero Neo,1000000.00,1300000.00,1000000.00,MX1 MT,1000000.00,Diesel,Manual
+Mahindra,Bolero Neo,1000000.00,1300000.00,1000000.00,MX3 MT,1080000.00,Diesel,Manual
+Mahindra,Bolero Neo,1000000.00,1300000.00,1000000.00,AX5 AT,1160000.00,Diesel,Automatic
+Mahindra,Bolero Neo,1000000.00,1300000.00,1000000.00,AX7 MT,1240000.00,Diesel,Manual
+Mahindra,Bolero Neo,1000000.00,1300000.00,1000000.00,AX7L 4x4 AT,1300000.00,Diesel,Automatic
+Mahindra,Marazzo,1400000.00,1700000.00,1400000.00,MX1 MT,1400000.00,Diesel,Manual
+Mahindra,Marazzo,1400000.00,1700000.00,1400000.00,MX3 MT,1480000.00,Diesel,Manual
+Mahindra,Marazzo,1400000.00,1700000.00,1400000.00,AX5 AT,1560000.00,Diesel,Automatic
+Mahindra,Marazzo,1400000.00,1700000.00,1400000.00,AX7 MT,1640000.00,Diesel,Manual
+Mahindra,Marazzo,1400000.00,1700000.00,1400000.00,AX7L 4x4 AT,1700000.00,Diesel,Automatic
+Mahindra,Scorpio Classic,1300000.00,1700000.00,1300000.00,MX1 MT,1300000.00,Diesel,Manual
+Mahindra,Scorpio Classic,1300000.00,1700000.00,1300000.00,MX3 MT,1400000.00,Diesel,Manual
+Mahindra,Scorpio Classic,1300000.00,1700000.00,1300000.00,AX5 AT,1520000.00,Diesel,Automatic
+Mahindra,Scorpio Classic,1300000.00,1700000.00,1300000.00,AX7 MT,1620000.00,Diesel,Manual
+Mahindra,Scorpio Classic,1300000.00,1700000.00,1300000.00,AX7L 4x4 AT,1700000.00,Diesel,Automatic
+Mahindra,Scorpio-N,1300000.00,2400000.00,1300000.00,MX1 MT,1300000.00,Petrol/Diesel,Manual
+Mahindra,Scorpio-N,1300000.00,2400000.00,1300000.00,MX3 MT,1580000.00,Petrol/Diesel,Manual
+Mahindra,Scorpio-N,1300000.00,2400000.00,1300000.00,AX5 AT,1900000.00,Petrol/Diesel,Automatic
+Mahindra,Scorpio-N,1300000.00,2400000.00,1300000.00,AX7 MT,2180000.00,Petrol/Diesel,Manual
+Mahindra,Scorpio-N,1300000.00,2400000.00,1300000.00,AX7L 4x4 AT,2400000.00,Petrol/Diesel,Automatic
+Mahindra,Thar,1000000.00,1700000.00,1000000.00,MX1 MT,1000000.00,Petrol/Diesel,Manual
+Mahindra,Thar,1000000.00,1700000.00,1000000.00,MX3 MT,1180000.00,Petrol/Diesel,Manual
+Mahindra,Thar,1000000.00,1700000.00,1000000.00,AX5 AT,1380000.00,Petrol/Diesel,Automatic
+Mahindra,Thar,1000000.00,1700000.00,1000000.00,AX7 MT,1560000.00,Petrol/Diesel,Manual
+Mahindra,Thar,1000000.00,1700000.00,1000000.00,AX7L 4x4 AT,1700000.00,Petrol/Diesel,Automatic
+Mahindra,Thar ROXX 4x4,,,,MX1 MT,800000.00,diesel,Manual
+Mahindra,Thar ROXX 4x4,,,,MX3 MT,950000.00,diesel,Manual
+Mahindra,Thar ROXX 4x4,,,,AX5 AT,1130000.00,diesel,Automatic
+Mahindra,Thar ROXX 4x4,,,,AX7 MT,1280000.00,diesel,Manual
+Mahindra,Thar ROXX 4x4,,,,AX7L 4x4 AT,1400000.00,diesel,Automatic
+Mahindra,Thar Roxx,1399000.00,2400000.00,1399000.00,MX1 MT,1400000.00,Petrol/Diesel,Manual
+Mahindra,Thar Roxx,1399000.00,2400000.00,1399000.00,MX3 MT,1650000.00,Petrol/Diesel,Manual
+Mahindra,Thar Roxx,1399000.00,2400000.00,1399000.00,AX5 AT,1950000.00,Petrol/Diesel,Automatic
+Mahindra,Thar Roxx,1399000.00,2400000.00,1399000.00,AX7 MT,2200000.00,Petrol/Diesel,Manual
+Mahindra,Thar Roxx,1399000.00,2400000.00,1399000.00,AX7L 4x4 AT,2400000.00,Petrol/Diesel,Automatic
+Mahindra,XEV 9S,2500000.00,3500000.00,2500000.00,MX1 MT,2500000.00,Electric,Manual
+Mahindra,XEV 9S,2500000.00,3500000.00,2500000.00,MX3 MT,2750000.00,Electric,Manual
+Mahindra,XEV 9S,2500000.00,3500000.00,2500000.00,AX5 AT,3050000.00,Electric,Automatic
+Mahindra,XEV 9S,2500000.00,3500000.00,2500000.00,AX7 MT,3300000.00,Electric,Manual
+Mahindra,XEV 9S,2500000.00,3500000.00,2500000.00,AX7L 4x4 AT,3500000.00,Electric,Automatic
+Mahindra,XEV 9e,2190000.00,3100000.00,2190000.00,MX1 MT,2190000.00,Electric,Manual
+Mahindra,XEV 9e,2190000.00,3100000.00,2190000.00,MX3 MT,2420000.00,Electric,Manual
+Mahindra,XEV 9e,2190000.00,3100000.00,2190000.00,AX5 AT,2690000.00,Electric,Automatic
+Mahindra,XEV 9e,2190000.00,3100000.00,2190000.00,AX7 MT,2920000.00,Electric,Manual
+Mahindra,XEV 9e,2190000.00,3100000.00,2190000.00,AX7L 4x4 AT,3100000.00,Electric,Automatic
+Mahindra,XUV 3XO,750000.00,1550000.00,750000.00,MX1 MT,750000.00,Petrol/Diesel,Manual
+Mahindra,XUV 3XO,750000.00,1550000.00,750000.00,MX3 MT,950000.00,Petrol/Diesel,Manual
+Mahindra,XUV 3XO,750000.00,1550000.00,750000.00,AX5 AT,1190000.00,Petrol/Diesel,Automatic
+Mahindra,XUV 3XO,750000.00,1550000.00,750000.00,AX7 MT,1390000.00,Petrol/Diesel,Manual
+Mahindra,XUV 3XO,750000.00,1550000.00,750000.00,AX7L 4x4 AT,1550000.00,Petrol/Diesel,Automatic
+Mahindra,XUV 7XO,1400000.00,2500000.00,1400000.00,MX1 MT,1400000.00,Petrol/Diesel,Manual
+Mahindra,XUV 7XO,1400000.00,2500000.00,1400000.00,MX3 MT,1680000.00,Petrol/Diesel,Manual
+Mahindra,XUV 7XO,1400000.00,2500000.00,1400000.00,AX5 AT,2000000.00,Petrol/Diesel,Automatic
+Mahindra,XUV 7XO,1400000.00,2500000.00,1400000.00,AX7 MT,2280000.00,Petrol/Diesel,Manual
+Mahindra,XUV 7XO,1400000.00,2500000.00,1400000.00,AX7L 4x4 AT,2500000.00,Petrol/Diesel,Automatic
+Mahindra,XUV700,1400000.00,2500000.00,1400000.00,MX1 MT,1400000.00,Petrol/Diesel,Manual
+Mahindra,XUV700,1400000.00,2500000.00,1400000.00,MX3 MT,1680000.00,Petrol/Diesel,Manual
+Mahindra,XUV700,1400000.00,2500000.00,1400000.00,AX5 AT,2000000.00,Petrol/Diesel,Automatic
+Mahindra,XUV700,1400000.00,2500000.00,1400000.00,AX7 MT,2280000.00,Petrol/Diesel,Manual
+Mahindra,XUV700,1400000.00,2500000.00,1400000.00,AX7L 4x4 AT,2500000.00,Petrol/Diesel,Automatic
+Maruti Suzuki,Alto K10,423000.00,620000.00,423000.00,LXi 1.2 MT,420000.00,Petrol/CNG,Manual
+Maruti Suzuki,Alto K10,423000.00,620000.00,423000.00,VXi 1.2 MT,470000.00,CNG,Manual
+Maruti Suzuki,Alto K10,423000.00,620000.00,423000.00,VXi 1.2 AMT,510000.00,Petrol/CNG,Automatic
+Maruti Suzuki,Alto K10,423000.00,620000.00,423000.00,ZXi 1.2 MT,560000.00,CNG,Manual
+Maruti Suzuki,Alto K10,423000.00,620000.00,423000.00,ZXi+ 1.2 AMT,620000.00,Petrol/CNG,Automatic
+Maruti Suzuki,Baleno,680000.00,980000.00,680000.00,Nios Corporate AMT,324000.00,Electric,Manual
+Maruti Suzuki,Baleno,680000.00,980000.00,680000.00,LXi 1.2 MT,680000.00,Petrol/CNG,Manual
+Maruti Suzuki,Baleno,680000.00,980000.00,680000.00,VXi 1.2 MT,760000.00,CNG,Manual
+Maruti Suzuki,Baleno,680000.00,980000.00,680000.00,VXi 1.2 AMT,820000.00,Petrol/CNG,Automatic
+Maruti Suzuki,Baleno,680000.00,980000.00,680000.00,ZXi 1.2 MT,890000.00,CNG,Manual
+Maruti Suzuki,Baleno,680000.00,980000.00,680000.00,ZXi+ 1.2 AMT,980000.00,Petrol/CNG,Automatic
+Maruti Suzuki,Brezza,869000.00,1500000.00,869000.00,LXi 1.2 MT,870000.00,Petrol/CNG,Manual
+Maruti Suzuki,Brezza,869000.00,1500000.00,869000.00,VXi 1.2 MT,1030000.00,CNG,Manual
+Maruti Suzuki,Brezza,869000.00,1500000.00,869000.00,VXi 1.2 AMT,1150000.00,Petrol/CNG,Automatic
+Maruti Suzuki,Brezza,869000.00,1500000.00,869000.00,ZXi 1.2 MT,1310000.00,CNG,Manual
+Maruti Suzuki,Brezza,869000.00,1500000.00,869000.00,ZXi+ 1.2 AMT,1500000.00,Petrol/CNG,Automatic
+Maruti Suzuki,Celerio,565000.00,740000.00,565000.00,LXi 1.2 MT,560000.00,Petrol/CNG,Manual
+Maruti Suzuki,Celerio,565000.00,740000.00,565000.00,VXi 1.2 MT,610000.00,CNG,Manual
+Maruti Suzuki,Celerio,565000.00,740000.00,565000.00,VXi 1.2 AMT,640000.00,Petrol/CNG,Automatic
+Maruti Suzuki,Celerio,565000.00,740000.00,565000.00,ZXi 1.2 MT,690000.00,CNG,Manual
+Maruti Suzuki,Celerio,565000.00,740000.00,565000.00,ZXi+ 1.2 AMT,740000.00,Petrol/CNG,Automatic
+Maruti Suzuki,Dzire,679000.00,1000000.00,679000.00,LXi 1.2 MT,680000.00,Petrol/CNG,Manual
+Maruti Suzuki,Dzire,679000.00,1000000.00,679000.00,VXi 1.2 MT,760000.00,CNG,Manual
+Maruti Suzuki,Dzire,679000.00,1000000.00,679000.00,VXi 1.2 AMT,820000.00,Petrol/CNG,Automatic
+Maruti Suzuki,Dzire,679000.00,1000000.00,679000.00,ZXi 1.2 MT,900000.00,CNG,Manual
+Maruti Suzuki,Dzire,679000.00,1000000.00,679000.00,ZXi+ 1.2 AMT,1000000.00,Petrol/CNG,Automatic
+Maruti Suzuki,Ertiga,897000.00,1300000.00,897000.00,LXi 1.2 MT,900000.00,Petrol/CNG,Manual
+Maruti Suzuki,Ertiga,897000.00,1300000.00,897000.00,VXi 1.2 MT,1000000.00,CNG,Manual
+Maruti Suzuki,Ertiga,897000.00,1300000.00,897000.00,VXi 1.2 AMT,1080000.00,Petrol/CNG,Automatic
+Maruti Suzuki,Ertiga,897000.00,1300000.00,897000.00,ZXi 1.2 MT,1180000.00,CNG,Manual
+Maruti Suzuki,Ertiga,897000.00,1300000.00,897000.00,ZXi+ 1.2 AMT,1300000.00,Petrol/CNG,Automatic
+Maruti Suzuki,Fronx,755000.00,1300000.00,755000.00,LXi 1.2 MT,760000.00,Petrol/CNG,Manual
+Maruti Suzuki,Fronx,755000.00,1300000.00,755000.00,VXi 1.2 MT,890000.00,CNG,Manual
+Maruti Suzuki,Fronx,755000.00,1300000.00,755000.00,VXi 1.2 AMT,1000000.00,Petrol/CNG,Automatic
+Maruti Suzuki,Fronx,755000.00,1300000.00,755000.00,ZXi 1.2 MT,1140000.00,CNG,Manual
+Maruti Suzuki,Fronx,755000.00,1300000.00,755000.00,ZXi+ 1.2 AMT,1300000.00,Petrol/CNG,Automatic
+Maruti Suzuki,Grand Vitara,1099000.00,2000000.00,1099000.00,LXi 1.2 MT,1100000.00,Petrol Hybrid/CNG,Manual
+Maruti Suzuki,Grand Vitara,1099000.00,2000000.00,1099000.00,VXi 1.2 MT,1320000.00,Hybrid,Manual
+Maruti Suzuki,Grand Vitara,1099000.00,2000000.00,1099000.00,VXi 1.2 AMT,1500000.00,Petrol Hybrid/CNG,Automatic
+Maruti Suzuki,Grand Vitara,1099000.00,2000000.00,1099000.00,ZXi 1.2 MT,1730000.00,Hybrid,Manual
+Maruti Suzuki,Grand Vitara,1099000.00,2000000.00,1099000.00,ZXi+ 1.2 AMT,2000000.00,Petrol Hybrid/CNG,Automatic
+Maruti Suzuki,Ignis,585000.00,800000.00,585000.00,LXi 1.2 MT,580000.00,Petrol,Manual
+Maruti Suzuki,Ignis,585000.00,800000.00,585000.00,VXi 1.2 MT,640000.00,Petrol,Manual
+Maruti Suzuki,Ignis,585000.00,800000.00,585000.00,VXi 1.2 AMT,680000.00,Petrol,Automatic
+Maruti Suzuki,Ignis,585000.00,800000.00,585000.00,ZXi 1.2 MT,740000.00,Petrol,Manual
+Maruti Suzuki,Ignis,585000.00,800000.00,585000.00,ZXi+ 1.2 AMT,800000.00,Petrol,Automatic
+Maruti Suzuki,Invicto,2497000.00,2900000.00,2497000.00,LXi 1.2 MT,2500000.00,Petrol Hybrid,Manual
+Maruti Suzuki,Invicto,2497000.00,2900000.00,2497000.00,VXi 1.2 MT,2600000.00,Hybrid,Manual
+Maruti Suzuki,Invicto,2497000.00,2900000.00,2497000.00,VXi 1.2 AMT,2680000.00,Petrol Hybrid,Automatic
+Maruti Suzuki,Invicto,2497000.00,2900000.00,2497000.00,ZXi 1.2 MT,2780000.00,Hybrid,Manual
+Maruti Suzuki,Invicto,2497000.00,2900000.00,2497000.00,ZXi+ 1.2 AMT,2900000.00,Petrol Hybrid,Automatic
+Maruti Suzuki,Jimny,1231000.00,1450000.00,1231000.00,LXi 1.2 MT,1230000.00,Petrol,Manual
+Maruti Suzuki,Jimny,1231000.00,1450000.00,1231000.00,VXi 1.2 MT,1290000.00,Petrol,Manual
+Maruti Suzuki,Jimny,1231000.00,1450000.00,1231000.00,VXi 1.2 AMT,1330000.00,Petrol,Automatic
+Maruti Suzuki,Jimny,1231000.00,1450000.00,1231000.00,ZXi 1.2 MT,1380000.00,Petrol,Manual
+Maruti Suzuki,Jimny,1231000.00,1450000.00,1231000.00,ZXi+ 1.2 AMT,1450000.00,Petrol,Automatic
+Maruti Suzuki,S-Presso,350000.00,500000.00,350000.00,LXi 1.2 MT,350000.00,Petrol/CNG,Manual
+Maruti Suzuki,S-Presso,350000.00,500000.00,350000.00,VXi 1.2 MT,390000.00,CNG,Manual
+Maruti Suzuki,S-Presso,350000.00,500000.00,350000.00,VXi 1.2 AMT,420000.00,Petrol/CNG,Automatic
+Maruti Suzuki,S-Presso,350000.00,500000.00,350000.00,ZXi 1.2 MT,460000.00,CNG,Manual
+Maruti Suzuki,S-Presso,350000.00,500000.00,350000.00,ZXi+ 1.2 AMT,500000.00,Petrol/CNG,Automatic
+Maruti Suzuki,Swift,649000.00,965000.00,649000.00,LXi 1.2 MT,650000.00,Petrol/CNG,Manual
+Maruti Suzuki,Swift,649000.00,965000.00,649000.00,VXi 1.2 MT,730000.00,CNG,Manual
+Maruti Suzuki,Swift,649000.00,965000.00,649000.00,VXi 1.2 AMT,790000.00,Petrol/CNG,Automatic
+Maruti Suzuki,Swift,649000.00,965000.00,649000.00,ZXi 1.2 MT,870000.00,CNG,Manual
+Maruti Suzuki,Swift,649000.00,965000.00,649000.00,ZXi+ 1.2 AMT,960000.00,Petrol/CNG,Automatic
+Maruti Suzuki,Swift Z-Series,,,,LXi 1.2 MT,800000.00,petrol,Manual
+Maruti Suzuki,Swift Z-Series,,,,VXi 1.2 MT,950000.00,petrol,Manual
+Maruti Suzuki,Swift Z-Series,,,,VXi 1.2 AMT,1070000.00,petrol,Automatic
+Maruti Suzuki,Swift Z-Series,,,,ZXi 1.2 MT,1220000.00,petrol,Manual
+Maruti Suzuki,Swift Z-Series,,,,ZXi+ 1.2 AMT,1400000.00,petrol,Automatic
+Maruti Suzuki,Victoris,1100000.00,2000000.00,1100000.00,LXi 1.2 MT,1100000.00,Petrol/Hybrid/CNG,Manual
+Maruti Suzuki,Victoris,1100000.00,2000000.00,1100000.00,VXi 1.2 MT,1320000.00,Hybrid,Manual
+Maruti Suzuki,Victoris,1100000.00,2000000.00,1100000.00,VXi 1.2 AMT,1500000.00,Petrol/Hybrid/CNG,Automatic
+Maruti Suzuki,Victoris,1100000.00,2000000.00,1100000.00,ZXi 1.2 MT,1730000.00,Hybrid,Manual
+Maruti Suzuki,Victoris,1100000.00,2000000.00,1100000.00,ZXi+ 1.2 AMT,2000000.00,Petrol/Hybrid/CNG,Automatic
+Maruti Suzuki,Wagon R,579000.00,800000.00,579000.00,LXi 1.2 MT,580000.00,Petrol/CNG,Manual
+Maruti Suzuki,Wagon R,579000.00,800000.00,579000.00,VXi 1.2 MT,630000.00,CNG,Manual
+Maruti Suzuki,Wagon R,579000.00,800000.00,579000.00,VXi 1.2 AMT,680000.00,Petrol/CNG,Automatic
+Maruti Suzuki,Wagon R,579000.00,800000.00,579000.00,ZXi 1.2 MT,730000.00,CNG,Manual
+Maruti Suzuki,Wagon R,579000.00,800000.00,579000.00,ZXi+ 1.2 AMT,800000.00,Petrol/CNG,Automatic
+Maruti Suzuki,XL6,1171000.00,1400000.00,1171000.00,LXi 1.2 MT,1170000.00,Petrol/CNG,Manual
+Maruti Suzuki,XL6,1171000.00,1400000.00,1171000.00,VXi 1.2 MT,1230000.00,CNG,Manual
+Maruti Suzuki,XL6,1171000.00,1400000.00,1171000.00,VXi 1.2 AMT,1270000.00,Petrol/CNG,Automatic
+Maruti Suzuki,XL6,1171000.00,1400000.00,1171000.00,ZXi 1.2 MT,1330000.00,CNG,Manual
+Maruti Suzuki,XL6,1171000.00,1400000.00,1171000.00,ZXi+ 1.2 AMT,1400000.00,Petrol/CNG,Automatic
+Maruti Suzuki,e Vitara,1799000.00,2500000.00,1799000.00,LXi 1.2 MT,1800000.00,Electric,Manual
+Maruti Suzuki,e Vitara,1799000.00,2500000.00,1799000.00,VXi 1.2 MT,1970000.00,Electric,Manual
+Maruti Suzuki,e Vitara,1799000.00,2500000.00,1799000.00,VXi 1.2 AMT,2110000.00,Electric,Automatic
+Maruti Suzuki,e Vitara,1799000.00,2500000.00,1799000.00,ZXi 1.2 MT,2290000.00,Electric,Manual
+Maruti Suzuki,e Vitara,1799000.00,2500000.00,1799000.00,ZXi+ 1.2 AMT,2500000.00,Electric,Automatic
+Maserati,GranCabrio,25000000.00,27000000.00,25000000.00,Standard Edition AT,25000000.00,Petrol,Automatic
+Maserati,GranCabrio,25000000.00,27000000.00,25000000.00,Dynamic Sport AT,26000000.00,Petrol,Automatic
+Maserati,GranCabrio,25000000.00,27000000.00,25000000.00,First Edition Performance AT,27000000.00,Petrol,Automatic
+Maserati,GranTurismo,22500000.00,25000000.00,22500000.00,Standard Edition AT,22500000.00,Petrol,Automatic
+Maserati,GranTurismo,22500000.00,25000000.00,22500000.00,Dynamic Sport AT,23750000.00,Petrol,Automatic
+Maserati,GranTurismo,22500000.00,25000000.00,22500000.00,First Edition Performance AT,25000000.00,Petrol,Automatic
+Maserati,Grecale,13000000.00,18000000.00,13000000.00,Standard Edition AT,13000000.00,Petrol,Automatic
+Maserati,Grecale,13000000.00,18000000.00,13000000.00,Dynamic Sport AT,15500000.00,Petrol,Automatic
+Maserati,Grecale,13000000.00,18000000.00,13000000.00,First Edition Performance AT,18000000.00,Petrol,Automatic
+Maserati,Levante,15000000.00,17000000.00,15000000.00,Standard Edition AT,15000000.00,Petrol,Automatic
+Maserati,Levante,15000000.00,17000000.00,15000000.00,Dynamic Sport AT,16000000.00,Electric,Automatic
+Maserati,Levante,15000000.00,17000000.00,15000000.00,First Edition Performance AT,17000000.00,Petrol,Automatic
+Maserati,MC20,36500000.00,36500000.00,36500000.00,Standard Edition AT,36500000.00,Petrol,Automatic
+Maserati,MC20,36500000.00,36500000.00,36500000.00,Dynamic Sport AT,38320000.00,Petrol,Automatic
+Maserati,MC20,36500000.00,36500000.00,36500000.00,First Edition Performance AT,40150000.00,Petrol,Automatic
+Maserati,MC20 Cielo,39500000.00,39500000.00,39500000.00,Standard Edition AT,39500000.00,Petrol,Automatic
+Maserati,MC20 Cielo,39500000.00,39500000.00,39500000.00,Dynamic Sport AT,41480000.00,Petrol,Automatic
+Maserati,MC20 Cielo,39500000.00,39500000.00,39500000.00,First Edition Performance AT,43450000.00,Petrol,Automatic
+McLaren,750S,59100000.00,59100000.00,59100000.00,Standard Edition AT,59100000.00,Petrol,Automatic
+McLaren,750S,59100000.00,59100000.00,59100000.00,Dynamic Sport AT,62060000.00,Petrol,Automatic
+McLaren,750S,59100000.00,59100000.00,59100000.00,First Edition Performance AT,65010000.00,Petrol,Automatic
+McLaren,750S Spider,60000000.00,60000000.00,60000000.00,Standard Edition AT,60000000.00,Petrol,Automatic
+McLaren,750S Spider,60000000.00,60000000.00,60000000.00,Dynamic Sport AT,63000000.00,Petrol,Automatic
+McLaren,750S Spider,60000000.00,60000000.00,60000000.00,First Edition Performance AT,66000000.00,Petrol,Automatic
+McLaren,Artura,51000000.00,51000000.00,51000000.00,Standard Edition AT,51000000.00,Petrol Hybrid,Automatic
+McLaren,Artura,51000000.00,51000000.00,51000000.00,Dynamic Sport AT,53550000.00,Hybrid,Automatic
+McLaren,Artura,51000000.00,51000000.00,51000000.00,First Edition Performance AT,56100000.00,Petrol Hybrid,Automatic
+McLaren,GTS,50000000.00,50000000.00,50000000.00,Standard Edition AT,50000000.00,Petrol,Automatic
+McLaren,GTS,50000000.00,50000000.00,50000000.00,Dynamic Sport AT,52500000.00,Petrol,Automatic
+McLaren,GTS,50000000.00,50000000.00,50000000.00,First Edition Performance AT,55000000.00,Petrol,Automatic
+Mercedes-Benz,A-Class Limousine,4800000.00,5500000.00,4800000.00,Standard Edition AT,4800000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,A-Class Limousine,4800000.00,5500000.00,4800000.00,Dynamic Sport AT,5150000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,A-Class Limousine,4800000.00,5500000.00,4800000.00,First Edition Performance AT,5500000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,AMG A 45 S,9400000.00,9400000.00,9400000.00,Standard Edition AT,9400000.00,Petrol,Automatic
+Mercedes-Benz,AMG A 45 S,9400000.00,9400000.00,9400000.00,Dynamic Sport AT,9870000.00,Petrol,Automatic
+Mercedes-Benz,AMG A 45 S,9400000.00,9400000.00,9400000.00,First Edition Performance AT,10340000.00,Petrol,Automatic
+Mercedes-Benz,AMG C 43,10000000.00,10000000.00,10000000.00,Standard Edition AT,10000000.00,Petrol Hybrid,Automatic
+Mercedes-Benz,AMG C 43,10000000.00,10000000.00,10000000.00,Dynamic Sport AT,10500000.00,Hybrid,Automatic
+Mercedes-Benz,AMG C 43,10000000.00,10000000.00,10000000.00,First Edition Performance AT,11000000.00,Petrol Hybrid,Automatic
+Mercedes-Benz,AMG C 63 S E Performance,19500000.00,19500000.00,19500000.00,Standard Edition AT,19500000.00,Petrol Hybrid,Automatic
+Mercedes-Benz,AMG C 63 S E Performance,19500000.00,19500000.00,19500000.00,Dynamic Sport AT,20480000.00,Hybrid,Automatic
+Mercedes-Benz,AMG C 63 S E Performance,19500000.00,19500000.00,19500000.00,First Edition Performance AT,21450000.00,Petrol Hybrid,Automatic
+Mercedes-Benz,AMG E 53,16000000.00,16000000.00,16000000.00,Standard Edition AT,16000000.00,Petrol Hybrid,Automatic
+Mercedes-Benz,AMG E 53,16000000.00,16000000.00,16000000.00,Dynamic Sport AT,16800000.00,Hybrid,Automatic
+Mercedes-Benz,AMG E 53,16000000.00,16000000.00,16000000.00,First Edition Performance AT,17600000.00,Petrol Hybrid,Automatic
+Mercedes-Benz,AMG GLC 43,11000000.00,11000000.00,11000000.00,Standard Edition AT,11000000.00,Petrol,Automatic
+Mercedes-Benz,AMG GLC 43,11000000.00,11000000.00,11000000.00,Dynamic Sport AT,11550000.00,Petrol,Automatic
+Mercedes-Benz,AMG GLC 43,11000000.00,11000000.00,11000000.00,First Edition Performance AT,12100000.00,Petrol,Automatic
+Mercedes-Benz,AMG GLC 63 S,19000000.00,19000000.00,19000000.00,Standard Edition AT,19000000.00,Petrol Hybrid,Automatic
+Mercedes-Benz,AMG GLC 63 S,19000000.00,19000000.00,19000000.00,Dynamic Sport AT,19950000.00,Hybrid,Automatic
+Mercedes-Benz,AMG GLC 63 S,19000000.00,19000000.00,19000000.00,First Edition Performance AT,20900000.00,Petrol Hybrid,Automatic
+Mercedes-Benz,AMG GLE 53,15000000.00,15000000.00,15000000.00,Standard Edition AT,15000000.00,Petrol Hybrid,Automatic
+Mercedes-Benz,AMG GLE 53,15000000.00,15000000.00,15000000.00,Dynamic Sport AT,15750000.00,Hybrid,Automatic
+Mercedes-Benz,AMG GLE 53,15000000.00,15000000.00,15000000.00,First Edition Performance AT,16500000.00,Petrol Hybrid,Automatic
+Mercedes-Benz,AMG GLE 63 S,20000000.00,20000000.00,20000000.00,Standard Edition AT,20000000.00,Petrol,Automatic
+Mercedes-Benz,AMG GLE 63 S,20000000.00,20000000.00,20000000.00,Dynamic Sport AT,21000000.00,Petrol,Automatic
+Mercedes-Benz,AMG GLE 63 S,20000000.00,20000000.00,20000000.00,First Edition Performance AT,22000000.00,Petrol,Automatic
+Mercedes-Benz,AMG GLS 53,18000000.00,18000000.00,18000000.00,Standard Edition AT,18000000.00,Petrol Hybrid,Automatic
+Mercedes-Benz,AMG GLS 53,18000000.00,18000000.00,18000000.00,Dynamic Sport AT,18900000.00,Hybrid,Automatic
+Mercedes-Benz,AMG GLS 53,18000000.00,18000000.00,18000000.00,First Edition Performance AT,19800000.00,Petrol Hybrid,Automatic
+Mercedes-Benz,AMG GT,25000000.00,25000000.00,25000000.00,Standard Edition AT,25000000.00,Petrol,Automatic
+Mercedes-Benz,AMG GT,25000000.00,25000000.00,25000000.00,Dynamic Sport AT,26250000.00,Petrol,Automatic
+Mercedes-Benz,AMG GT,25000000.00,25000000.00,25000000.00,First Edition Performance AT,27500000.00,Petrol,Automatic
+Mercedes-Benz,C-Class,5800000.00,6500000.00,5800000.00,Standard Edition AT,5800000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,C-Class,5800000.00,6500000.00,5800000.00,Dynamic Sport AT,6150000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,C-Class,5800000.00,6500000.00,5800000.00,First Edition Performance AT,6500000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,CLE Cabriolet,12000000.00,14000000.00,12000000.00,Standard Edition AT,12000000.00,Petrol,Automatic
+Mercedes-Benz,CLE Cabriolet,12000000.00,14000000.00,12000000.00,Dynamic Sport AT,13000000.00,Petrol,Automatic
+Mercedes-Benz,CLE Cabriolet,12000000.00,14000000.00,12000000.00,First Edition Performance AT,14000000.00,Petrol,Automatic
+Mercedes-Benz,CLE Coupe,11000000.00,13000000.00,11000000.00,Standard Edition AT,11000000.00,Petrol,Automatic
+Mercedes-Benz,CLE Coupe,11000000.00,13000000.00,11000000.00,Dynamic Sport AT,12000000.00,Petrol,Automatic
+Mercedes-Benz,CLE Coupe,11000000.00,13000000.00,11000000.00,First Edition Performance AT,13000000.00,Petrol,Automatic
+Mercedes-Benz,E-Class,8000000.00,9000000.00,8000000.00,Standard Edition AT,8000000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,E-Class,8000000.00,9000000.00,8000000.00,Dynamic Sport AT,8500000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,E-Class,8000000.00,9000000.00,8000000.00,First Edition Performance AT,9000000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,EQB,7000000.00,7500000.00,7000000.00,Standard Edition AT,7000000.00,Electric,Automatic
+Mercedes-Benz,EQB,7000000.00,7500000.00,7000000.00,Dynamic Sport AT,7250000.00,Electric,Automatic
+Mercedes-Benz,EQB,7000000.00,7500000.00,7000000.00,First Edition Performance AT,7500000.00,Electric,Automatic
+Mercedes-Benz,EQE SUV,14000000.00,16000000.00,14000000.00,Standard Edition AT,14000000.00,Electric,Automatic
+Mercedes-Benz,EQE SUV,14000000.00,16000000.00,14000000.00,Dynamic Sport AT,15000000.00,Electric,Automatic
+Mercedes-Benz,EQE SUV,14000000.00,16000000.00,14000000.00,First Edition Performance AT,16000000.00,Electric,Automatic
+Mercedes-Benz,EQS,16000000.00,18000000.00,16000000.00,Standard Edition AT,16000000.00,Electric,Automatic
+Mercedes-Benz,EQS,16000000.00,18000000.00,16000000.00,Dynamic Sport AT,17000000.00,Electric,Automatic
+Mercedes-Benz,EQS,16000000.00,18000000.00,16000000.00,First Edition Performance AT,18000000.00,Electric,Automatic
+Mercedes-Benz,EQS SUV,17000000.00,20000000.00,17000000.00,Standard Edition AT,17000000.00,Electric,Automatic
+Mercedes-Benz,EQS SUV,17000000.00,20000000.00,17000000.00,Dynamic Sport AT,18500000.00,Electric,Automatic
+Mercedes-Benz,EQS SUV,17000000.00,20000000.00,17000000.00,First Edition Performance AT,20000000.00,Electric,Automatic
+Mercedes-Benz,GLA,5200000.00,5800000.00,5200000.00,Standard Edition AT,5200000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,GLA,5200000.00,5800000.00,5200000.00,Dynamic Sport AT,5500000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,GLA,5200000.00,5800000.00,5200000.00,First Edition Performance AT,5800000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,GLB,6200000.00,7000000.00,6200000.00,Standard Edition AT,6200000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,GLB,6200000.00,7000000.00,6200000.00,Dynamic Sport AT,6600000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,GLB,6200000.00,7000000.00,6200000.00,First Edition Performance AT,7000000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,GLC,7600000.00,9000000.00,7600000.00,Standard Edition AT,7600000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,GLC,7600000.00,9000000.00,7600000.00,Dynamic Sport AT,8300000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,GLC,7600000.00,9000000.00,7600000.00,First Edition Performance AT,9000000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,GLE,11500000.00,13500000.00,11500000.00,Standard Edition AT,11500000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,GLE,11500000.00,13500000.00,11500000.00,Dynamic Sport AT,12500000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,GLE,11500000.00,13500000.00,11500000.00,First Edition Performance AT,13500000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,GLS,14000000.00,16000000.00,14000000.00,Standard Edition AT,14000000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,GLS,14000000.00,16000000.00,14000000.00,Dynamic Sport AT,15000000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,GLS,14000000.00,16000000.00,14000000.00,First Edition Performance AT,16000000.00,Petrol/Diesel,Automatic
+Mercedes-Benz,Maybach GLS,34000000.00,36000000.00,34000000.00,Standard Edition AT,34000000.00,Petrol,Automatic
+Mercedes-Benz,Maybach GLS,34000000.00,36000000.00,34000000.00,Dynamic Sport AT,35000000.00,Petrol,Automatic
+Mercedes-Benz,Maybach GLS,34000000.00,36000000.00,34000000.00,First Edition Performance AT,36000000.00,Petrol,Automatic
+Mercedes-Benz,Maybach S-Class,28000000.00,35000000.00,28000000.00,Standard Edition AT,28000000.00,Petrol,Automatic
+Mercedes-Benz,Maybach S-Class,28000000.00,35000000.00,28000000.00,Dynamic Sport AT,31500000.00,Petrol,Automatic
+Mercedes-Benz,Maybach S-Class,28000000.00,35000000.00,28000000.00,First Edition Performance AT,35000000.00,Petrol,Automatic
+Mercedes-Benz,S-Class,18000000.00,20000000.00,18000000.00,Standard Edition AT,18000000.00,Petrol,Automatic
+Mercedes-Benz,S-Class,18000000.00,20000000.00,18000000.00,Dynamic Sport AT,19000000.00,Petrol,Automatic
+Mercedes-Benz,S-Class,18000000.00,20000000.00,18000000.00,First Edition Performance AT,20000000.00,Petrol,Automatic
+Mercedes-Benz,SL,23500000.00,25000000.00,23500000.00,Standard Edition AT,23500000.00,Petrol,Automatic
+Mercedes-Benz,SL,23500000.00,25000000.00,23500000.00,Dynamic Sport AT,24250000.00,Petrol,Automatic
+Mercedes-Benz,SL,23500000.00,25000000.00,23500000.00,First Edition Performance AT,25000000.00,Petrol,Automatic
+Nissan,Magnite,600000.00,1100000.00,600000.00,Base Edition MT,600000.00,Petrol,Manual
+Nissan,Magnite,600000.00,1100000.00,600000.00,Plus Executive MT,780000.00,Petrol,Manual
+Nissan,Magnite,600000.00,1100000.00,600000.00,Highline Tech AT,950000.00,Petrol,Automatic
+Nissan,Magnite,600000.00,1100000.00,600000.00,Top Luxury AT,1100000.00,Petrol,Automatic
+Nissan,Tekton,1000000.00,1700000.00,1000000.00,Base Edition MT,1000000.00,Petrol,Manual
+Nissan,Tekton,1000000.00,1700000.00,1000000.00,Plus Executive MT,1240000.00,Petrol,Manual
+Nissan,Tekton,1000000.00,1700000.00,1000000.00,Highline Tech AT,1490000.00,Petrol,Automatic
+Nissan,Tekton,1000000.00,1700000.00,1000000.00,Top Luxury AT,1700000.00,Petrol,Automatic
+Porsche,718 Boxster,15500000.00,20000000.00,15500000.00,Standard Edition AT,15500000.00,Petrol,Automatic
+Porsche,718 Boxster,15500000.00,20000000.00,15500000.00,Dynamic Sport AT,17750000.00,Petrol,Automatic
+Porsche,718 Boxster,15500000.00,20000000.00,15500000.00,First Edition Performance AT,20000000.00,Petrol,Automatic
+Porsche,718 Cayman,15000000.00,20000000.00,15000000.00,Standard Edition AT,15000000.00,Petrol,Automatic
+Porsche,718 Cayman,15000000.00,20000000.00,15000000.00,Dynamic Sport AT,17500000.00,Petrol,Automatic
+Porsche,718 Cayman,15000000.00,20000000.00,15000000.00,First Edition Performance AT,20000000.00,Petrol,Automatic
+Porsche,911,19900000.00,40000000.00,19900000.00,Standard Edition AT,19900000.00,Petrol,Automatic
+Porsche,911,19900000.00,40000000.00,19900000.00,Dynamic Sport AT,29950000.00,Petrol,Automatic
+Porsche,911,19900000.00,40000000.00,19900000.00,First Edition Performance AT,40000000.00,Petrol,Automatic
+Porsche,Cayenne,14000000.00,20000000.00,14000000.00,Standard Edition AT,14000000.00,Petrol/Hybrid,Automatic
+Porsche,Cayenne,14000000.00,20000000.00,14000000.00,Dynamic Sport AT,17000000.00,Hybrid,Automatic
+Porsche,Cayenne,14000000.00,20000000.00,14000000.00,First Edition Performance AT,20000000.00,Petrol/Hybrid,Automatic
+Porsche,Macan,9000000.00,15000000.00,9000000.00,Standard Edition AT,9000000.00,Petrol,Automatic
+Porsche,Macan,9000000.00,15000000.00,9000000.00,Dynamic Sport AT,12000000.00,Petrol,Automatic
+Porsche,Macan,9000000.00,15000000.00,9000000.00,First Edition Performance AT,15000000.00,Petrol,Automatic
+Porsche,Macan Electric,12200000.00,17000000.00,12200000.00,Standard Edition AT,12200000.00,Electric,Automatic
+Porsche,Macan Electric,12200000.00,17000000.00,12200000.00,Dynamic Sport AT,14600000.00,Electric,Automatic
+Porsche,Macan Electric,12200000.00,17000000.00,12200000.00,First Edition Performance AT,17000000.00,Electric,Automatic
+Porsche,Panamera,18000000.00,28000000.00,18000000.00,Standard Edition AT,18000000.00,Petrol Hybrid,Automatic
+Porsche,Panamera,18000000.00,28000000.00,18000000.00,Dynamic Sport AT,23000000.00,Hybrid,Automatic
+Porsche,Panamera,18000000.00,28000000.00,18000000.00,First Edition Performance AT,28000000.00,Petrol Hybrid,Automatic
+Porsche,Taycan,17000000.00,27000000.00,17000000.00,Standard Edition AT,17000000.00,Electric,Automatic
+Porsche,Taycan,17000000.00,27000000.00,17000000.00,Dynamic Sport AT,22000000.00,Electric,Automatic
+Porsche,Taycan,17000000.00,27000000.00,17000000.00,First Edition Performance AT,27000000.00,Electric,Automatic
+Renault,Arkana,,,,Base Edition MT,800000.00,Petrol,Manual
+Renault,Arkana,,,,Plus Executive MT,1010000.00,Petrol,Manual
+Renault,Arkana,,,,Highline Tech AT,1220000.00,Petrol,Automatic
+Renault,Arkana,,,,Top Luxury AT,1400000.00,Petrol,Automatic
+Renault,Duster,1000000.00,1800000.00,1000000.00,Base Edition MT,1000000.00,Petrol,Manual
+Renault,Duster,1000000.00,1800000.00,1000000.00,Plus Executive MT,1280000.00,Petrol,Manual
+Renault,Duster,1000000.00,1800000.00,1000000.00,Highline Tech AT,1560000.00,Petrol,Automatic
+Renault,Duster,1000000.00,1800000.00,1000000.00,Top Luxury AT,1800000.00,Petrol,Automatic
+Renault,Kiger,600000.00,1200000.00,600000.00,Base Edition MT,600000.00,Petrol,Manual
+Renault,Kiger,600000.00,1200000.00,600000.00,Plus Executive MT,810000.00,Petrol,Manual
+Renault,Kiger,600000.00,1200000.00,600000.00,Highline Tech AT,1020000.00,Petrol,Automatic
+Renault,Kiger,600000.00,1200000.00,600000.00,Top Luxury AT,1200000.00,Petrol,Automatic
+Renault,Kwid,430000.00,600000.00,430000.00,Base Edition MT,430000.00,Petrol,Manual
+Renault,Kwid,430000.00,600000.00,430000.00,Plus Executive MT,490000.00,Petrol,Manual
+Renault,Kwid,430000.00,600000.00,430000.00,Highline Tech AT,550000.00,Petrol,Automatic
+Renault,Kwid,430000.00,600000.00,430000.00,Top Luxury AT,600000.00,Petrol,Automatic
+Renault,Triber,600000.00,1000000.00,600000.00,Base Edition MT,600000.00,Petrol,Manual
+Renault,Triber,600000.00,1000000.00,600000.00,Plus Executive MT,740000.00,Petrol,Manual
+Renault,Triber,600000.00,1000000.00,600000.00,Highline Tech AT,880000.00,Petrol,Automatic
+Renault,Triber,600000.00,1000000.00,600000.00,Top Luxury AT,1000000.00,Petrol,Automatic
+Rolls-Royce,Cullinan,105000000.00,120000000.00,105000000.00,Standard Edition AT,105000000.00,Petrol,Automatic
+Rolls-Royce,Cullinan,105000000.00,120000000.00,105000000.00,Dynamic Sport AT,112500000.00,Petrol,Automatic
+Rolls-Royce,Cullinan,105000000.00,120000000.00,105000000.00,First Edition Performance AT,120000000.00,Petrol,Automatic
+Rolls-Royce,Ghost,89500000.00,100000000.00,89500000.00,Standard Edition AT,89500000.00,Petrol,Automatic
+Rolls-Royce,Ghost,89500000.00,100000000.00,89500000.00,Dynamic Sport AT,94750000.00,Petrol,Automatic
+Rolls-Royce,Ghost,89500000.00,100000000.00,89500000.00,First Edition Performance AT,100000000.00,Petrol,Automatic
+Rolls-Royce,Ghost Extended,95000000.00,110000000.00,95000000.00,Standard Edition AT,95000000.00,Petrol,Automatic
+Rolls-Royce,Ghost Extended,95000000.00,110000000.00,95000000.00,Dynamic Sport AT,102500000.00,Petrol,Automatic
+Rolls-Royce,Ghost Extended,95000000.00,110000000.00,95000000.00,First Edition Performance AT,110000000.00,Petrol,Automatic
+Rolls-Royce,Phantom,104800000.00,104800000.00,104800000.00,Standard Edition AT,104800000.00,Petrol,Automatic
+Rolls-Royce,Phantom,104800000.00,104800000.00,104800000.00,Dynamic Sport AT,110040000.00,Petrol,Automatic
+Rolls-Royce,Phantom,104800000.00,104800000.00,104800000.00,First Edition Performance AT,115280000.00,Petrol,Automatic
+Rolls-Royce,Phantom Extended,109000000.00,109000000.00,109000000.00,Standard Edition AT,109000000.00,Petrol,Automatic
+Rolls-Royce,Phantom Extended,109000000.00,109000000.00,109000000.00,Dynamic Sport AT,114450000.00,Petrol,Automatic
+Rolls-Royce,Phantom Extended,109000000.00,109000000.00,109000000.00,First Edition Performance AT,119900000.00,Petrol,Automatic
+Rolls-Royce,Spectre,75000000.00,75000000.00,75000000.00,Standard Edition AT,75000000.00,Electric,Automatic
+Rolls-Royce,Spectre,75000000.00,75000000.00,75000000.00,Dynamic Sport AT,78750000.00,Electric,Automatic
+Rolls-Royce,Spectre,75000000.00,75000000.00,75000000.00,First Edition Performance AT,82500000.00,Electric,Automatic
+Tata Motors,Altroz,650000.00,1150000.00,650000.00,Smart,650000.00,Petrol/CNG/Diesel,5MT/6DCT/AMT
+Tata Motors,Altroz,650000.00,1150000.00,650000.00,Smart MT,650000.00,Petrol/CNG/Diesel,Manual
+Tata Motors,Altroz,650000.00,1150000.00,650000.00,Pure,780000.00,CNG,5MT/6DCT/AMT
+Tata Motors,Altroz,650000.00,1150000.00,650000.00,Pure MT,780000.00,CNG,Manual
+Tata Motors,Altroz,650000.00,1150000.00,650000.00,Creative DCA,920000.00,Petrol/CNG/Diesel,Automatic
+Tata Motors,Altroz,650000.00,1150000.00,650000.00,Fearless+,1050000.00,CNG,5MT/6DCT/AMT
+Tata Motors,Altroz,650000.00,1150000.00,650000.00,Fearless+ MT,1050000.00,CNG,Manual
+Tata Motors,Altroz,650000.00,1150000.00,650000.00,Empowered+ Dark,1150000.00,Petrol/CNG/Diesel,5MT/6DCT/AMT
+Tata Motors,Altroz,650000.00,1150000.00,650000.00,Empowered+ Dark AT,1150000.00,Petrol/CNG/Diesel,Automatic
+Tata Motors,Altroz Racer,900000.00,1150000.00,900000.00,Smart,900000.00,Petrol,6MT
+Tata Motors,Altroz Racer,900000.00,1150000.00,900000.00,Smart MT,900000.00,Petrol,Manual
+Tata Motors,Altroz Racer,900000.00,1150000.00,900000.00,Pure,960000.00,Petrol,6MT
+Tata Motors,Altroz Racer,900000.00,1150000.00,900000.00,Pure MT,960000.00,Petrol,Manual
+Tata Motors,Altroz Racer,900000.00,1150000.00,900000.00,Creative DCA,1040000.00,Petrol,Automatic
+Tata Motors,Altroz Racer,900000.00,1150000.00,900000.00,Fearless+,1100000.00,Petrol,6MT
+Tata Motors,Altroz Racer,900000.00,1150000.00,900000.00,Fearless+ MT,1100000.00,Petrol,Manual
+Tata Motors,Altroz Racer,900000.00,1150000.00,900000.00,Empowered+ Dark,1150000.00,Petrol,6MT
+Tata Motors,Altroz Racer,900000.00,1150000.00,900000.00,Empowered+ Dark AT,1150000.00,Petrol,Automatic
+Tata Motors,Curvv,1000000.00,1900000.00,1000000.00,Smart,1000000.00,Petrol/Diesel,6MT/7DCT/6AT
+Tata Motors,Curvv,1000000.00,1900000.00,1000000.00,Smart MT,1000000.00,Petrol/Diesel,Manual
+Tata Motors,Curvv,1000000.00,1900000.00,1000000.00,Pure,1220000.00,Petrol/Diesel,6MT/7DCT/6AT
+Tata Motors,Curvv,1000000.00,1900000.00,1000000.00,Pure MT,1220000.00,Petrol/Diesel,Manual
+Tata Motors,Curvv,1000000.00,1900000.00,1000000.00,Creative DCA,1500000.00,Petrol/Diesel,Automatic
+Tata Motors,Curvv,1000000.00,1900000.00,1000000.00,Fearless+,1720000.00,Petrol/Diesel,6MT/7DCT/6AT
+Tata Motors,Curvv,1000000.00,1900000.00,1000000.00,Fearless+ MT,1720000.00,Petrol/Diesel,Manual
+Tata Motors,Curvv,1000000.00,1900000.00,1000000.00,Empowered+ Dark,1900000.00,Petrol/Diesel,6MT/7DCT/6AT
+Tata Motors,Curvv,1000000.00,1900000.00,1000000.00,Empowered+ Dark AT,1900000.00,Petrol/Diesel,Automatic
+Tata Motors,Curvv EV,1749000.00,2200000.00,1749000.00,Smart,1750000.00,Electric,1AT
+Tata Motors,Curvv EV,1749000.00,2200000.00,1749000.00,Smart MT,1750000.00,Electric,Manual
+Tata Motors,Curvv EV,1749000.00,2200000.00,1749000.00,Pure,1860000.00,Electric,1AT
+Tata Motors,Curvv EV,1749000.00,2200000.00,1749000.00,Pure MT,1860000.00,Electric,Manual
+Tata Motors,Curvv EV,1749000.00,2200000.00,1749000.00,Creative DCA,2000000.00,Electric,Automatic
+Tata Motors,Curvv EV,1749000.00,2200000.00,1749000.00,Fearless+,2110000.00,Electric,1AT
+Tata Motors,Curvv EV,1749000.00,2200000.00,1749000.00,Fearless+ MT,2110000.00,Electric,Manual
+Tata Motors,Curvv EV,1749000.00,2200000.00,1749000.00,Empowered+ Dark,2200000.00,Electric,1AT
+Tata Motors,Curvv EV,1749000.00,2200000.00,1749000.00,Empowered+ Dark AT,2200000.00,Electric,Automatic
+Tata Motors,Harrier,1400000.00,2500000.00,1400000.00,Smart,1400000.00,Diesel,6MT/6AT
+Tata Motors,Harrier,1400000.00,2500000.00,1400000.00,Smart MT,1400000.00,Diesel,Manual
+Tata Motors,Harrier,1400000.00,2500000.00,1400000.00,Pure,1680000.00,Diesel,6MT/6AT
+Tata Motors,Harrier,1400000.00,2500000.00,1400000.00,Pure MT,1680000.00,Diesel,Manual
+Tata Motors,Harrier,1400000.00,2500000.00,1400000.00,Creative DCA,2000000.00,Diesel,Automatic
+Tata Motors,Harrier,1400000.00,2500000.00,1400000.00,Fearless+,2280000.00,Diesel,6MT/6AT
+Tata Motors,Harrier,1400000.00,2500000.00,1400000.00,Fearless+ MT,2280000.00,Diesel,Manual
+Tata Motors,Harrier,1400000.00,2500000.00,1400000.00,Empowered+ Dark,2500000.00,Diesel,6MT/6AT
+Tata Motors,Harrier,1400000.00,2500000.00,1400000.00,Empowered+ Dark AT,2500000.00,Diesel,Automatic
+Tata Motors,Harrier EV,2149000.00,3000000.00,2149000.00,Smart,2150000.00,Electric,1AT
+Tata Motors,Harrier EV,2149000.00,3000000.00,2149000.00,Smart MT,2150000.00,Electric,Manual
+Tata Motors,Harrier EV,2149000.00,3000000.00,2149000.00,Pure,2360000.00,Electric,1AT
+Tata Motors,Harrier EV,2149000.00,3000000.00,2149000.00,Pure MT,2360000.00,Electric,Manual
+Tata Motors,Harrier EV,2149000.00,3000000.00,2149000.00,Creative DCA,2620000.00,Electric,Automatic
+Tata Motors,Harrier EV,2149000.00,3000000.00,2149000.00,Fearless+,2830000.00,Electric,1AT
+Tata Motors,Harrier EV,2149000.00,3000000.00,2149000.00,Fearless+ MT,2830000.00,Electric,Manual
+Tata Motors,Harrier EV,2149000.00,3000000.00,2149000.00,Empowered+ Dark,3000000.00,Electric,1AT
+Tata Motors,Harrier EV,2149000.00,3000000.00,2149000.00,Empowered+ Dark AT,3000000.00,Electric,Automatic
+Tata Motors,Nexon,800000.00,1550000.00,800000.00,Smart,800000.00,Petrol/CNG/Diesel,5MT/AMT/6DCT/6AT
+Tata Motors,Nexon,800000.00,1550000.00,800000.00,Smart MT,800000.00,Petrol/CNG/Diesel,Manual
+Tata Motors,Nexon,800000.00,1550000.00,800000.00,Pure,990000.00,CNG,5MT/AMT/6DCT/6AT
+Tata Motors,Nexon,800000.00,1550000.00,800000.00,Pure MT,990000.00,CNG,Manual
+Tata Motors,Nexon,800000.00,1550000.00,800000.00,Creative DCA,1210000.00,Petrol/CNG/Diesel,Automatic
+Tata Motors,Nexon,800000.00,1550000.00,800000.00,Fearless+,1400000.00,CNG,5MT/AMT/6DCT/6AT
+Tata Motors,Nexon,800000.00,1550000.00,800000.00,Fearless+ MT,1400000.00,CNG,Manual
+Tata Motors,Nexon,800000.00,1550000.00,800000.00,Empowered+ Dark,1550000.00,Petrol/CNG/Diesel,5MT/AMT/6DCT/6AT
+Tata Motors,Nexon,800000.00,1550000.00,800000.00,Empowered+ Dark AT,1550000.00,Petrol/CNG/Diesel,Automatic
+Tata Motors,Nexon EV,1250000.00,1800000.00,1250000.00,Smart,1250000.00,Electric,1AT
+Tata Motors,Nexon EV,1250000.00,1800000.00,1250000.00,Smart MT,1250000.00,Electric,Manual
+Tata Motors,Nexon EV,1250000.00,1800000.00,1250000.00,Pure,1390000.00,Electric,1AT
+Tata Motors,Nexon EV,1250000.00,1800000.00,1250000.00,Pure MT,1390000.00,Electric,Manual
+Tata Motors,Nexon EV,1250000.00,1800000.00,1250000.00,Creative Medium Range,1449000.00,electric,Manual
+Tata Motors,Nexon EV,1250000.00,1800000.00,1250000.00,Creative DCA,1550000.00,Electric,Automatic
+Tata Motors,Nexon EV,1250000.00,1800000.00,1250000.00,Fearless+,1690000.00,Electric,1AT
+Tata Motors,Nexon EV,1250000.00,1800000.00,1250000.00,Fearless+ MT,1690000.00,Electric,Manual
+Tata Motors,Nexon EV,1250000.00,1800000.00,1250000.00,Empowered+ Long Range,1699000.00,electric,Manual
+Tata Motors,Nexon EV,1250000.00,1800000.00,1250000.00,Empowered+ Dark,1800000.00,Electric,1AT
+Tata Motors,Nexon EV,1250000.00,1800000.00,1250000.00,Empowered+ Dark AT,1800000.00,Electric,Automatic
+Tata Motors,Punch,600000.00,1000000.00,600000.00,Smart,600000.00,Petrol/CNG,5MT/AMT
+Tata Motors,Punch,600000.00,1000000.00,600000.00,Smart MT,600000.00,Petrol/CNG,Manual
+Tata Motors,Punch,600000.00,1000000.00,600000.00,Pure,700000.00,CNG,5MT/AMT
+Tata Motors,Punch,600000.00,1000000.00,600000.00,Pure MT,700000.00,CNG,Manual
+Tata Motors,Punch,600000.00,1000000.00,600000.00,Creative DCA,820000.00,Petrol/CNG,Automatic
+Tata Motors,Punch,600000.00,1000000.00,600000.00,Fearless+,920000.00,CNG,5MT/AMT
+Tata Motors,Punch,600000.00,1000000.00,600000.00,Fearless+ MT,920000.00,CNG,Manual
+Tata Motors,Punch,600000.00,1000000.00,600000.00,Empowered+ Dark,1000000.00,Petrol/CNG,5MT/AMT
+Tata Motors,Punch,600000.00,1000000.00,600000.00,Empowered+ Dark AT,1000000.00,Petrol/CNG,Automatic
+Tata Motors,Punch EV,1000000.00,1500000.00,1000000.00,Smart,1000000.00,Electric,1AT
+Tata Motors,Punch EV,1000000.00,1500000.00,1000000.00,Smart MT,1000000.00,Electric,Manual
+Tata Motors,Punch EV,1000000.00,1500000.00,1000000.00,Pure,1120000.00,Electric,1AT
+Tata Motors,Punch EV,1000000.00,1500000.00,1000000.00,Pure MT,1120000.00,Electric,Manual
+Tata Motors,Punch EV,1000000.00,1500000.00,1000000.00,Creative DCA,1280000.00,Electric,Automatic
+Tata Motors,Punch EV,1000000.00,1500000.00,1000000.00,Fearless+,1400000.00,Electric,1AT
+Tata Motors,Punch EV,1000000.00,1500000.00,1000000.00,Fearless+ MT,1400000.00,Electric,Manual
+Tata Motors,Punch EV,1000000.00,1500000.00,1000000.00,Empowered+ Dark,1500000.00,Electric,1AT
+Tata Motors,Punch EV,1000000.00,1500000.00,1000000.00,Empowered+ Dark AT,1500000.00,Electric,Automatic
+Tata Motors,Safari,1550000.00,2700000.00,1550000.00,Smart,1550000.00,Diesel,6MT/6AT
+Tata Motors,Safari,1550000.00,2700000.00,1550000.00,Smart MT,1550000.00,Diesel,Manual
+Tata Motors,Safari,1550000.00,2700000.00,1550000.00,Pure,1840000.00,Diesel,6MT/6AT
+Tata Motors,Safari,1550000.00,2700000.00,1550000.00,Pure MT,1840000.00,Diesel,Manual
+Tata Motors,Safari,1550000.00,2700000.00,1550000.00,Creative DCA,2180000.00,Diesel,Automatic
+Tata Motors,Safari,1550000.00,2700000.00,1550000.00,Fearless+,2470000.00,Diesel,6MT/6AT
+Tata Motors,Safari,1550000.00,2700000.00,1550000.00,Fearless+ MT,2470000.00,Diesel,Manual
+Tata Motors,Safari,1550000.00,2700000.00,1550000.00,Empowered+ Dark,2700000.00,Diesel,6MT/6AT
+Tata Motors,Safari,1550000.00,2700000.00,1550000.00,Empowered+ Dark AT,2700000.00,Diesel,Automatic
+Tata Motors,Sierra,1200000.00,2000000.00,1200000.00,Smart,1200000.00,Petrol/Diesel,6MT/6AT
+Tata Motors,Sierra,1200000.00,2000000.00,1200000.00,Smart MT,1200000.00,Petrol/Diesel,Manual
+Tata Motors,Sierra,1200000.00,2000000.00,1200000.00,Pure,1400000.00,Petrol/Diesel,6MT/6AT
+Tata Motors,Sierra,1200000.00,2000000.00,1200000.00,Pure MT,1400000.00,Petrol/Diesel,Manual
+Tata Motors,Sierra,1200000.00,2000000.00,1200000.00,Creative DCA,1640000.00,Petrol/Diesel,Automatic
+Tata Motors,Sierra,1200000.00,2000000.00,1200000.00,Fearless+,1840000.00,Petrol/Diesel,6MT/6AT
+Tata Motors,Sierra,1200000.00,2000000.00,1200000.00,Fearless+ MT,1840000.00,Petrol/Diesel,Manual
+Tata Motors,Sierra,1200000.00,2000000.00,1200000.00,Empowered+ Dark,2000000.00,Petrol/Diesel,6MT/6AT
+Tata Motors,Sierra,1200000.00,2000000.00,1200000.00,Empowered+ Dark AT,2000000.00,Petrol/Diesel,Automatic
+Tata Motors,Sierra EV,1800000.00,2500000.00,1800000.00,Smart,1800000.00,Electric,1AT
+Tata Motors,Sierra EV,1800000.00,2500000.00,1800000.00,Smart MT,1800000.00,Electric,Manual
+Tata Motors,Sierra EV,1800000.00,2500000.00,1800000.00,Pure,1980000.00,Electric,1AT
+Tata Motors,Sierra EV,1800000.00,2500000.00,1800000.00,Pure MT,1980000.00,Electric,Manual
+Tata Motors,Sierra EV,1800000.00,2500000.00,1800000.00,Creative DCA,2180000.00,Electric,Automatic
+Tata Motors,Sierra EV,1800000.00,2500000.00,1800000.00,Fearless+,2360000.00,Electric,1AT
+Tata Motors,Sierra EV,1800000.00,2500000.00,1800000.00,Fearless+ MT,2360000.00,Electric,Manual
+Tata Motors,Sierra EV,1800000.00,2500000.00,1800000.00,Empowered+ Dark,2500000.00,Electric,1AT
+Tata Motors,Sierra EV,1800000.00,2500000.00,1800000.00,Empowered+ Dark AT,2500000.00,Electric,Automatic
+Tata Motors,Tiago,500000.00,800000.00,500000.00,Smart,500000.00,Petrol/CNG,5MT/AMT
+Tata Motors,Tiago,500000.00,800000.00,500000.00,Smart MT,500000.00,Petrol/CNG,Manual
+Tata Motors,Tiago,500000.00,800000.00,500000.00,Pure,580000.00,CNG,5MT/AMT
+Tata Motors,Tiago,500000.00,800000.00,500000.00,Pure MT,580000.00,CNG,Manual
+Tata Motors,Tiago,500000.00,800000.00,500000.00,Creative DCA,660000.00,Petrol/CNG,Automatic
+Tata Motors,Tiago,500000.00,800000.00,500000.00,Fearless+,740000.00,CNG,5MT/AMT
+Tata Motors,Tiago,500000.00,800000.00,500000.00,Fearless+ MT,740000.00,CNG,Manual
+Tata Motors,Tiago,500000.00,800000.00,500000.00,Empowered+ Dark,800000.00,Petrol/CNG,5MT/AMT
+Tata Motors,Tiago,500000.00,800000.00,500000.00,Empowered+ Dark AT,800000.00,Petrol/CNG,Automatic
+Tata Motors,Tiago EV,799000.00,1100000.00,799000.00,Smart,800000.00,Electric,1AT
+Tata Motors,Tiago EV,799000.00,1100000.00,799000.00,Smart MT,800000.00,Electric,Manual
+Tata Motors,Tiago EV,799000.00,1100000.00,799000.00,Pure,870000.00,Electric,1AT
+Tata Motors,Tiago EV,799000.00,1100000.00,799000.00,Pure MT,870000.00,Electric,Manual
+Tata Motors,Tiago EV,799000.00,1100000.00,799000.00,Creative DCA,960000.00,Electric,Automatic
+Tata Motors,Tiago EV,799000.00,1100000.00,799000.00,Fearless+,1040000.00,Electric,1AT
+Tata Motors,Tiago EV,799000.00,1100000.00,799000.00,Fearless+ MT,1040000.00,Electric,Manual
+Tata Motors,Tiago EV,799000.00,1100000.00,799000.00,Empowered+ Dark,1100000.00,Electric,1AT
+Tata Motors,Tiago EV,799000.00,1100000.00,799000.00,Empowered+ Dark AT,1100000.00,Electric,Automatic
+Tata Motors,Tiago NRG,650000.00,850000.00,650000.00,Smart,650000.00,Petrol/CNG,5MT/AMT
+Tata Motors,Tiago NRG,650000.00,850000.00,650000.00,Smart MT,650000.00,Petrol/CNG,Manual
+Tata Motors,Tiago NRG,650000.00,850000.00,650000.00,Pure,700000.00,CNG,5MT/AMT
+Tata Motors,Tiago NRG,650000.00,850000.00,650000.00,Pure MT,700000.00,CNG,Manual
+Tata Motors,Tiago NRG,650000.00,850000.00,650000.00,Creative DCA,760000.00,Petrol/CNG,Automatic
+Tata Motors,Tiago NRG,650000.00,850000.00,650000.00,Fearless+,810000.00,CNG,5MT/AMT
+Tata Motors,Tiago NRG,650000.00,850000.00,650000.00,Fearless+ MT,810000.00,CNG,Manual
+Tata Motors,Tiago NRG,650000.00,850000.00,650000.00,Empowered+ Dark,850000.00,Petrol/CNG,5MT/AMT
+Tata Motors,Tiago NRG,650000.00,850000.00,650000.00,Empowered+ Dark AT,850000.00,Petrol/CNG,Automatic
+Tata Motors,Tigor,600000.00,900000.00,600000.00,Smart,600000.00,Petrol/CNG,5MT/AMT
+Tata Motors,Tigor,600000.00,900000.00,600000.00,Smart MT,600000.00,Petrol/CNG,Manual
+Tata Motors,Tigor,600000.00,900000.00,600000.00,Pure,680000.00,CNG,5MT/AMT
+Tata Motors,Tigor,600000.00,900000.00,600000.00,Pure MT,680000.00,CNG,Manual
+Tata Motors,Tigor,600000.00,900000.00,600000.00,Creative DCA,760000.00,Petrol/CNG,Automatic
+Tata Motors,Tigor,600000.00,900000.00,600000.00,Fearless+,840000.00,CNG,5MT/AMT
+Tata Motors,Tigor,600000.00,900000.00,600000.00,Fearless+ MT,840000.00,CNG,Manual
+Tata Motors,Tigor,600000.00,900000.00,600000.00,Empowered+ Dark,900000.00,Petrol/CNG,5MT/AMT
+Tata Motors,Tigor,600000.00,900000.00,600000.00,Empowered+ Dark AT,900000.00,Petrol/CNG,Automatic
+Tata Motors,Tigor EV,1200000.00,1400000.00,1200000.00,Smart,1200000.00,Electric,1AT
+Tata Motors,Tigor EV,1200000.00,1400000.00,1200000.00,Smart MT,1200000.00,Electric,Manual
+Tata Motors,Tigor EV,1200000.00,1400000.00,1200000.00,Pure,1250000.00,Electric,1AT
+Tata Motors,Tigor EV,1200000.00,1400000.00,1200000.00,Pure MT,1250000.00,Electric,Manual
+Tata Motors,Tigor EV,1200000.00,1400000.00,1200000.00,Creative DCA,1310000.00,Electric,Automatic
+Tata Motors,Tigor EV,1200000.00,1400000.00,1200000.00,Fearless+,1360000.00,Electric,1AT
+Tata Motors,Tigor EV,1200000.00,1400000.00,1200000.00,Fearless+ MT,1360000.00,Electric,Manual
+Tata Motors,Tigor EV,1200000.00,1400000.00,1200000.00,Empowered+ Dark,1400000.00,Electric,1AT
+Tata Motors,Tigor EV,1200000.00,1400000.00,1200000.00,Empowered+ Dark AT,1400000.00,Electric,Automatic
+Tesla,Model 3,5000000.00,6500000.00,5000000.00,Standard Edition AT,5000000.00,Electric,Automatic
+Tesla,Model 3,5000000.00,6500000.00,5000000.00,Dynamic Sport AT,5750000.00,Electric,Automatic
+Tesla,Model 3,5000000.00,6500000.00,5000000.00,First Edition Performance AT,6500000.00,Electric,Automatic
+Tesla,Model Y,6000000.00,7500000.00,6000000.00,Standard Edition AT,6000000.00,Electric,Automatic
+Tesla,Model Y,6000000.00,7500000.00,6000000.00,Dynamic Sport AT,6750000.00,Electric,Automatic
+Tesla,Model Y,6000000.00,7500000.00,6000000.00,First Edition Performance AT,7500000.00,Electric,Automatic
+Toyota,Camry,4800000.00,4800000.00,4800000.00,GX MT,4800000.00,Petrol Hybrid,Manual
+Toyota,Camry,4800000.00,4800000.00,4800000.00,VX MT,5040000.00,Hybrid,Manual
+Toyota,Camry,4800000.00,4800000.00,4800000.00,ZX Hybrid e-CVT,5280000.00,Petrol Hybrid,Automatic
+Toyota,Camry,4800000.00,4800000.00,4800000.00,GR-Sport AT,5520000.00,Hybrid,Automatic
+Toyota,Fortuner,3500000.00,5200000.00,3500000.00,GX MT,3500000.00,Petrol/Diesel,Manual
+Toyota,Fortuner,3500000.00,5200000.00,3500000.00,VX MT,4260000.00,Petrol/Diesel,Manual
+Toyota,Fortuner,3500000.00,5200000.00,3500000.00,ZX Hybrid e-CVT,4860000.00,Petrol/Diesel,Automatic
+Toyota,Fortuner,3500000.00,5200000.00,3500000.00,GR-Sport AT,5200000.00,Petrol/Diesel,Automatic
+Toyota,Fortuner Legender,4400000.00,5000000.00,4400000.00,GX MT,4400000.00,Diesel,Manual
+Toyota,Fortuner Legender,4400000.00,5000000.00,4400000.00,VX MT,4670000.00,Diesel,Manual
+Toyota,Fortuner Legender,4400000.00,5000000.00,4400000.00,ZX Hybrid e-CVT,4880000.00,Diesel,Automatic
+Toyota,Fortuner Legender,4400000.00,5000000.00,4400000.00,GR-Sport AT,5000000.00,Diesel,Automatic
+Toyota,Glanza,690000.00,1000000.00,690000.00,GX MT,690000.00,Petrol/CNG,Manual
+Toyota,Glanza,690000.00,1000000.00,690000.00,VX MT,830000.00,CNG,Manual
+Toyota,Glanza,690000.00,1000000.00,690000.00,ZX Hybrid e-CVT,940000.00,Petrol/CNG,Automatic
+Toyota,Glanza,690000.00,1000000.00,690000.00,GR-Sport AT,1000000.00,CNG,Automatic
+Toyota,Hilux,3000000.00,3800000.00,3000000.00,GX MT,3000000.00,Diesel,Manual
+Toyota,Hilux,3000000.00,3800000.00,3000000.00,VX MT,3360000.00,Diesel,Manual
+Toyota,Hilux,3000000.00,3800000.00,3000000.00,ZX Hybrid e-CVT,3640000.00,Diesel,Automatic
+Toyota,Hilux,3000000.00,3800000.00,3000000.00,GR-Sport AT,3800000.00,Diesel,Automatic
+Toyota,Innova Crysta,2000000.00,2700000.00,2000000.00,GX MT,2000000.00,Diesel,Manual
+Toyota,Innova Crysta,2000000.00,2700000.00,2000000.00,VX MT,2320000.00,Diesel,Manual
+Toyota,Innova Crysta,2000000.00,2700000.00,2000000.00,ZX Hybrid e-CVT,2560000.00,Diesel,Automatic
+Toyota,Innova Crysta,2000000.00,2700000.00,2000000.00,GR-Sport AT,2700000.00,Diesel,Automatic
+Toyota,Innova Hycross,1900000.00,3200000.00,1900000.00,GX MT,1900000.00,Petrol Hybrid,Manual
+Toyota,Innova Hycross,1900000.00,3200000.00,1900000.00,VX MT,2480000.00,Hybrid,Manual
+Toyota,Innova Hycross,1900000.00,3200000.00,1900000.00,ZX Hybrid e-CVT,2940000.00,Petrol Hybrid,Automatic
+Toyota,Innova Hycross,1900000.00,3200000.00,1900000.00,GR-Sport AT,3200000.00,Hybrid,Automatic
+Toyota,Land Cruiser 300,23100000.00,24000000.00,23100000.00,GX MT,23100000.00,Diesel,Manual
+Toyota,Land Cruiser 300,23100000.00,24000000.00,23100000.00,VX MT,23500000.00,Diesel,Manual
+Toyota,Land Cruiser 300,23100000.00,24000000.00,23100000.00,ZX Hybrid e-CVT,23820000.00,Diesel,Automatic
+Toyota,Land Cruiser 300,23100000.00,24000000.00,23100000.00,GR-Sport AT,24000000.00,Diesel,Automatic
+Toyota,Land Cruiser Prado,15000000.00,17000000.00,15000000.00,GX MT,15000000.00,Diesel/Hybrid,Manual
+Toyota,Land Cruiser Prado,15000000.00,17000000.00,15000000.00,VX MT,15900000.00,Hybrid,Manual
+Toyota,Land Cruiser Prado,15000000.00,17000000.00,15000000.00,ZX Hybrid e-CVT,16600000.00,Diesel/Hybrid,Automatic
+Toyota,Land Cruiser Prado,15000000.00,17000000.00,15000000.00,GR-Sport AT,17000000.00,Hybrid,Automatic
+Toyota,Rumion,1000000.00,1300000.00,1000000.00,GX MT,1000000.00,Petrol/CNG,Manual
+Toyota,Rumion,1000000.00,1300000.00,1000000.00,VX MT,1140000.00,CNG,Manual
+Toyota,Rumion,1000000.00,1300000.00,1000000.00,ZX Hybrid e-CVT,1240000.00,Petrol/CNG,Automatic
+Toyota,Rumion,1000000.00,1300000.00,1000000.00,GR-Sport AT,1300000.00,CNG,Automatic
+Toyota,Taisor,700000.00,1400000.00,700000.00,GX MT,700000.00,Petrol/CNG,Manual
+Toyota,Taisor,700000.00,1400000.00,700000.00,VX MT,1020000.00,CNG,Manual
+Toyota,Taisor,700000.00,1400000.00,700000.00,ZX Hybrid e-CVT,1260000.00,Petrol/CNG,Automatic
+Toyota,Taisor,700000.00,1400000.00,700000.00,GR-Sport AT,1400000.00,CNG,Automatic
+Toyota,Urban Cruiser Hyryder,1100000.00,2000000.00,1100000.00,GX MT,1100000.00,Petrol/Hybrid/CNG,Manual
+Toyota,Urban Cruiser Hyryder,1100000.00,2000000.00,1100000.00,VX MT,1500000.00,Hybrid,Manual
+Toyota,Urban Cruiser Hyryder,1100000.00,2000000.00,1100000.00,ZX Hybrid e-CVT,1820000.00,Petrol/Hybrid/CNG,Automatic
+Toyota,Urban Cruiser Hyryder,1100000.00,2000000.00,1100000.00,GR-Sport AT,2000000.00,Hybrid,Automatic
+Toyota,Vellfire,12000000.00,13500000.00,12000000.00,GX MT,12000000.00,Petrol Hybrid,Manual
+Toyota,Vellfire,12000000.00,13500000.00,12000000.00,VX MT,12680000.00,Hybrid,Manual
+Toyota,Vellfire,12000000.00,13500000.00,12000000.00,ZX Hybrid e-CVT,13200000.00,Petrol Hybrid,Automatic
+Toyota,Vellfire,12000000.00,13500000.00,12000000.00,GR-Sport AT,13500000.00,Hybrid,Automatic
+VinFast,VF 6,1799000.00,2000000.00,1799000.00,Base Edition MT,1800000.00,Electric,Manual
+VinFast,VF 6,1799000.00,2000000.00,1799000.00,Plus Executive MT,1870000.00,Electric,Manual
+VinFast,VF 6,1799000.00,2000000.00,1799000.00,Highline Tech AT,1940000.00,Electric,Automatic
+VinFast,VF 6,1799000.00,2000000.00,1799000.00,Top Luxury AT,2000000.00,Electric,Automatic
+VinFast,VF 7,2400000.00,3000000.00,2400000.00,Base Edition MT,2400000.00,Electric,Manual
+VinFast,VF 7,2400000.00,3000000.00,2400000.00,Plus Executive MT,2610000.00,Electric,Manual
+VinFast,VF 7,2400000.00,3000000.00,2400000.00,Highline Tech AT,2820000.00,Electric,Automatic
+VinFast,VF 7,2400000.00,3000000.00,2400000.00,Top Luxury AT,3000000.00,Electric,Automatic
+VinFast,VF 8,4000000.00,5000000.00,4000000.00,Standard Edition AT,4000000.00,Electric,Automatic
+VinFast,VF 8,4000000.00,5000000.00,4000000.00,Dynamic Sport AT,4500000.00,Electric,Automatic
+VinFast,VF 8,4000000.00,5000000.00,4000000.00,First Edition Performance AT,5000000.00,Electric,Automatic
+VinFast,VF 9,6000000.00,7000000.00,6000000.00,Standard Edition AT,6000000.00,Electric,Automatic
+VinFast,VF 9,6000000.00,7000000.00,6000000.00,Dynamic Sport AT,6500000.00,Electric,Automatic
+VinFast,VF 9,6000000.00,7000000.00,6000000.00,First Edition Performance AT,7000000.00,Electric,Automatic
+Volkswagen,Golf,,,,Comfortline MT,800000.00,Petrol,Manual
+Volkswagen,Golf,,,,Highline MT,1040000.00,Petrol,Manual
+Volkswagen,Golf,,,,Topline AT,1250000.00,Petrol,Automatic
+Volkswagen,Golf,,,,GT Plus DSG,1400000.00,Petrol,Automatic
+Volkswagen,Taigun,1100000.00,2000000.00,1100000.00,Comfortline MT,1100000.00,Petrol,Manual
+Volkswagen,Taigun,1100000.00,2000000.00,1100000.00,Highline MT,1460000.00,Petrol,Manual
+Volkswagen,Taigun,1100000.00,2000000.00,1100000.00,Topline AT,1780000.00,Petrol,Automatic
+Volkswagen,Taigun,1100000.00,2000000.00,1100000.00,GT Plus DSG,2000000.00,Petrol,Automatic
+Volkswagen,Tiguan,4500000.00,5000000.00,4500000.00,Comfortline MT,4500000.00,Petrol,Manual
+Volkswagen,Tiguan,4500000.00,5000000.00,4500000.00,Highline MT,4700000.00,Petrol,Manual
+Volkswagen,Tiguan,4500000.00,5000000.00,4500000.00,Topline AT,4880000.00,Petrol,Automatic
+Volkswagen,Tiguan,4500000.00,5000000.00,4500000.00,GT Plus DSG,5000000.00,Petrol,Automatic
+Volkswagen,Virtus,1100000.00,1900000.00,1100000.00,Comfortline MT,1100000.00,Petrol,Manual
+Volkswagen,Virtus,1100000.00,1900000.00,1100000.00,Highline MT,1420000.00,Petrol,Manual
+Volkswagen,Virtus,1100000.00,1900000.00,1100000.00,Topline AT,1700000.00,Petrol,Automatic
+Volkswagen,Virtus,1100000.00,1900000.00,1100000.00,GT Plus DSG,1900000.00,Petrol,Automatic
+Volvo,C40 Recharge,6200000.00,6200000.00,6200000.00,Standard Edition AT,6200000.00,Electric,Automatic
+Volvo,C40 Recharge,6200000.00,6200000.00,6200000.00,Dynamic Sport AT,6510000.00,Electric,Automatic
+Volvo,C40 Recharge,6200000.00,6200000.00,6200000.00,First Edition Performance AT,6820000.00,Electric,Automatic
+Volvo,ES90,10000000.00,12000000.00,10000000.00,Standard Edition AT,10000000.00,Electric,Automatic
+Volvo,ES90,10000000.00,12000000.00,10000000.00,Dynamic Sport AT,11000000.00,Electric,Automatic
+Volvo,ES90,10000000.00,12000000.00,10000000.00,First Edition Performance AT,12000000.00,Electric,Automatic
+Volvo,EX30,4000000.00,4500000.00,4000000.00,Standard Edition AT,4000000.00,Electric,Automatic
+Volvo,EX30,4000000.00,4500000.00,4000000.00,Dynamic Sport AT,4250000.00,Electric,Automatic
+Volvo,EX30,4000000.00,4500000.00,4000000.00,First Edition Performance AT,4500000.00,Electric,Automatic
+Volvo,EX40,5600000.00,6000000.00,5600000.00,Standard Edition AT,5600000.00,Electric,Automatic
+Volvo,EX40,5600000.00,6000000.00,5600000.00,Dynamic Sport AT,5800000.00,Electric,Automatic
+Volvo,EX40,5600000.00,6000000.00,5600000.00,First Edition Performance AT,6000000.00,Electric,Automatic
+Volvo,S90,7000000.00,7000000.00,7000000.00,Standard Edition AT,7000000.00,Petrol Hybrid,Automatic
+Volvo,S90,7000000.00,7000000.00,7000000.00,Dynamic Sport AT,7350000.00,Hybrid,Automatic
+Volvo,S90,7000000.00,7000000.00,7000000.00,First Edition Performance AT,7700000.00,Petrol Hybrid,Automatic
+Volvo,S90 Recharge,7500000.00,7500000.00,7500000.00,Standard Edition AT,7500000.00,Petrol Hybrid,Automatic
+Volvo,S90 Recharge,7500000.00,7500000.00,7500000.00,Dynamic Sport AT,7880000.00,Hybrid,Automatic
+Volvo,S90 Recharge,7500000.00,7500000.00,7500000.00,First Edition Performance AT,8250000.00,Petrol Hybrid,Automatic
+Volvo,XC40,5000000.00,5500000.00,5000000.00,Standard Edition AT,5000000.00,Petrol,Automatic
+Volvo,XC40,5000000.00,5500000.00,5000000.00,Dynamic Sport AT,5250000.00,Petrol,Automatic
+Volvo,XC40,5000000.00,5500000.00,5000000.00,First Edition Performance AT,5500000.00,Petrol,Automatic
+Volvo,XC40 Recharge,5500000.00,5500000.00,5500000.00,Standard Edition AT,5500000.00,Electric,Automatic
+Volvo,XC40 Recharge,5500000.00,5500000.00,5500000.00,Dynamic Sport AT,5780000.00,Electric,Automatic
+Volvo,XC40 Recharge,5500000.00,5500000.00,5500000.00,First Edition Performance AT,6050000.00,Electric,Automatic
+Volvo,XC60,7000000.00,7500000.00,7000000.00,Standard Edition AT,7000000.00,Petrol Hybrid,Automatic
+Volvo,XC60,7000000.00,7500000.00,7000000.00,Dynamic Sport AT,7250000.00,Hybrid,Automatic
+Volvo,XC60,7000000.00,7500000.00,7000000.00,First Edition Performance AT,7500000.00,Petrol Hybrid,Automatic
+Volvo,XC90,10300000.00,11000000.00,10300000.00,Standard Edition AT,10300000.00,Petrol Hybrid,Automatic
+Volvo,XC90,10300000.00,11000000.00,10300000.00,Dynamic Sport AT,10650000.00,Hybrid,Automatic
+Volvo,XC90,10300000.00,11000000.00,10300000.00,First Edition Performance AT,11000000.00,Petrol Hybrid,Automatic
+Škoda,Kodiaq,4700000.00,5500000.00,4700000.00,Standard Edition AT,4700000.00,Petrol,Automatic
+Škoda,Kodiaq,4700000.00,5500000.00,4700000.00,Dynamic Sport AT,5100000.00,Petrol,Automatic
+Škoda,Kodiaq,4700000.00,5500000.00,4700000.00,First Edition Performance AT,5500000.00,Petrol,Automatic
+Škoda,Kodiaq RS,5500000.00,5500000.00,5500000.00,Standard Edition AT,5500000.00,Petrol,Automatic
+Škoda,Kodiaq RS,5500000.00,5500000.00,5500000.00,Dynamic Sport AT,5780000.00,Petrol,Automatic
+Škoda,Kodiaq RS,5500000.00,5500000.00,5500000.00,First Edition Performance AT,6050000.00,Petrol,Automatic
+Škoda,Kushaq,1100000.00,2000000.00,1100000.00,Base Edition MT,1100000.00,Petrol,Manual
+Škoda,Kushaq,1100000.00,2000000.00,1100000.00,Plus Executive MT,1420000.00,Petrol,Manual
+Škoda,Kushaq,1100000.00,2000000.00,1100000.00,Highline Tech AT,1730000.00,Petrol,Automatic
+Škoda,Kushaq,1100000.00,2000000.00,1100000.00,Top Luxury AT,2000000.00,Petrol,Automatic
+Škoda,Kylaq,759000.00,1400000.00,759000.00,Base Edition MT,760000.00,Petrol,Manual
+Škoda,Kylaq,759000.00,1400000.00,759000.00,Plus Executive MT,980000.00,Petrol,Manual
+Škoda,Kylaq,759000.00,1400000.00,759000.00,Highline Tech AT,1210000.00,Petrol,Automatic
+Škoda,Kylaq,759000.00,1400000.00,759000.00,Top Luxury AT,1400000.00,Petrol,Automatic
+Škoda,Octavia RS,5000000.00,5000000.00,5000000.00,Standard Edition AT,5000000.00,Petrol,Automatic
+Škoda,Octavia RS,5000000.00,5000000.00,5000000.00,Dynamic Sport AT,5250000.00,Petrol,Automatic
+Škoda,Octavia RS,5000000.00,5000000.00,5000000.00,First Edition Performance AT,5500000.00,Petrol,Automatic
+Škoda,Slavia,1000000.00,1900000.00,1000000.00,Base Edition MT,1000000.00,Petrol,Manual
+Škoda,Slavia,1000000.00,1900000.00,1000000.00,Plus Executive MT,1320000.00,Petrol,Manual
+Škoda,Slavia,1000000.00,1900000.00,1000000.00,Highline Tech AT,1630000.00,Petrol,Automatic
+Škoda,Slavia,1000000.00,1900000.00,1000000.00,Top Luxury AT,1900000.00,Petrol,Automatic
+Škoda,Superb,5500000.00,5500000.00,5500000.00,Standard Edition AT,5500000.00,Petrol,Automatic
+Škoda,Superb,5500000.00,5500000.00,5500000.00,Dynamic Sport AT,5780000.00,Petrol,Automatic
+Škoda,Superb,5500000.00,5500000.00,5500000.00,First Edition Performance AT,6050000.00,Petrol,Automatic
